@@ -24,6 +24,7 @@ from technical_analysis import (  # noqa: E402
     evaluate_window,
 )
 from technical_brief.market import resolve_security  # noqa: E402
+from technical_brief.render import _font_path  # noqa: E402
 from technical_brief.render import render  # noqa: E402
 
 
@@ -45,6 +46,12 @@ def synthetic_history(sessions: int = 2_520) -> pd.DataFrame:
 
 
 class TechnicalAnalysisTests(unittest.TestCase):
+    def test_bundled_font_fallback_is_cross_platform(self):
+        fallback = Path(_font_path("/definitely/unavailable/system-font.ttf", "DejaVuSans.ttf")).resolve()
+        self.assertTrue(fallback.is_file())
+        self.assertEqual(fallback.parent.name, "fonts")
+        self.assertNotIn("/System/Library/Fonts/", str(fallback))
+
     def test_market_resolver_handles_nse_bse_and_us_symbols(self):
         self.assertEqual(resolve_security("RELIANCE", "in").canonical_ticker, "RELIANCE.NS")
         self.assertEqual(resolve_security("500325", "in").canonical_ticker, "500325.BO")

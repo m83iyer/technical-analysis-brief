@@ -39,9 +39,11 @@ SOFT_CORAL = HexColor("#F3D8CE")
 SOFT_GOLD = HexColor("#F1E3C5")
 
 
-def _font_path(preferred: str, bundled: str) -> str:
-    preferred_path = Path(preferred)
-    return str(preferred_path if preferred_path.is_file() else Path(__file__).parent / "fonts" / bundled)
+def _font_path(_preferred: str, bundled: str) -> str:
+    bundled_path = Path(__file__).resolve().parent / "fonts" / bundled
+    if not bundled_path.is_file():
+        raise FileNotFoundError(f"Bundled font is unavailable: {bundled_path}")
+    return str(bundled_path)
 
 
 def register_fonts() -> None:

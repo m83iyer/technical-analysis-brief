@@ -107,6 +107,7 @@ class TechnicalAnalysisTests(unittest.TestCase):
         self.assertEqual(payload["data"]["base_cost_bps_per_side"], 10.0)
         self.assertEqual(payload["data"]["stress_costs_bps_per_side"], [10.0, 20.0, 40.0])
         self.assertEqual(payload["disclaimer"], DISCLAIMER)
+        self.assertEqual(DISCLAIMER, "Research output — not a recommendation. The reader decides whether to act.")
         self.assertEqual(payload["windows"]["holdout"]["purpose"], "untouched final gate")
 
     def test_india_receipt_uses_inr_costs_and_notional_liquidity(self):

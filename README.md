@@ -41,4 +41,4 @@ The tool does not place orders, personalize position size, use intraday data, or
 
 See `PRODUCT_SPEC.md` and `METHODOLOGY.md` for the full evidence contract.
 
-Research output - not a recommendation. The reader decides whether to act.
+Research output — not a recommendation. The reader decides whether to act.

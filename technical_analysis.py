@@ -23,7 +23,7 @@ from technical_brief.market import MarketProfile, resolve_security
 
 
 VERSION = "0.2.0"
-DISCLAIMER = "Research output - not a recommendation. The reader decides whether to act."
+DISCLAIMER = "Research output — not a recommendation. The reader decides whether to act."
 # Backward-compatible US defaults. Analysis uses the resolved market profile.
 BASE_COST_BPS = 10.0
 STRESS_COSTS_BPS = (10.0, 20.0, 40.0)

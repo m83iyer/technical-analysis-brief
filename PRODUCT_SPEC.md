@@ -53,7 +53,7 @@ The one-page hierarchy is deliberately limited to three dominant visuals:
 
 The public artifact must state:
 
-`Research output - not a recommendation. The reader decides whether to act.`
+`Research output — not a recommendation. The reader decides whether to act.`
 
 ## Refusal behavior
 

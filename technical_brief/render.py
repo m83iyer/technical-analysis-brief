@@ -825,7 +825,7 @@ def render(sidecar_path: Path, pdf_path: Path, png_path: Path) -> None:
     data = json.loads(sidecar_path.read_text(encoding="utf-8"))
     if data.get("schema_version") != "technical-analysis-brief-v2":
         raise ValueError("Unsupported technical-analysis sidecar schema")
-    if data.get("disclaimer") != "Research output - not a recommendation. The reader decides whether to act.":
+    if data.get("disclaimer") != "Research output — not a recommendation. The reader decides whether to act.":
         raise ValueError("Research boundary is missing or altered")
     register_fonts()
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
@@ -911,7 +911,7 @@ def render(sidecar_path: Path, pdf_path: Path, png_path: Path) -> None:
     c.drawString(MARGIN, 54, "Important: the historical result uses the stated rule exit. Fixed invalidation and 1R/2R levels are planning references, not backtested exits.")
     c.setFillColor(INK)
     c.setFont("BodyBold", 6.2)
-    c.drawString(MARGIN, 35, "Research output - not a recommendation. The reader decides whether to act.")
+    c.drawString(MARGIN, 35, "Research output — not a recommendation. The reader decides whether to act.")
     c.setFillColor(TEAL)
     c.setFont("Mono", 5.8)
     c.drawRightString(PAGE_W - MARGIN, 35, "STOCKCENTRIC / TECHNICAL-ANALYSIS-BRIEF / 01")

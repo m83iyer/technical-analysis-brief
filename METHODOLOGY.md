@@ -99,4 +99,4 @@ Win rate is labelled `success rate` for readability, but it is never interpreted
 
 The methodology is deliberately adversarial to attractive backtests. Backtest selection bias and non-normal returns can inflate Sharpe estimates, which is why the artifact emphasizes chronology, a fixed trial count, cost stress, neighboring parameters, and refusal rather than a single optimized statistic.
 
-Research output - not a recommendation. The reader decides whether to act.
+Research output — not a recommendation. The reader decides whether to act.

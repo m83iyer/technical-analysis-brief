@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "technical-analysis-brief"
+version = "0.3.0"
+description = "Refusal-first technical analysis for US and Indian equities"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "stockcentric" }]
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<4",
+  "yfinance>=0.2.66,<2",
+  "reportlab>=4.2,<5",
+  "PyMuPDF>=1.24,<2",
+]
+
+[project.scripts]
+technical-brief = "technical_brief.cli:main"
+
+[tool.setuptools]
+py-modules = ["technical_analysis"]
+
+[tool.setuptools.packages.find]
+include = ["technical_brief*"]
+
+[tool.setuptools.package-data]
+technical_brief = [
+  "fonts/*.ttf",
+  "fonts/LICENSE_DEJAVU",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

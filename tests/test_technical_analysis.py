@@ -24,6 +24,7 @@ from technical_analysis import (  # noqa: E402
     evaluate_window,
 )
 from technical_brief.market import resolve_security  # noqa: E402
+from technical_brief.cli import _clear_previous_failure, _clear_previous_success  # noqa: E402
 from technical_brief.render import _font_path  # noqa: E402
 from technical_brief.render import render  # noqa: E402
 
@@ -46,6 +47,30 @@ def synthetic_history(sessions: int = 2_520) -> pd.DataFrame:
 
 
 class TechnicalAnalysisTests(unittest.TestCase):
+    def test_output_directory_cannot_mix_success_and_failure_states(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            receipt = root / "failure-receipt.json"
+            receipt.write_text("{}", encoding="utf-8")
+            _clear_previous_failure(root)
+            self.assertFalse(receipt.exists())
+
+            successful = (
+                root / "adjusted-ohlcv.csv",
+                root / "technical-evidence.json",
+                root / "TEST-technical-brief.pdf",
+                root / "TEST-technical-brief.png",
+            )
+            for path in successful:
+                path.write_text("stale", encoding="utf-8")
+            receipt.write_text("current failure", encoding="utf-8")
+            unrelated = root / "notes.txt"
+            unrelated.write_text("keep", encoding="utf-8")
+            _clear_previous_success(root)
+            self.assertTrue(all(not path.exists() for path in successful))
+            self.assertTrue(receipt.is_file())
+            self.assertTrue(unrelated.is_file())
+
     def test_bundled_font_fallback_is_cross_platform(self):
         fallback = Path(_font_path("/definitely/unavailable/system-font.ttf", "DejaVuSans.ttf")).resolve()
         self.assertTrue(fallback.is_file())

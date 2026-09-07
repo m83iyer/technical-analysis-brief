@@ -2,6 +2,12 @@
 
 Turn a US or Indian stock ticker into a refusal-first, one-page technical decision brief.
 
+## Example: Reliance
+
+![Reliance technical brief, refreshed weekly with live market data](examples/reliance/RELIANCE-NS-technical-brief.png)
+
+The pre-registered rule failed its own out-of-sample gates, so no entry, stop or target is published — `NO ROBUST EDGE` is the honest result. This example is regenerated weekly by [`.github/workflows/refresh-example.yml`](.github/workflows/refresh-example.yml) against live market data — it is never a stale screenshot.
+
 The engine evaluates a frozen set of 15 transparent rules, selects one winner using training and validation data only, and then reveals an untouched holdout. If that pre-selected rule fails, the result is `NO ROBUST EDGE` and entry, stop and target coordinates stay suppressed. A qualified page answers four practical questions: what activates the setup, when the model assumes execution, what invalidates or exits it, and whether the same rule survived unseen history and higher costs.
 
 Success rate never appears alone. The page pairs it with payoff ratio, expectancy, profit factor, drawdown, completed trades, median holding period, cost stress and neighboring-parameter stability. Fixed invalidation and 1R/2R values are planning references; historical returns use the stated rule exit.

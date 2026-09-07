@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "technical-analysis-brief"
-version = "0.3.0"
+version = "1.0.0"
 description = "Refusal-first technical analysis for US and Indian equities"
 readme = "README.md"
 requires-python = ">=3.11"

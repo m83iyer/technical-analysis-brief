@@ -18,51 +18,51 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": 0.0014087706,
-          "expectancy": 0.0047513702,
-          "exposure": 0.3492063492,
-          "max_drawdown": 0.2798660775,
-          "net_return": 0.0053757142,
-          "profit_factor": 1.1291590862,
+          "benchmark_return": -0.0213454122,
+          "cagr": 0.0094048938,
+          "expectancy": 0.0076263435,
+          "exposure": 0.3439153439,
+          "max_drawdown": 0.2798661279,
+          "net_return": 0.0362928232,
+          "profit_factor": 1.2248863646,
           "sessions": 945,
-          "sharpe": 0.0744327846,
-          "sortino": 0.0592527523,
+          "sharpe": 0.1388108117,
+          "sortino": 0.1093970272,
           "trades": 10,
           "turnover": 0.0211640212,
           "win_rate": 0.4,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": -0.0309633231,
-          "expectancy": -0.0047758595,
-          "exposure": 0.4544973545,
-          "max_drawdown": 0.3459794879,
-          "net_return": -0.2143177675,
-          "profit_factor": 0.8080311788,
+          "benchmark_return": 2.0112500915,
+          "cagr": -0.0193334639,
+          "expectancy": -0.0022586891,
+          "exposure": 0.4571428571,
+          "max_drawdown": 0.3459788789,
+          "net_return": -0.1390465878,
+          "profit_factor": 0.9090588333,
           "sessions": 1890,
-          "sharpe": -0.1009796438,
-          "sortino": -0.1079633121,
+          "sharpe": -0.0290895008,
+          "sortino": -0.0312597375,
           "trades": 38,
           "turnover": 0.0396825397,
-          "win_rate": 0.3157894737,
+          "win_rate": 0.3421052632,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.1126879599,
-          "expectancy": 0.0307794663,
+          "benchmark_return": 1.1014194383,
+          "cagr": 0.0986815115,
+          "expectancy": 0.0276992859,
           "exposure": 0.4074074074,
-          "max_drawdown": 0.2333654205,
-          "net_return": 0.5048557059,
-          "profit_factor": 2.4192335941,
+          "max_drawdown": 0.2372001755,
+          "net_return": 0.4336314063,
+          "profit_factor": 2.248194584,
           "sessions": 945,
-          "sharpe": 0.6984147175,
-          "sortino": 0.7814708098,
+          "sharpe": 0.6286532019,
+          "sortino": 0.6980070211,
           "trades": 16,
           "turnover": 0.0328042328,
-          "win_rate": 0.5,
+          "win_rate": 0.4375,
           "years": 3.8275
         }
       },
@@ -84,16 +84,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": 0.0053757142,
-          "validation_return": 0.5048557059
+          "holdout_return": 0.0362928232,
+          "validation_return": 0.4336314063
         },
         "30": {
-          "holdout_return": -0.0244036376,
-          "validation_return": 0.4341735565
+          "holdout_return": 0.0055977028,
+          "validation_return": 0.3662946186
         },
         "60": {
-          "holdout_return": -0.0814671474,
-          "validation_return": 0.3023297016
+          "holdout_return": -0.0532206124,
+          "validation_return": 0.2406908877
         }
       }
     },
@@ -116,51 +116,51 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": 0.0324257799,
-          "expectancy": 0.0235746829,
-          "exposure": 0.3428571429,
-          "max_drawdown": 0.122160301,
-          "net_return": 0.1292219752,
-          "profit_factor": 2.0279979633,
+          "benchmark_return": -0.0213454122,
+          "cagr": 0.0406695675,
+          "expectancy": 0.0281564488,
+          "exposure": 0.3375661376,
+          "max_drawdown": 0.1118318913,
+          "net_return": 0.1639475689,
+          "profit_factor": 2.534340184,
           "sessions": 945,
-          "sharpe": 0.3267952904,
-          "sortino": 0.2737595511,
+          "sharpe": 0.3942226201,
+          "sortino": 0.3270689498,
           "trades": 6,
           "turnover": 0.0126984127,
           "win_rate": 0.6666666667,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": -0.0240188367,
-          "expectancy": -0.0079132143,
-          "exposure": 0.3259259259,
-          "max_drawdown": 0.2612681388,
-          "net_return": -0.1700931934,
-          "profit_factor": 0.7596634771,
+          "benchmark_return": 2.0112500915,
+          "cagr": -0.012305962,
+          "expectancy": -0.0027667873,
+          "exposure": 0.3285714286,
+          "max_drawdown": 0.2612688917,
+          "net_return": -0.0905874603,
+          "profit_factor": 0.9110074236,
           "sessions": 1890,
-          "sharpe": -0.0978281268,
-          "sortino": -0.0921556465,
+          "sharpe": -0.0129891648,
+          "sortino": -0.0123227464,
           "trades": 18,
           "turnover": 0.0185185185,
-          "win_rate": 0.3888888889,
+          "win_rate": 0.4444444444,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.0641581531,
-          "expectancy": 0.0356874131,
+          "benchmark_return": 1.1014194383,
+          "cagr": 0.0507625399,
+          "expectancy": 0.0302115083,
           "exposure": 0.380952381,
-          "max_drawdown": 0.3224133267,
-          "net_return": 0.2687222535,
-          "profit_factor": 2.0070917631,
+          "max_drawdown": 0.3224133623,
+          "net_return": 0.2086738256,
+          "profit_factor": 1.8315338055,
           "sessions": 945,
-          "sharpe": 0.4529827679,
-          "sortino": 0.4911987123,
+          "sharpe": 0.379550185,
+          "sortino": 0.4076697395,
           "trades": 9,
           "turnover": 0.017989418,
-          "win_rate": 0.5555555556,
+          "win_rate": 0.4444444444,
           "years": 3.8275
         }
       },
@@ -183,16 +183,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": 0.1292219752,
-          "validation_return": 0.2687222535
+          "holdout_return": 0.1639475689,
+          "validation_return": 0.2086738256
         },
         "30": {
-          "holdout_return": 0.1090327991,
-          "validation_return": 0.2348498729
+          "holdout_return": 0.1431375396,
+          "validation_return": 0.1764046195
         },
         "60": {
-          "holdout_return": 0.0696436158,
-          "validation_return": 0.1696508235
+          "holdout_return": 0.1025370685,
+          "validation_return": 0.114291431
         }
       }
     },
@@ -215,51 +215,51 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0425676458,
-          "expectancy": -0.0253814375,
-          "exposure": 0.3671957672,
-          "max_drawdown": 0.1850643575,
-          "net_return": -0.1526691438,
-          "profit_factor": 0.367769836,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.0349226661,
+          "expectancy": -0.0207996694,
+          "exposure": 0.3619047619,
+          "max_drawdown": 0.1850644915,
+          "net_return": -0.1266121887,
+          "profit_factor": 0.4151501002,
           "sessions": 945,
-          "sharpe": -0.3075566551,
-          "sortino": -0.285972528,
+          "sharpe": -0.2419254179,
+          "sortino": -0.223355462,
           "trades": 6,
           "turnover": 0.0126984127,
           "win_rate": 0.5,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": 0.0816750956,
-          "expectancy": 0.1598343737,
-          "exposure": 0.4835978836,
-          "max_drawdown": 0.3157538582,
-          "net_return": 0.8259086632,
-          "profit_factor": 5.267668233,
+          "benchmark_return": 2.0112500915,
+          "cagr": 0.0832312735,
+          "expectancy": 0.1385849181,
+          "exposure": 0.4846560847,
+          "max_drawdown": 0.3157538095,
+          "net_return": 0.8461504266,
+          "profit_factor": 5.3170147723,
           "sessions": 1890,
-          "sharpe": 0.5516968543,
-          "sortino": 0.6227019169,
-          "trades": 6,
-          "turnover": 0.0063492063,
-          "win_rate": 0.5,
+          "sharpe": 0.5600860022,
+          "sortino": 0.632442418,
+          "trades": 7,
+          "turnover": 0.0068783069,
+          "win_rate": 0.5714285714,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.0051687355,
-          "expectancy": 0.0073925043,
-          "exposure": 0.455026455,
-          "max_drawdown": 0.2812060346,
-          "net_return": 0.0199284345,
-          "profit_factor": 1.2333103861,
+          "benchmark_return": 1.1014194383,
+          "cagr": 0.0044976103,
+          "expectancy": 0.0070045709,
+          "exposure": 0.4571428571,
+          "max_drawdown": 0.2818047099,
+          "net_return": 0.0173244331,
+          "profit_factor": 1.2184387004,
           "sessions": 945,
-          "sharpe": 0.1193843011,
-          "sortino": 0.1371388522,
+          "sharpe": 0.1155637524,
+          "sortino": 0.1323630697,
           "trades": 7,
           "turnover": 0.0137566138,
-          "win_rate": 0.5714285714,
+          "win_rate": 0.4285714286,
           "years": 3.8275
         }
       },
@@ -281,16 +281,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.1526691438,
-          "validation_return": 0.0199284345
+          "holdout_return": -0.1266121887,
+          "validation_return": 0.0173244331
         },
         "30": {
-          "holdout_return": -0.1678184344,
-          "validation_return": -0.0013140338
+          "holdout_return": -0.1422273473,
+          "validation_return": -0.0038638007
         },
         "60": {
-          "holdout_return": -0.1973747759,
-          "validation_return": -0.0425720264
+          "holdout_return": -0.1726925998,
+          "validation_return": -0.0450164566
         }
       }
     },
@@ -310,48 +310,48 @@
       "failed_preholdout_gates": [],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0188581771,
-          "expectancy": -0.011474921,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.018858151,
+          "expectancy": -0.0114749039,
           "exposure": 0.0740740741,
           "max_drawdown": 0.0806870072,
-          "net_return": -0.0699383144,
-          "profit_factor": 0.3867335993,
+          "net_return": -0.0699382202,
+          "profit_factor": 0.3867345105,
           "sessions": 945,
-          "sharpe": -0.3683320653,
-          "sortino": -0.1687870611,
+          "sharpe": -0.3683320282,
+          "sortino": -0.1687872517,
           "trades": 6,
           "turnover": 0.0126984127,
           "win_rate": 0.3333333333,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": -0.0044476593,
-          "expectancy": -0.0016020965,
+          "benchmark_return": 2.0112500915,
+          "cagr": -0.0044475958,
+          "expectancy": -0.0016020657,
           "exposure": 0.0751322751,
-          "max_drawdown": 0.2040013789,
-          "net_return": -0.0336062606,
-          "profit_factor": 0.8905214345,
+          "max_drawdown": 0.2040010763,
+          "net_return": -0.0336057874,
+          "profit_factor": 0.8905233672,
           "sessions": 1890,
-          "sharpe": -0.0246629438,
-          "sortino": -0.0107391164,
+          "sharpe": -0.0246620435,
+          "sortino": -0.0107387116,
           "trades": 16,
           "turnover": 0.0169312169,
           "win_rate": 0.5,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.0543207004,
-          "expectancy": 0.0173067979,
+          "benchmark_return": 1.1014194383,
+          "cagr": 0.0543209259,
+          "expectancy": 0.0173068675,
           "exposure": 0.1248677249,
-          "max_drawdown": 0.1412280361,
-          "net_return": 0.2244145767,
-          "profit_factor": 6.7999849556,
+          "max_drawdown": 0.1412276956,
+          "net_return": 0.224415579,
+          "profit_factor": 6.8000365587,
           "sessions": 945,
-          "sharpe": 0.5871395071,
-          "sortino": 0.2844057749,
+          "sharpe": 0.5871415123,
+          "sortino": 0.2844067886,
           "trades": 12,
           "turnover": 0.0253968254,
           "win_rate": 0.8333333333,
@@ -376,16 +376,16 @@
       "score": 66.72,
       "stress": {
         "15": {
-          "holdout_return": -0.0699383144,
-          "validation_return": 0.2244145767
+          "holdout_return": -0.0699382202,
+          "validation_return": 0.224415579
         },
         "30": {
-          "holdout_return": -0.0865667361,
-          "validation_return": 0.181023746
+          "holdout_return": -0.0865666435,
+          "validation_return": 0.1810247128
         },
         "60": {
-          "holdout_return": -0.1190088697,
-          "validation_return": 0.0986214036
+          "holdout_return": -0.1190087804,
+          "validation_return": 0.098622303
         }
       }
     },
@@ -407,48 +407,48 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0047523713,
-          "expectancy": -0.0041792554,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.0047523487,
+          "expectancy": -0.004179234,
           "exposure": 0.0486772487,
-          "max_drawdown": 0.0515185182,
-          "net_return": -0.0179782656,
-          "profit_factor": 0.669268917,
+          "max_drawdown": 0.0515184362,
+          "net_return": -0.0179781807,
+          "profit_factor": 0.6692700517,
           "sessions": 945,
-          "sharpe": -0.0883640275,
-          "sortino": -0.0349949146,
+          "sharpe": -0.0883636842,
+          "sortino": -0.0349947453,
           "trades": 4,
           "turnover": 0.0084656085,
           "win_rate": 0.25,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": -0.0056880251,
-          "expectancy": -0.0142105333,
+          "benchmark_return": 2.0112500915,
+          "cagr": -0.0056880383,
+          "expectancy": -0.0142105665,
           "exposure": 0.0248677249,
-          "max_drawdown": 0.1142805874,
-          "net_return": -0.0428014141,
-          "profit_factor": 0.1891544225,
+          "max_drawdown": 0.1142807973,
+          "net_return": -0.0428015112,
+          "profit_factor": 0.1891526291,
           "sessions": 1890,
-          "sharpe": -0.0968063009,
-          "sortino": -0.0245229904,
+          "sharpe": -0.0968065285,
+          "sortino": -0.0245230193,
           "trades": 3,
           "turnover": 0.0031746032,
           "win_rate": 0.3333333333,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.0487933204,
-          "expectancy": 0.0208056618,
+          "benchmark_return": 1.1014194383,
+          "cagr": 0.0487934791,
+          "expectancy": 0.0208057273,
           "exposure": 0.0994708995,
-          "max_drawdown": 0.102191003,
-          "net_return": 0.2000268401,
+          "max_drawdown": 0.1021907643,
+          "net_return": 0.2000275347,
           "profit_factor": 9.99,
           "sessions": 945,
-          "sharpe": 0.5727897589,
-          "sortino": 0.2468558189,
+          "sharpe": 0.5727913304,
+          "sortino": 0.2468564729,
           "trades": 9,
           "turnover": 0.019047619,
           "win_rate": 0.8888888889,
@@ -474,16 +474,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.0179782656,
-          "validation_return": 0.2000268401
+          "holdout_return": -0.0179781807,
+          "validation_return": 0.2000275347
         },
         "30": {
-          "holdout_return": -0.029718362,
-          "validation_return": 0.1679884915
+          "holdout_return": -0.0297182782,
+          "validation_return": 0.1679891676
         },
         "60": {
-          "holdout_return": -0.052830682,
-          "validation_return": 0.1063196676
+          "holdout_return": -0.0528306001,
+          "validation_return": 0.106320308
         }
       }
     },
@@ -505,48 +505,48 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0139038244,
-          "expectancy": -0.0119577,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.0139038201,
+          "expectancy": -0.0119576983,
           "exposure": 0.0571428571,
           "max_drawdown": 0.0712963891,
-          "net_return": -0.0519254987,
-          "profit_factor": 0.6110814743,
+          "net_return": -0.0519254832,
+          "profit_factor": 0.6110812233,
           "sessions": 945,
-          "sharpe": -0.314059734,
-          "sortino": -0.1102576031,
+          "sharpe": -0.31406009,
+          "sortino": -0.1102577365,
           "trades": 4,
           "turnover": 0.0084656085,
           "win_rate": 0.5,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": -0.018633968,
-          "expectancy": -0.015084258,
+          "benchmark_return": 2.0112500915,
+          "cagr": -0.0186339252,
+          "expectancy": -0.0150842219,
           "exposure": 0.0497354497,
-          "max_drawdown": 0.2368958815,
-          "net_return": -0.1343259638,
-          "profit_factor": 0.3828922001,
+          "max_drawdown": 0.2368957225,
+          "net_return": -0.134325674,
+          "profit_factor": 0.3828928792,
           "sessions": 1890,
-          "sharpe": -0.261683017,
-          "sortino": -0.0934154827,
+          "sharpe": -0.2616822632,
+          "sortino": -0.093415093,
           "trades": 9,
           "turnover": 0.0095238095,
           "win_rate": 0.3333333333,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.0255683078,
-          "expectancy": 0.0113855178,
+          "benchmark_return": 1.1014194383,
+          "cagr": 0.0255683849,
+          "expectancy": 0.0113855489,
           "exposure": 0.128042328,
-          "max_drawdown": 0.1367344663,
-          "net_return": 0.1014559767,
-          "profit_factor": 2.0825105113,
+          "max_drawdown": 0.1367345526,
+          "net_return": 0.1014562938,
+          "profit_factor": 2.0825166753,
           "sessions": 945,
-          "sharpe": 0.2911364886,
-          "sortino": 0.1432280706,
+          "sharpe": 0.2911371211,
+          "sortino": 0.1432285169,
           "trades": 9,
           "turnover": 0.019047619,
           "win_rate": 0.6666666667,
@@ -571,16 +571,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.0519254987,
-          "validation_return": 0.1014559767
+          "holdout_return": -0.0519254832,
+          "validation_return": 0.1014562938
         },
         "30": {
-          "holdout_return": -0.063259755,
-          "validation_return": 0.0720492756
+          "holdout_return": -0.0632597397,
+          "validation_return": 0.0720495843
         },
         "60": {
-          "holdout_return": -0.0855731117,
-          "validation_return": 0.0154459628
+          "holdout_return": -0.0855730967,
+          "validation_return": 0.0154462551
         }
       }
     },
@@ -598,56 +598,56 @@
       },
       "eligible": false,
       "failed_preholdout_gates": [
-        "training_net",
         "validation_net",
+        "validation_profit_factor",
         "validation_drawdown",
         "double_cost_validation",
         "neighbor_validation"
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.1084246751,
-          "expectancy": -0.0052838502,
-          "exposure": 0.3767195767,
-          "max_drawdown": 0.3752562735,
-          "net_return": -0.3540716424,
-          "profit_factor": 0.5063195733,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.1013055877,
+          "expectancy": -0.0049043643,
+          "exposure": 0.3714285714,
+          "max_drawdown": 0.3752565861,
+          "net_return": -0.3342082683,
+          "profit_factor": 0.5249319406,
           "sessions": 945,
-          "sharpe": -0.8866413115,
-          "sortino": -0.8222904451,
+          "sharpe": -0.8247238185,
+          "sortino": -0.7597570886,
           "trades": 77,
           "turnover": 0.162962963,
           "win_rate": 0.2467532468,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": -0.0075434536,
-          "expectancy": 0.0004765235,
-          "exposure": 0.4613756614,
-          "max_drawdown": 0.4431985958,
-          "net_return": -0.0564141493,
-          "profit_factor": 1.0451475477,
+          "benchmark_return": 2.0112500915,
+          "cagr": 0.0043674388,
+          "expectancy": 0.0010391833,
+          "exposure": 0.464021164,
+          "max_drawdown": 0.4431981519,
+          "net_return": 0.0339844522,
+          "profit_factor": 1.0985425005,
           "sessions": 1890,
-          "sharpe": 0.0398369601,
-          "sortino": 0.047003237,
+          "sharpe": 0.1115078209,
+          "sortino": 0.1322479614,
           "trades": 170,
           "turnover": 0.1793650794,
-          "win_rate": 0.3588235294,
+          "win_rate": 0.3647058824,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": -0.0091494735,
-          "expectancy": 0.0007506018,
+          "benchmark_return": 1.1014194383,
+          "cagr": -0.0216222567,
+          "expectancy": 0.0002694376,
           "exposure": 0.5195767196,
-          "max_drawdown": 0.3319043355,
-          "net_return": -0.0345692855,
-          "profit_factor": 1.0654937548,
+          "max_drawdown": 0.3319037201,
+          "net_return": -0.0802628482,
+          "profit_factor": 1.0227267786,
           "sessions": 945,
-          "sharpe": 0.0485501596,
-          "sortino": 0.0599136864,
+          "sharpe": -0.0191744487,
+          "sortino": -0.0235265753,
           "trades": 100,
           "turnover": 0.2105820106,
           "win_rate": 0.39,
@@ -663,25 +663,25 @@
         "double_cost_validation": false,
         "neighbor_validation": false,
         "training_activity": true,
-        "training_net": false,
+        "training_net": true,
         "validation_activity": true,
         "validation_drawdown": false,
         "validation_net": false,
-        "validation_profit_factor": true
+        "validation_profit_factor": false
       },
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.3540716424,
-          "validation_return": -0.0345692855
+          "holdout_return": -0.3342082683,
+          "validation_return": -0.0802628482
         },
         "30": {
-          "holdout_return": -0.4875681993,
-          "validation_return": -0.2852750672
+          "holdout_return": -0.4718100669,
+          "validation_return": -0.3191027962
         },
         "60": {
-          "holdout_return": -0.6778301531,
-          "validation_return": -0.608813238
+          "holdout_return": -0.6679228931,
+          "validation_return": -0.6273279968
         }
       }
     },
@@ -708,48 +708,48 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0569813722,
-          "expectancy": -0.0020690371,
-          "exposure": 0.4349206349,
-          "max_drawdown": 0.2584849563,
-          "net_return": -0.2002315548,
-          "profit_factor": 0.7402741427,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.0494513433,
+          "expectancy": -0.0017600116,
+          "exposure": 0.4296296296,
+          "max_drawdown": 0.2584849478,
+          "net_return": -0.175636764,
+          "profit_factor": 0.7701498339,
           "sessions": 945,
-          "sharpe": -0.3878946322,
-          "sortino": -0.4063035756,
+          "sharpe": -0.3280613893,
+          "sortino": -0.3418193958,
           "trades": 91,
           "turnover": 0.1925925926,
           "win_rate": 0.3406593407,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": -0.0271665864,
-          "expectancy": -0.0006510086,
-          "exposure": 0.5724867725,
-          "max_drawdown": 0.6104641833,
-          "net_return": -0.1904001066,
-          "profit_factor": 0.9310243293,
+          "benchmark_return": 2.0112500915,
+          "cagr": -0.0154915279,
+          "expectancy": -9.19992e-05,
+          "exposure": 0.5751322751,
+          "max_drawdown": 0.6104640574,
+          "net_return": -0.1128400661,
+          "profit_factor": 0.9902524947,
           "sessions": 1890,
-          "sharpe": -0.0562699277,
-          "sortino": -0.0702696177,
+          "sharpe": 0.0094299087,
+          "sortino": 0.0118266551,
           "trades": 180,
           "turnover": 0.1899470899,
           "win_rate": 0.4055555556,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": -0.0836962583,
-          "expectancy": -0.0016994947,
+          "benchmark_return": 1.1014194383,
+          "cagr": -0.09523063,
+          "expectancy": -0.0020602893,
           "exposure": 0.6402116402,
-          "max_drawdown": 0.5340662683,
-          "net_return": -0.2843421351,
-          "profit_factor": 0.8352831406,
+          "max_drawdown": 0.534065919,
+          "net_return": -0.3182139624,
+          "profit_factor": 0.8059016112,
           "sessions": 945,
-          "sharpe": -0.3018837824,
-          "sortino": -0.4065123585,
+          "sharpe": -0.3637352642,
+          "sortino": -0.4875841182,
           "trades": 133,
           "turnover": 0.2804232804,
           "win_rate": 0.3834586466,
@@ -775,16 +775,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.2002315548,
-          "validation_return": -0.2843421351
+          "holdout_return": -0.175636764,
+          "validation_return": -0.3182139624
         },
         "30": {
-          "holdout_return": -0.3916766565,
-          "validation_return": -0.5202321406
+          "holdout_return": -0.3729692601,
+          "validation_return": -0.5429393795
         },
         "60": {
-          "holdout_return": -0.6484900444,
-          "validation_return": -0.7847727339
+          "holdout_return": -0.6376802733,
+          "validation_return": -0.7949593624
         }
       }
     },
@@ -811,51 +811,51 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0647824089,
-          "expectancy": -0.0050080994,
-          "exposure": 0.4275132275,
-          "max_drawdown": 0.2436386436,
-          "net_return": -0.2251364304,
-          "profit_factor": 0.5413768267,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.057314822,
+          "expectancy": -0.0043889089,
+          "exposure": 0.4222222222,
+          "max_drawdown": 0.2436387147,
+          "net_return": -0.2013080094,
+          "profit_factor": 0.5739200366,
           "sessions": 945,
-          "sharpe": -0.4603124064,
-          "sortino": -0.4486844506,
+          "sharpe": -0.399908358,
+          "sortino": -0.3874574512,
           "trades": 47,
           "turnover": 0.0994708995,
           "win_rate": 0.2553191489,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": -0.0475640382,
-          "expectancy": -0.0005726124,
-          "exposure": 0.5677248677,
-          "max_drawdown": 0.6127973191,
-          "net_return": -0.3118271099,
-          "profit_factor": 0.9473726529,
+          "benchmark_return": 2.0112500915,
+          "cagr": -0.0361339408,
+          "expectancy": -7.772e-06,
+          "exposure": 0.5703703704,
+          "max_drawdown": 0.6127984296,
+          "net_return": -0.2459008484,
+          "profit_factor": 0.9992856979,
           "sessions": 1890,
-          "sharpe": -0.1672390356,
-          "sortino": -0.2121447211,
+          "sharpe": -0.1018752704,
+          "sortino": -0.1297757846,
           "trades": 176,
           "turnover": 0.1857142857,
           "win_rate": 0.3693181818,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": -0.0654055763,
-          "expectancy": -0.0011086797,
+          "benchmark_return": 1.1014194383,
+          "cagr": -0.0771699939,
+          "expectancy": -0.0014749208,
           "exposure": 0.6941798942,
-          "max_drawdown": 0.3910499233,
-          "net_return": -0.2281022235,
-          "profit_factor": 0.8963905156,
+          "max_drawdown": 0.3927745268,
+          "net_return": -0.2646352677,
+          "profit_factor": 0.8667214344,
           "sessions": 945,
-          "sharpe": -0.1824323927,
-          "sortino": -0.2527544291,
+          "sharpe": -0.2399488767,
+          "sortino": -0.3312536459,
           "trades": 130,
           "turnover": 0.2740740741,
-          "win_rate": 0.3769230769,
+          "win_rate": 0.3692307692,
           "years": 3.8275
         }
       },
@@ -877,16 +877,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.2251364304,
-          "validation_return": -0.2281022235
+          "holdout_return": -0.2013080094,
+          "validation_return": -0.2646352677
         },
         "30": {
-          "holdout_return": -0.3272532339,
-          "validation_return": -0.4778407725
+          "holdout_return": -0.3065650846,
+          "validation_return": -0.5025539751
         },
         "60": {
-          "holdout_return": -0.4932113606,
-          "validation_return": -0.7614816813
+          "holdout_return": -0.4776267163,
+          "validation_return": -0.7727704821
         }
       }
     },
@@ -909,51 +909,51 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0017329492,
-          "expectancy": 0.0028369712,
-          "exposure": 0.4878306878,
+          "benchmark_return": -0.0213454122,
+          "cagr": 0.0062381925,
+          "expectancy": 0.0062727863,
+          "exposure": 0.4825396825,
           "max_drawdown": 0.1614749097,
-          "net_return": -0.0065836351,
-          "profit_factor": 1.0880459702,
+          "net_return": 0.0239661083,
+          "profit_factor": 1.2179133593,
           "sessions": 945,
-          "sharpe": 0.0550979942,
-          "sortino": 0.0601052628,
+          "sharpe": 0.114269375,
+          "sortino": 0.123942176,
           "trades": 8,
           "turnover": 0.0169312169,
           "win_rate": 0.375,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": 0.0433792725,
-          "expectancy": 0.0314291107,
-          "exposure": 0.5873015873,
-          "max_drawdown": 0.2590517312,
-          "net_return": 0.3849309047,
-          "profit_factor": 2.0144777032,
+          "benchmark_return": 2.0112500915,
+          "cagr": 0.0559012012,
+          "expectancy": 0.0375177489,
+          "exposure": 0.5899470899,
+          "max_drawdown": 0.2590518009,
+          "net_return": 0.5176106,
+          "profit_factor": 2.3462607492,
           "sessions": 1890,
-          "sharpe": 0.3184820086,
-          "sortino": 0.3736105611,
+          "sharpe": 0.3794083291,
+          "sortino": 0.4467467868,
           "trades": 15,
           "turnover": 0.0153439153,
-          "win_rate": 0.3333333333,
+          "win_rate": 0.4,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.0483000032,
-          "expectancy": 0.0321079219,
+          "benchmark_return": 1.1014194383,
+          "cagr": 0.0351039919,
+          "expectancy": 0.0260421021,
           "exposure": 0.6201058201,
-          "max_drawdown": 0.3325462189,
-          "net_return": 0.197867826,
-          "profit_factor": 1.8684702354,
+          "max_drawdown": 0.3325463627,
+          "net_return": 0.1411728415,
+          "profit_factor": 1.6520325353,
           "sessions": 945,
-          "sharpe": 0.3296387431,
-          "sortino": 0.4296875473,
+          "sharpe": 0.2706025437,
+          "sortino": 0.3507919089,
           "trades": 8,
           "turnover": 0.0158730159,
-          "win_rate": 0.625,
+          "win_rate": 0.5,
           "years": 3.8275
         }
       },
@@ -975,16 +975,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.0065836351,
-          "validation_return": 0.197867826
+          "holdout_return": 0.0239661083,
+          "validation_return": 0.1411728415
         },
         "30": {
-          "holdout_return": -0.0301942926,
-          "validation_return": 0.1693979438
+          "holdout_return": -0.0003706289,
+          "validation_return": 0.1140504364
         },
         "60": {
-          "holdout_return": -0.0758459884,
-          "validation_return": 0.114350836
+          "holdout_return": -0.047426215,
+          "validation_return": 0.0616087037
         }
       }
     },
@@ -1009,60 +1009,60 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.021086471,
-          "expectancy": -0.017055054,
-          "exposure": 0.5619047619,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.0132699771,
+          "expectancy": -0.0103892861,
+          "exposure": 0.5566137566,
           "max_drawdown": 0.1750179556,
-          "net_return": -0.0779570157,
-          "profit_factor": 0.5431178324,
+          "net_return": -0.0496025659,
+          "profit_factor": 0.6611833929,
           "sessions": 945,
-          "sharpe": -0.0689067055,
-          "sortino": -0.076084515,
+          "sharpe": -0.015608782,
+          "sortino": -0.0171468022,
           "trades": 4,
           "turnover": 0.0084656085,
           "win_rate": 0.5,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": 0.0554270567,
-          "expectancy": 0.0861990442,
-          "exposure": 0.6534391534,
-          "max_drawdown": 0.2804358855,
-          "net_return": 0.5123924031,
-          "profit_factor": 3.2151951134,
+          "benchmark_return": 2.0112500915,
+          "cagr": 0.0680934557,
+          "expectancy": 0.096346696,
+          "exposure": 0.6560846561,
+          "max_drawdown": 0.2804359208,
+          "net_return": 0.6572817992,
+          "profit_factor": 3.8568121602,
           "sessions": 1890,
-          "sharpe": 0.3717196406,
-          "sortino": 0.4619651617,
+          "sharpe": 0.4305054503,
+          "sortino": 0.5368893028,
           "trades": 9,
           "turnover": 0.008994709,
-          "win_rate": 0.3333333333,
+          "win_rate": 0.4444444444,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": -0.0671512001,
-          "expectancy": -0.0224419687,
+          "benchmark_return": 1.1014194383,
+          "cagr": -0.0788940406,
+          "expectancy": -0.028151008,
           "exposure": 0.7058201058,
-          "max_drawdown": 0.3660561885,
-          "net_return": -0.2336059543,
-          "profit_factor": 0.651251986,
+          "max_drawdown": 0.3660565249,
+          "net_return": -0.2698797158,
+          "profit_factor": 0.5981487899,
           "sessions": 945,
-          "sharpe": -0.1728284906,
-          "sortino": -0.2085569712,
+          "sharpe": -0.2279789976,
+          "sortino": -0.2742105476,
           "trades": 8,
           "turnover": 0.0158730159,
-          "win_rate": 0.375,
+          "win_rate": 0.25,
           "years": 3.8275
         }
       },
-      "neighbor_holdout_ratio": 0.5,
+      "neighbor_holdout_ratio": 1.0,
       "neighbor_ids": [
         "sma-20-100",
         "sma-50-200"
       ],
-      "neighbor_validation_ratio": 1.0,
+      "neighbor_validation_ratio": 0.5,
       "preholdout_gates": {
         "double_cost_validation": false,
         "neighbor_validation": true,
@@ -1076,16 +1076,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.0779570157,
-          "validation_return": -0.2336059543
+          "holdout_return": -0.0496025659,
+          "validation_return": -0.2698797158
         },
         "30": {
-          "holdout_return": -0.0889800646,
-          "validation_return": -0.2518209424
+          "holdout_return": -0.060964593,
+          "validation_return": -0.2872325807
         },
         "60": {
-          "holdout_return": -0.1106807578,
-          "validation_return": -0.2870399998
+          "holdout_return": -0.0833326209,
+          "validation_return": -0.3207847048
         }
       }
     },
@@ -1103,13 +1103,14 @@
       },
       "eligible": false,
       "failed_preholdout_gates": [
+        "validation_net",
         "validation_drawdown",
         "double_cost_validation",
         "neighbor_validation"
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
+          "benchmark_return": -0.0213454122,
           "cagr": 0.0097929883,
           "expectancy": 0.0188760571,
           "exposure": 0.5904761905,
@@ -1117,40 +1118,40 @@
           "net_return": 0.0378110127,
           "profit_factor": 1.4851091628,
           "sessions": 945,
-          "sharpe": 0.1412423177,
-          "sortino": 0.1563631109,
+          "sharpe": 0.1412423185,
+          "sortino": 0.1563631541,
           "trades": 3,
           "turnover": 0.0063492063,
           "win_rate": 0.6666666667,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": 0.1047340531,
-          "expectancy": 0.2742033271,
-          "exposure": 0.7010582011,
-          "max_drawdown": 0.327875621,
-          "net_return": 1.1465030384,
-          "profit_factor": 8.0235381095,
+          "benchmark_return": 2.0112500915,
+          "cagr": 0.1179921787,
+          "expectancy": 0.3224789023,
+          "exposure": 0.7037037037,
+          "max_drawdown": 0.3278758311,
+          "net_return": 1.3521408851,
+          "profit_factor": 9.2600694458,
           "sessions": 1890,
-          "sharpe": 0.5944338559,
-          "sortino": 0.759483218,
+          "sharpe": 0.6517392673,
+          "sortino": 0.8354878367,
           "trades": 5,
           "turnover": 0.0047619048,
           "win_rate": 0.6,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.0015888012,
-          "expectancy": 0.0297231198,
-          "exposure": 0.8338624339,
-          "max_drawdown": 0.4575706674,
-          "net_return": 0.0060948339,
-          "profit_factor": 1.3609421967,
+          "benchmark_return": 1.1014194383,
+          "cagr": -0.0089125419,
+          "expectancy": 0.0199160218,
+          "exposure": 0.8285714286,
+          "max_drawdown": 0.4575707662,
+          "net_return": -0.0336853922,
+          "profit_factor": 1.2161126611,
           "sessions": 945,
-          "sharpe": 0.1508690179,
-          "sortino": 0.1884359018,
+          "sharpe": 0.1130839494,
+          "sortino": 0.1406681342,
           "trades": 4,
           "turnover": 0.0084656085,
           "win_rate": 0.5,
@@ -1169,22 +1170,22 @@
         "training_net": true,
         "validation_activity": true,
         "validation_drawdown": false,
-        "validation_net": true,
+        "validation_net": false,
         "validation_profit_factor": true
       },
       "score": null,
       "stress": {
         "15": {
           "holdout_return": 0.0378110127,
-          "validation_return": 0.0060948339
+          "validation_return": -0.0336853922
         },
         "30": {
           "holdout_return": 0.0284917432,
-          "validation_return": -0.0059330572
+          "validation_return": -0.0452377095
         },
         "60": {
           "holdout_return": 0.0100623103,
-          "validation_return": -0.0296119482
+          "validation_return": -0.0679803552
         }
       }
     },
@@ -1210,51 +1211,51 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0879540325,
-          "expectancy": -0.0069668235,
-          "exposure": 0.2878306878,
-          "max_drawdown": 0.2966128633,
-          "net_return": -0.2957454097,
-          "profit_factor": 0.4914152883,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.082203701,
+          "expectancy": -0.0066118756,
+          "exposure": 0.2835978836,
+          "max_drawdown": 0.2833535699,
+          "net_return": -0.2786851672,
+          "profit_factor": 0.509749288,
           "sessions": 945,
-          "sharpe": -0.8360485728,
-          "sortino": -0.6258361347,
-          "trades": 48,
-          "turnover": 0.1015873016,
-          "win_rate": 0.2916666667,
+          "sharpe": -0.7784042285,
+          "sortino": -0.5765280098,
+          "trades": 47,
+          "turnover": 0.0994708995,
+          "win_rate": 0.2978723404,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": 0.0226177397,
-          "expectancy": 0.0028057623,
-          "exposure": 0.3444444444,
-          "max_drawdown": 0.2590624238,
-          "net_return": 0.1871039489,
-          "profit_factor": 1.1979650575,
+          "benchmark_return": 2.0112500915,
+          "cagr": 0.0247907348,
+          "expectancy": 0.0029453072,
+          "exposure": 0.3455026455,
+          "max_drawdown": 0.2590622263,
+          "net_return": 0.2065860415,
+          "profit_factor": 1.2099310243,
           "sessions": 1890,
-          "sharpe": 0.2287743743,
-          "sortino": 0.2325439848,
-          "trades": 98,
-          "turnover": 0.1031746032,
-          "win_rate": 0.3265306122,
+          "sharpe": 0.2435209362,
+          "sortino": 0.247743161,
+          "trades": 99,
+          "turnover": 0.1042328042,
+          "win_rate": 0.3333333333,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": -0.0271067914,
-          "expectancy": -0.0009360003,
-          "exposure": 0.4507936508,
-          "max_drawdown": 0.2389139481,
-          "net_return": -0.0998409313,
-          "profit_factor": 0.9487639524,
+          "benchmark_return": 1.1014194383,
+          "cagr": -0.0277564396,
+          "expectancy": -0.0009860044,
+          "exposure": 0.4529100529,
+          "max_drawdown": 0.2389140812,
+          "net_return": -0.1021394038,
+          "profit_factor": 0.9461715736,
           "sessions": 945,
-          "sharpe": -0.0653808499,
-          "sortino": -0.0718405735,
+          "sharpe": -0.0693817303,
+          "sortino": -0.076137897,
           "trades": 54,
           "turnover": 0.1132275132,
-          "win_rate": 0.3703703704,
+          "win_rate": 0.3518518519,
           "years": 3.8275
         }
       },
@@ -1276,16 +1277,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.2957454097,
-          "validation_return": -0.0998409313
+          "holdout_return": -0.2786851672,
+          "validation_return": -0.1021394038
         },
         "30": {
-          "holdout_return": -0.3903925857,
-          "validation_return": -0.2347472755
+          "holdout_return": -0.3737449531,
+          "validation_return": -0.2367012772
         },
         "60": {
-          "holdout_return": -0.5435345149,
-          "validation_return": -0.4473409302
+          "holdout_return": -0.5282341601,
+          "validation_return": -0.4487520937
         }
       }
     },
@@ -1311,51 +1312,51 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0538829225,
-          "expectancy": -0.0066810161,
-          "exposure": 0.2867724868,
-          "max_drawdown": 0.1946157052,
-          "net_return": -0.1901777979,
-          "profit_factor": 0.6473301467,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.0455760345,
+          "expectancy": -0.0057158289,
+          "exposure": 0.2814814815,
+          "max_drawdown": 0.1946154964,
+          "net_return": -0.1627639743,
+          "profit_factor": 0.6899150053,
           "sessions": 945,
-          "sharpe": -0.4467718715,
-          "sortino": -0.3229103273,
-          "trades": 28,
-          "turnover": 0.0592592593,
-          "win_rate": 0.1785714286,
+          "sharpe": -0.3699575824,
+          "sortino": -0.2637629482,
+          "trades": 27,
+          "turnover": 0.0571428571,
+          "win_rate": 0.1851851852,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": 0.0159443933,
-          "expectancy": 0.0031404266,
-          "exposure": 0.355026455,
-          "max_drawdown": 0.3008524781,
-          "net_return": 0.1289731954,
-          "profit_factor": 1.1816096106,
+          "benchmark_return": 2.0112500915,
+          "cagr": 0.0281368089,
+          "expectancy": 0.0046649951,
+          "exposure": 0.3576719577,
+          "max_drawdown": 0.3008527984,
+          "net_return": 0.2371291459,
+          "profit_factor": 1.2697746513,
           "sessions": 1890,
-          "sharpe": 0.1832401343,
-          "sortino": 0.1840651821,
+          "sharpe": 0.2655443771,
+          "sortino": 0.2685961858,
           "trades": 66,
           "turnover": 0.0693121693,
           "win_rate": 0.3484848485,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": -0.0198624949,
-          "expectancy": -0.0006235683,
+          "benchmark_return": 1.1014194383,
+          "cagr": -0.0322004019,
+          "expectancy": -0.0019501213,
           "exposure": 0.4486772487,
-          "max_drawdown": 0.3238036502,
-          "net_return": -0.0739149178,
-          "profit_factor": 0.9729564029,
+          "max_drawdown": 0.3238037328,
+          "net_return": -0.1177461894,
+          "profit_factor": 0.9197787122,
           "sessions": 945,
-          "sharpe": -0.0243226055,
-          "sortino": -0.0254616925,
+          "sharpe": -0.0980423203,
+          "sortino": -0.1019626214,
           "trades": 36,
           "turnover": 0.0751322751,
-          "win_rate": 0.4444444444,
+          "win_rate": 0.3888888889,
           "years": 3.8275
         }
       },
@@ -1378,16 +1379,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.1901777979,
-          "validation_return": -0.0739149178
+          "holdout_return": -0.1627639743,
+          "validation_return": -0.1177461894
         },
         "30": {
-          "holdout_return": -0.2555651962,
-          "validation_return": -0.1689229223
+          "holdout_return": -0.2280472492,
+          "validation_return": -0.2082574994
         },
         "60": {
-          "holdout_return": -0.3711669924,
-          "validation_return": -0.3310254714
+          "holdout_return": -0.3439802297,
+          "validation_return": -0.3626877936
         }
       }
     },
@@ -1410,51 +1411,51 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.009015703,
-          "cagr": -0.0099069102,
-          "expectancy": -0.0004922291,
-          "exposure": 0.2857142857,
-          "max_drawdown": 0.1717146146,
-          "net_return": -0.0372072647,
-          "profit_factor": 0.9761073551,
+          "benchmark_return": -0.0213454122,
+          "cagr": -0.0020009433,
+          "expectancy": 0.0010294888,
+          "exposure": 0.2804232804,
+          "max_drawdown": 0.1717145464,
+          "net_return": -0.0075989087,
+          "profit_factor": 1.0539564533,
           "sessions": 945,
-          "sharpe": -0.0316013846,
-          "sortino": -0.0235324005,
+          "sharpe": 0.0389579449,
+          "sortino": 0.0286826271,
           "trades": 19,
           "turnover": 0.0402116402,
           "win_rate": 0.3157894737,
           "years": 3.8084
         },
         "training": {
-          "benchmark_return": 1.7146923965,
-          "cagr": 6.38943e-05,
-          "expectancy": 0.0015483484,
-          "exposure": 0.373015873,
-          "max_drawdown": 0.3462385836,
-          "net_return": 0.0004900918,
-          "profit_factor": 1.0796921497,
+          "benchmark_return": 2.0112500915,
+          "cagr": 0.0120658422,
+          "expectancy": 0.003411728,
+          "exposure": 0.3756613757,
+          "max_drawdown": 0.3462383174,
+          "net_return": 0.0963382823,
+          "profit_factor": 1.1755985862,
           "sessions": 1890,
-          "sharpe": 0.0755632849,
-          "sortino": 0.0749653654,
+          "sharpe": 0.1564353376,
+          "sortino": 0.156222142,
           "trades": 54,
           "turnover": 0.0566137566,
           "win_rate": 0.3518518519,
           "years": 7.6687
         },
         "validation": {
-          "benchmark_return": 1.3094021941,
-          "cagr": 0.1019528194,
-          "expectancy": 0.0187509024,
+          "benchmark_return": 1.1014194383,
+          "cagr": 0.0880813943,
+          "expectancy": 0.0168830567,
           "exposure": 0.4476190476,
-          "max_drawdown": 0.2232585803,
-          "net_return": 0.4500385003,
-          "profit_factor": 1.8393837193,
+          "max_drawdown": 0.2232589812,
+          "net_return": 0.3814081449,
+          "profit_factor": 1.7186497971,
           "sessions": 945,
-          "sharpe": 0.6384216409,
-          "sortino": 0.7196111291,
+          "sharpe": 0.5690724649,
+          "sortino": 0.63724471,
           "trades": 26,
           "turnover": 0.053968254,
-          "win_rate": 0.4615384615,
+          "win_rate": 0.4230769231,
           "years": 3.8275
         }
       },
@@ -1476,16 +1477,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.0372072647,
-          "validation_return": 0.4500385003
+          "holdout_return": -0.0075989087,
+          "validation_return": 0.3814081449
         },
         "30": {
-          "holdout_return": -0.0906685942,
-          "validation_return": 0.3409981135
+          "holdout_return": -0.0627043118,
+          "validation_return": 0.2775286421
         },
         "60": {
-          "holdout_return": -0.1890598894,
-          "validation_return": 0.1464943619
+          "holdout_return": -0.1641213928,
+          "validation_return": 0.0922307575
         }
       }
     }
@@ -1505,28 +1506,28 @@
   "currency": "INR",
   "currency_symbol": "\u20b9",
   "current": {
-    "atr14": 19.8143,
-    "close": 1247.4,
-    "median_notional_turnover20": 12675801440.72,
-    "realized_vol20": 0.182734,
-    "regime": "DOWNTREND / LOW VOL",
-    "session": "2026-09-21",
-    "sma200": 1369.3485,
-    "sma50": 1294.406,
+    "atr14": 18.7929,
+    "close": 1197.6,
+    "median_notional_turnover20": 13311789405.12,
+    "realized_vol20": 0.203169,
+    "regime": "DOWNTREND / HIGH VOL",
+    "session": "2026-09-28",
+    "sma200": 1361.7071,
+    "sma50": 1286.322,
     "trend": "DOWNTREND",
-    "volatility": "LOW VOL"
+    "volatility": "HIGH VOL"
   },
   "data": {
     "adjustment_policy": "Adjusted daily OHLCV",
     "base_cost_bps_per_side": 15.0,
-    "end": "2026-09-21",
-    "fetched_at": "2026-09-21T12:55:40+00:00",
+    "end": "2026-09-28",
+    "fetched_at": "2026-09-28T14:04:39+00:00",
     "minimum_notional_turnover": 1000000000.0,
     "notional_turnover_currency": "INR",
     "sessions": 3780,
-    "sha256": "596443840cc349f0e57eb5f6c55107988ba0622a92cceb2f3f57f996dc3d3a48",
+    "sha256": "3e93b41773150d97c08d12b87d041479dede897ae280cc045b575c72600c915e",
     "source": "Yahoo Finance via yfinance",
-    "start": "2011-05-31",
+    "start": "2011-06-07",
     "stress_costs_bps_per_side": [
       15.0,
       30.0,
@@ -1537,7 +1538,7 @@
   "display_ticker": "RELIANCE",
   "engine_version": "0.2.0",
   "exchange": "NSE/BSE",
-  "generated_at": "2026-09-21T12:55:58+00:00",
+  "generated_at": "2026-09-28T14:04:56+00:00",
   "limitations": [
     "Historical adjusted daily data; not an exchange-grade point-in-time feed.",
     "Current-constituent research can retain survivorship bias.",
@@ -1548,1516 +1549,1516 @@
   "market_label": "India",
   "price_history": [
     {
-      "close": 1458.7522,
-      "session": "2024-09-16",
-      "sma200": 1416.2371,
-      "sma50": 1491.5712
+      "close": 1480.5887,
+      "session": "2024-09-23",
+      "sma200": 1423.2695,
+      "sma50": 1481.001
     },
     {
-      "close": 1450.9199,
-      "session": "2024-09-18",
-      "sma200": 1418.9734,
-      "sma50": 1486.7531
+      "close": 1481.1587,
+      "session": "2024-09-25",
+      "sma200": 1426.2712,
+      "sma50": 1477.0388
     },
     {
-      "close": 1473.2025,
-      "session": "2024-09-20",
-      "sma200": 1421.7968,
-      "sma50": 1482.6255
+      "close": 1513.1079,
+      "session": "2024-09-27",
+      "sma200": 1429.2622,
+      "sma50": 1474.4987
     },
     {
-      "close": 1476.6229,
-      "session": "2024-09-24",
-      "sma200": 1424.7798,
-      "sma50": 1478.9795
+      "close": 1452.2831,
+      "session": "2024-10-01",
+      "sma200": 1431.6944,
+      "sma50": 1472.4347
     },
     {
-      "close": 1485.1245,
-      "session": "2024-09-26",
-      "sma200": 1427.7184,
-      "sma50": 1475.5919
+      "close": 1374.6536,
+      "session": "2024-10-04",
+      "sma200": 1433.401,
+      "sma50": 1468.8654
     },
     {
-      "close": 1463.9325,
-      "session": "2024-09-30",
-      "sma200": 1430.5024,
-      "sma50": 1473.0449
+      "close": 1385.3857,
+      "session": "2024-10-08",
+      "sma200": 1435.1225,
+      "sma50": 1464.4397
     },
     {
-      "close": 1394.9285,
-      "session": "2024-10-03",
-      "sma200": 1432.6028,
-      "sma50": 1470.9299
+      "close": 1359.311,
+      "session": "2024-10-10",
+      "sma200": 1436.4816,
+      "sma50": 1458.9404
     },
     {
-      "close": 1358.9889,
-      "session": "2024-10-07",
-      "sma200": 1434.208,
-      "sma50": 1466.5528
+      "close": 1360.7734,
+      "session": "2024-10-14",
+      "sma200": 1437.5408,
+      "sma50": 1453.6683
     },
     {
-      "close": 1362.8307,
-      "session": "2024-10-09",
-      "sma200": 1435.8497,
-      "sma50": 1461.6565
+      "close": 1342.4814,
+      "session": "2024-10-16",
+      "sma200": 1438.3432,
+      "sma50": 1448.9375
     },
     {
-      "close": 1360.3521,
-      "session": "2024-10-11",
-      "sma200": 1437.056,
-      "sma50": 1456.3977
+      "close": 1347.6616,
+      "session": "2024-10-18",
+      "sma200": 1439.101,
+      "sma50": 1445.0655
     },
     {
-      "close": 1332.5175,
-      "session": "2024-10-15",
-      "sma200": 1437.9608,
-      "sma50": 1450.6894
+      "close": 1331.8481,
+      "session": "2024-10-22",
+      "sma200": 1439.7213,
+      "sma50": 1441.0802
     },
     {
-      "close": 1344.8113,
-      "session": "2024-10-17",
-      "sma200": 1438.731,
-      "sma50": 1447.0597
+      "close": 1328.3287,
+      "session": "2024-10-24",
+      "sma200": 1440.2144,
+      "sma50": 1436.3999
     },
     {
-      "close": 1357.4768,
-      "session": "2024-10-21",
-      "sma200": 1439.4983,
-      "sma50": 1443.5779
+      "close": 1322.9252,
+      "session": "2024-10-28",
+      "sma200": 1440.5787,
+      "sma50": 1431.0877
     },
     {
-      "close": 1327.0646,
-      "session": "2024-10-23",
-      "sma200": 1439.9712,
-      "sma50": 1438.757
+      "close": 1332.3936,
+      "session": "2024-10-30",
+      "sma200": 1441.0275,
+      "sma50": 1425.1301
     },
     {
-      "close": 1316.4808,
-      "session": "2024-10-25",
-      "sma200": 1440.3454,
-      "sma50": 1433.8409
+      "close": 1327.1885,
+      "session": "2024-11-01",
+      "sma200": 1441.5009,
+      "sma50": 1418.664
     },
     {
-      "close": 1328.5269,
-      "session": "2024-10-29",
-      "sma200": 1440.8071,
-      "sma50": 1428.1451
+      "close": 1294.124,
+      "session": "2024-11-05",
+      "sma200": 1441.1618,
+      "sma50": 1410.6309
     },
     {
-      "close": 1320.645,
-      "session": "2024-10-31",
-      "sma200": 1441.2394,
-      "sma50": 1421.8262
+      "close": 1294.4711,
+      "session": "2024-11-07",
+      "sma200": 1440.5446,
+      "sma50": 1403.3388
     },
     {
-      "close": 1291.001,
-      "session": "2024-11-04",
-      "sma200": 1441.4096,
-      "sma50": 1414.7413
+      "close": 1261.803,
+      "session": "2024-11-11",
+      "sma200": 1439.6994,
+      "sma50": 1393.938
     },
     {
-      "close": 1314.0022,
-      "session": "2024-11-06",
-      "sma200": 1440.9598,
-      "sma50": 1407.1588
+      "close": 1241.33,
+      "session": "2024-11-13",
+      "sma200": 1438.7088,
+      "sma50": 1384.042
     },
     {
-      "close": 1272.7585,
-      "session": "2024-11-08",
-      "sma200": 1440.1172,
-      "sma50": 1398.6359
+      "close": 1249.9554,
+      "session": "2024-11-18",
+      "sma200": 1438.0392,
+      "sma50": 1374.5405
     },
     {
-      "close": 1263.3398,
-      "session": "2024-11-12",
-      "sma200": 1439.2579,
-      "sma50": 1389.1394
+      "close": 1212.5287,
+      "session": "2024-11-21",
+      "sma200": 1436.4182,
+      "sma50": 1365.3672
     },
     {
-      "close": 1256.7468,
-      "session": "2024-11-14",
-      "sma200": 1438.4288,
-      "sma50": 1379.1452
+      "close": 1275.9806,
+      "session": "2024-11-25",
+      "sma200": 1435.0686,
+      "sma50": 1358.2165
     },
     {
-      "close": 1231.0189,
-      "session": "2024-11-19",
-      "sma200": 1437.5096,
-      "sma50": 1370.1152
+      "close": 1282.1276,
+      "session": "2024-11-27",
+      "sma200": 1433.6523,
+      "sma50": 1351.0082
     },
     {
-      "close": 1254.5657,
-      "session": "2024-11-22",
-      "sma200": 1435.7368,
-      "sma50": 1361.4783
+      "close": 1281.1361,
+      "session": "2024-11-29",
+      "sma200": 1432.1943,
+      "sma50": 1343.4604
     },
     {
-      "close": 1284.6061,
-      "session": "2024-11-26",
-      "sma200": 1434.4434,
-      "sma50": 1354.566
+      "close": 1311.9698,
+      "session": "2024-12-03",
+      "sma200": 1430.9548,
+      "sma50": 1337.4984
     },
     {
-      "close": 1259.9194,
-      "session": "2024-11-28",
-      "sma200": 1432.8426,
-      "sma50": 1347.0316
+      "close": 1310.7306,
+      "session": "2024-12-05",
+      "sma200": 1429.6052,
+      "sma50": 1330.5921
     },
     {
-      "close": 1297.941,
-      "session": "2024-12-02",
-      "sma200": 1431.5592,
-      "sma50": 1340.4008
+      "close": 1284.0609,
+      "session": "2024-12-09",
+      "sma200": 1427.9703,
+      "sma50": 1323.124
     },
     {
-      "close": 1297.7427,
-      "session": "2024-12-04",
-      "sma200": 1430.2268,
-      "sma50": 1333.9892
+      "close": 1267.256,
+      "session": "2024-12-11",
+      "sma200": 1426.1946,
+      "sma50": 1313.9815
     },
     {
-      "close": 1300.3206,
-      "session": "2024-12-06",
-      "sma200": 1428.8686,
-      "sma50": 1327.066
+      "close": 1261.9519,
+      "session": "2024-12-13",
+      "sma200": 1424.2151,
+      "sma50": 1305.938
     },
     {
-      "close": 1273.849,
-      "session": "2024-12-10",
-      "sma200": 1427.0742,
-      "sma50": 1318.8985
+      "close": 1234.6377,
+      "session": "2024-12-17",
+      "sma200": 1422.104,
+      "sma50": 1300.3879
     },
     {
-      "close": 1252.087,
-      "session": "2024-12-12",
-      "sma200": 1425.1728,
-      "sma50": 1309.7446
+      "close": 1219.9148,
+      "session": "2024-12-19",
+      "sma200": 1419.689,
+      "sma50": 1294.7491
     },
     {
-      "close": 1257.4408,
-      "session": "2024-12-16",
-      "sma200": 1423.2512,
-      "sma50": 1303.1882
-    },
-    {
-      "close": 1242.5197,
-      "session": "2024-12-18",
-      "sma200": 1420.9374,
-      "sma50": 1298.0585
-    },
-    {
-      "close": 1194.9803,
-      "session": "2024-12-20",
-      "sma200": 1418.3242,
-      "sma50": 1291.3921
-    },
-    {
-      "close": 1212.2809,
-      "session": "2024-12-24",
-      "sma200": 1416.0364,
-      "sma50": 1285.4811
-    },
-    {
-      "close": 1210.5955,
-      "session": "2024-12-27",
-      "sma200": 1413.3011,
-      "sma50": 1279.9499
-    },
-    {
-      "close": 1205.0432,
-      "session": "2024-12-31",
-      "sma200": 1410.4909,
-      "sma50": 1274.3116
-    },
-    {
-      "close": 1231.1677,
-      "session": "2025-01-02",
-      "sma200": 1408.1486,
-      "sma50": 1269.048
-    },
-    {
-      "close": 1207.5715,
-      "session": "2025-01-06",
-      "sma200": 1406.0238,
-      "sma50": 1264.83
-    },
-    {
-      "close": 1254.6648,
-      "session": "2025-01-08",
-      "sma200": 1404.3696,
-      "sma50": 1261.6316
-    },
-    {
-      "close": 1231.2668,
-      "session": "2025-01-10",
-      "sma200": 1402.593,
-      "sma50": 1258.108
-    },
-    {
-      "close": 1228.1438,
-      "session": "2025-01-14",
-      "sma200": 1400.5787,
-      "sma50": 1254.1948
-    },
-    {
-      "close": 1255.6066,
-      "session": "2025-01-16",
-      "sma200": 1398.7537,
-      "sma50": 1251.7727
-    },
-    {
-      "close": 1294.2727,
-      "session": "2025-01-20",
-      "sma200": 1396.965,
-      "sma50": 1251.3196
-    },
-    {
-      "close": 1266.1655,
-      "session": "2025-01-22",
-      "sma200": 1394.9283,
-      "sma50": 1250.5543
-    },
-    {
-      "close": 1235.6293,
-      "session": "2025-01-24",
-      "sma200": 1392.8728,
-      "sma50": 1249.8206
-    },
-    {
-      "close": 1223.8311,
-      "session": "2025-01-28",
-      "sma200": 1390.5312,
-      "sma50": 1248.7122
-    },
-    {
-      "close": 1242.3214,
-      "session": "2025-01-30",
-      "sma200": 1388.3266,
-      "sma50": 1248.4375
-    },
-    {
-      "close": 1253.7725,
-      "session": "2025-02-01",
-      "sma200": 1386.3816,
-      "sma50": 1249.2565
-    },
-    {
-      "close": 1274.196,
-      "session": "2025-02-04",
-      "sma200": 1384.453,
-      "sma50": 1248.2333
-    },
-    {
-      "close": 1270.5774,
-      "session": "2025-02-06",
-      "sma200": 1382.568,
-      "sma50": 1248.149
-    },
-    {
-      "close": 1242.9163,
-      "session": "2025-02-10",
-      "sma200": 1380.6877,
-      "sma50": 1246.5429
+      "close": 1211.8347,
+      "session": "2024-12-23",
+      "sma200": 1417.1919,
+      "sma50": 1288.4426
     },
     {
       "close": 1206.1339,
-      "session": "2025-02-12",
-      "sma200": 1378.4507,
-      "sma50": 1242.9569
+      "session": "2024-12-26",
+      "sma200": 1414.6953,
+      "sma50": 1282.3883
     },
     {
-      "close": 1206.8279,
-      "session": "2025-02-14",
-      "sma200": 1376.0278,
-      "sma50": 1238.9862
+      "close": 1200.334,
+      "session": "2024-12-30",
+      "sma200": 1411.8911,
+      "sma50": 1277.107
     },
     {
-      "close": 1214.9082,
-      "session": "2025-02-18",
-      "sma200": 1373.8445,
-      "sma50": 1236.4144
+      "close": 1210.7936,
+      "session": "2025-01-01",
+      "sma200": 1409.2384,
+      "sma50": 1271.5742
     },
     {
-      "close": 1222.443,
-      "session": "2025-02-20",
-      "sma200": 1372.1045,
-      "sma50": 1234.8152
+      "close": 1240.4377,
+      "session": "2025-01-03",
+      "sma200": 1407.0615,
+      "sma50": 1267.2198
     },
     {
-      "close": 1204.1511,
-      "session": "2025-02-24",
-      "sma200": 1370.3176,
-      "sma50": 1232.8631
+      "close": 1230.2257,
+      "session": "2025-01-07",
+      "sma200": 1405.1029,
+      "sma50": 1262.8679
     },
     {
-      "close": 1196.7648,
-      "session": "2025-02-27",
-      "sma200": 1368.3867,
-      "sma50": 1231.129
+      "close": 1244.0067,
+      "session": "2025-01-09",
+      "sma200": 1403.478,
+      "sma50": 1260.0532
     },
     {
-      "close": 1161.2217,
-      "session": "2025-03-03",
-      "sma200": 1366.1291,
-      "sma50": 1229.8521
+      "close": 1229.2344,
+      "session": "2025-01-13",
+      "sma200": 1401.6064,
+      "sma50": 1256.0448
     },
     {
-      "close": 1165.5344,
-      "session": "2025-03-05",
-      "sma200": 1363.5818,
-      "sma50": 1227.7195
+      "close": 1241.4785,
+      "session": "2025-01-15",
+      "sma200": 1399.5977,
+      "sma50": 1252.4806
     },
     {
-      "close": 1239.0992,
-      "session": "2025-03-07",
-      "sma200": 1361.4622,
-      "sma50": 1228.1517
+      "close": 1291.1992,
+      "session": "2025-01-17",
+      "sma200": 1397.8344,
+      "sma50": 1251.7142
     },
     {
-      "close": 1236.6206,
-      "session": "2025-03-11",
-      "sma200": 1359.1295,
-      "sma50": 1229.3325
+      "close": 1262.7946,
+      "session": "2025-01-21",
+      "sma200": 1395.9436,
+      "sma50": 1250.6861
     },
     {
-      "close": 1237.2155,
-      "session": "2025-03-13",
-      "sma200": 1357.1089,
-      "sma50": 1230.1634
+      "close": 1252.8306,
+      "session": "2025-01-23",
+      "sma200": 1393.9221,
+      "sma50": 1250.3748
     },
     {
-      "close": 1228.2429,
-      "session": "2025-03-18",
-      "sma200": 1355.2339,
-      "sma50": 1230.3329
+      "close": 1218.8242,
+      "session": "2025-01-27",
+      "sma200": 1391.7534,
+      "sma50": 1249.3705
     },
     {
-      "close": 1258.2834,
-      "session": "2025-03-20",
-      "sma200": 1353.1793,
-      "sma50": 1230.5302
+      "close": 1224.9216,
+      "session": "2025-01-29",
+      "sma200": 1389.4248,
+      "sma50": 1248.2115
     },
     {
-      "close": 1290.9514,
-      "session": "2025-03-24",
-      "sma200": 1352.0389,
-      "sma50": 1232.1522
+      "close": 1254.2682,
+      "session": "2025-01-31",
+      "sma200": 1387.3496,
+      "sma50": 1249.2723
     },
     {
-      "close": 1262.1501,
-      "session": "2025-03-26",
-      "sma200": 1350.387,
-      "sma50": 1233.7365
+      "close": 1235.2327,
+      "session": "2025-02-03",
+      "sma200": 1385.3164,
+      "sma50": 1248.4415
     },
     {
-      "close": 1264.1825,
-      "session": "2025-03-28",
-      "sma200": 1348.5782,
-      "sma50": 1234.4236
+      "close": 1267.256,
+      "session": "2025-02-05",
+      "sma200": 1383.5262,
+      "sma50": 1247.9359
     },
     {
-      "close": 1240.4376,
-      "session": "2025-04-02",
-      "sma200": 1346.5214,
-      "sma50": 1232.3604
+      "close": 1255.8545,
+      "session": "2025-02-07",
+      "sma200": 1381.6376,
+      "sma50": 1247.6434
     },
     {
-      "close": 1194.3853,
-      "session": "2025-04-04",
-      "sma200": 1344.0668,
-      "sma50": 1230.4291
+      "close": 1224.2772,
+      "session": "2025-02-11",
+      "sma200": 1379.5962,
+      "sma50": 1244.7891
     },
     {
-      "close": 1172.078,
-      "session": "2025-04-08",
-      "sma200": 1341.2187,
-      "sma50": 1227.2158
+      "close": 1205.6877,
+      "session": "2025-02-13",
+      "sma200": 1377.2413,
+      "sma50": 1240.856
     },
     {
-      "close": 1208.5133,
-      "session": "2025-04-11",
-      "sma200": 1338.8314,
-      "sma50": 1226.037
+      "close": 1214.4124,
+      "session": "2025-02-17",
+      "sma200": 1374.8545,
+      "sma50": 1237.5932
     },
     {
-      "close": 1228.6892,
-      "session": "2025-04-16",
-      "sma200": 1336.4582,
-      "sma50": 1225.8556
+      "close": 1216.9406,
+      "session": "2025-02-19",
+      "sma200": 1372.9161,
+      "sma50": 1235.4081
     },
     {
-      "close": 1284.408,
-      "session": "2025-04-21",
-      "sma200": 1333.9029,
-      "sma50": 1226.6547
+      "close": 1217.6345,
+      "session": "2025-02-21",
+      "sma200": 1371.1844,
+      "sma50": 1233.9288
     },
     {
-      "close": 1288.8694,
-      "session": "2025-04-23",
-      "sma200": 1331.3076,
-      "sma50": 1227.8464
+      "close": 1193.6913,
+      "session": "2025-02-25",
+      "sma200": 1369.3328,
+      "sma50": 1232.0441
     },
     {
-      "close": 1289.266,
-      "session": "2025-04-25",
-      "sma200": 1328.859,
-      "sma50": 1228.6841
+      "close": 1189.8247,
+      "session": "2025-02-28",
+      "sma200": 1367.32,
+      "sma50": 1230.5272
     },
     {
-      "close": 1387.7157,
-      "session": "2025-04-29",
-      "sma200": 1326.8254,
-      "sma50": 1233.6046
+      "close": 1151.9518,
+      "session": "2025-03-04",
+      "sma200": 1364.8471,
+      "sma50": 1228.6544
     },
     {
-      "close": 1407.6437,
-      "session": "2025-05-02",
-      "sma200": 1325.1451,
-      "sma50": 1241.0087
+      "close": 1199.2434,
+      "session": "2025-03-06",
+      "sma200": 1362.4829,
+      "sma50": 1227.5817
     },
     {
-      "close": 1408.7343,
-      "session": "2025-05-06",
-      "sma200": 1323.5864,
-      "sma50": 1249.314
+      "close": 1227.7968,
+      "session": "2025-03-10",
+      "sma200": 1360.2595,
+      "sma50": 1228.701
     },
     {
-      "close": 1394.9532,
-      "session": "2025-05-08",
-      "sma200": 1321.8527,
-      "sma50": 1256.5059
+      "close": 1246.2871,
+      "session": "2025-03-12",
+      "sma200": 1358.117,
+      "sma50": 1230.0424
     },
     {
-      "close": 1424.2007,
-      "session": "2025-05-12",
-      "sma200": 1320.2788,
-      "sma50": 1263.5104
+      "close": 1228.2428,
+      "session": "2025-03-17",
+      "sma200": 1356.1321,
+      "sma50": 1229.9195
     },
     {
-      "close": 1412.2042,
-      "session": "2025-05-14",
-      "sma200": 1319.5929,
-      "sma50": 1271.3903
+      "close": 1236.4719,
+      "session": "2025-03-19",
+      "sma200": 1354.3495,
+      "sma50": 1230.4578
     },
     {
-      "close": 1443.9303,
-      "session": "2025-05-16",
-      "sma200": 1319.2588,
-      "sma50": 1281.2948
+      "close": 1265.4218,
+      "session": "2025-03-21",
+      "sma200": 1352.6032,
+      "sma50": 1230.9585
     },
     {
-      "close": 1412.4026,
-      "session": "2025-05-20",
-      "sma200": 1318.498,
-      "sma50": 1291.0912
+      "close": 1274.444,
+      "session": "2025-03-25",
+      "sma200": 1351.3384,
+      "sma50": 1233.0564
     },
     {
-      "close": 1397.3328,
-      "session": "2025-05-22",
-      "sma200": 1317.6564,
-      "sma50": 1301.0274
+      "close": 1267.256,
+      "session": "2025-03-27",
+      "sma200": 1349.4539,
+      "sma50": 1234.252
     },
     {
-      "close": 1422.5153,
-      "session": "2025-05-26",
-      "sma200": 1316.9484,
-      "sma50": 1309.0025
+      "close": 1241.8751,
+      "session": "2025-04-01",
+      "sma200": 1347.5582,
+      "sma50": 1233.4371
     },
     {
-      "close": 1400.8027,
-      "session": "2025-05-28",
-      "sma200": 1316.6581,
-      "sma50": 1315.9287
+      "close": 1238.0087,
+      "session": "2025-04-03",
+      "sma200": 1345.4117,
+      "sma50": 1231.8647
     },
     {
-      "close": 1408.7343,
-      "session": "2025-05-30",
-      "sma200": 1316.334,
-      "sma50": 1322.5466
+      "close": 1155.7191,
+      "session": "2025-04-07",
+      "sma200": 1342.639,
+      "sma50": 1228.4868
     },
     {
-      "close": 1393.4662,
-      "session": "2025-06-03",
-      "sma200": 1315.8095,
-      "sma50": 1329.3181
+      "close": 1175.201,
+      "session": "2025-04-09",
+      "sma200": 1339.9104,
+      "sma50": 1226.3433
     },
     {
-      "close": 1430.0502,
-      "session": "2025-06-05",
-      "sma200": 1315.5632,
-      "sma50": 1336.2502
+      "close": 1229.4823,
+      "session": "2025-04-15",
+      "sma200": 1337.7947,
+      "sma50": 1226.1282
     },
     {
-      "close": 1436.3954,
-      "session": "2025-06-09",
-      "sma200": 1315.2197,
-      "sma50": 1342.4735
+      "close": 1263.5878,
+      "session": "2025-04-17",
+      "sma200": 1335.2146,
+      "sma50": 1226.0419
     },
     {
-      "close": 1436.4945,
-      "session": "2025-06-11",
-      "sma200": 1314.6882,
-      "sma50": 1348.9951
+      "close": 1280.1448,
+      "session": "2025-04-22",
+      "sma200": 1332.5958,
+      "sma50": 1227.5529
     },
     {
-      "close": 1415.6743,
-      "session": "2025-06-13",
-      "sma200": 1314.0507,
-      "sma50": 1355.265
+      "close": 1290.4557,
+      "session": "2025-04-24",
+      "sma200": 1330.0902,
+      "sma50": 1228.3104
     },
     {
-      "close": 1418.946,
-      "session": "2025-06-17",
-      "sma200": 1313.3366,
-      "sma50": 1362.5075
+      "close": 1357.0804,
+      "session": "2025-04-28",
+      "sma200": 1327.7959,
+      "sma50": 1230.7086
     },
     {
-      "close": 1421.0282,
-      "session": "2025-06-19",
-      "sma200": 1312.5641,
-      "sma50": 1370.6373
+      "close": 1392.9703,
+      "session": "2025-04-30",
+      "sma200": 1325.9336,
+      "sma50": 1236.9785
     },
     {
-      "close": 1444.3269,
-      "session": "2025-06-23",
-      "sma200": 1312.0542,
-      "sma50": 1382.0408
+      "close": 1419.0453,
+      "session": "2025-05-05",
+      "sma200": 1324.4312,
+      "sma50": 1245.2758
     },
     {
-      "close": 1454.7371,
-      "session": "2025-06-25",
-      "sma200": 1311.5308,
-      "sma50": 1392.2288
+      "close": 1393.9618,
+      "session": "2025-05-07",
+      "sma200": 1322.6652,
+      "sma50": 1252.905
     },
     {
-      "close": 1502.4252,
-      "session": "2025-06-27",
-      "sma200": 1311.793,
-      "sma50": 1402.7638
+      "close": 1365.4083,
+      "session": "2025-05-09",
+      "sma200": 1320.8409,
+      "sma50": 1259.4752
     },
     {
-      "close": 1515.3138,
-      "session": "2025-07-01",
-      "sma200": 1312.3137,
-      "sma50": 1411.8652
+      "close": 1403.5786,
+      "session": "2025-05-13",
+      "sma200": 1319.8827,
+      "sma50": 1267.2293
     },
     {
-      "close": 1504.8047,
-      "session": "2025-07-03",
-      "sma200": 1312.8357,
-      "sma50": 1420.697
+      "close": 1441.7491,
+      "session": "2025-05-15",
+      "sma200": 1319.4122,
+      "sma50": 1276.3515
     },
     {
-      "close": 1528.3016,
-      "session": "2025-07-07",
-      "sma200": 1313.4544,
-      "sma50": 1429.953
+      "close": 1428.4639,
+      "session": "2025-05-19",
+      "sma200": 1318.9459,
+      "sma50": 1286.0676
     },
     {
-      "close": 1505.9943,
-      "session": "2025-07-09",
-      "sma200": 1314.0535,
-      "sma50": 1435.6657
+      "close": 1416.963,
+      "session": "2025-05-21",
+      "sma200": 1318.1072,
+      "sma50": 1296.3914
     },
     {
-      "close": 1482.3981,
-      "session": "2025-07-11",
-      "sma200": 1314.3351,
-      "sma50": 1439.3856
+      "close": 1414.5839,
+      "session": "2025-05-23",
+      "sma200": 1317.2431,
+      "sma50": 1305.3342
     },
     {
-      "close": 1472.682,
-      "session": "2025-07-15",
-      "sma200": 1314.2674,
-      "sma50": 1441.7035
+      "close": 1409.924,
+      "session": "2025-05-27",
+      "sma200": 1316.8476,
+      "sma50": 1312.645
     },
     {
-      "close": 1463.7592,
-      "session": "2025-07-17",
-      "sma200": 1314.1192,
-      "sma50": 1444.658
+      "close": 1405.6609,
+      "session": "2025-05-29",
+      "sma200": 1316.4496,
+      "sma50": 1319.1162
     },
     {
-      "close": 1416.3683,
-      "session": "2025-07-21",
-      "sma200": 1313.6327,
-      "sma50": 1446.4605
+      "close": 1401.5958,
+      "session": "2025-06-02",
+      "sma200": 1316.0583,
+      "sma50": 1326.0136
     },
     {
-      "close": 1412.4026,
-      "session": "2025-07-23",
-      "sma200": 1313.4621,
-      "sma50": 1446.4069
+      "close": 1411.3119,
+      "session": "2025-06-04",
+      "sma200": 1315.6351,
+      "sma50": 1332.8149
+    },
+    {
+      "close": 1431.1406,
+      "session": "2025-06-06",
+      "sma200": 1315.416,
+      "sma50": 1339.5646
+    },
+    {
+      "close": 1426.1835,
+      "session": "2025-06-10",
+      "sma200": 1314.9349,
+      "sma50": 1345.5082
+    },
+    {
+      "close": 1429.257,
+      "session": "2025-06-12",
+      "sma200": 1314.408,
+      "sma50": 1352.2352
+    },
+    {
+      "close": 1425.4895,
+      "session": "2025-06-16",
+      "sma200": 1313.6799,
+      "sma50": 1358.9373
+    },
+    {
+      "close": 1417.8555,
+      "session": "2025-06-18",
+      "sma200": 1312.9985,
+      "sma50": 1366.1044
+    },
+    {
+      "close": 1453.6464,
+      "session": "2025-06-20",
+      "sma200": 1312.3489,
+      "sma50": 1376.5958
+    },
+    {
+      "close": 1438.3782,
+      "session": "2025-06-24",
+      "sma200": 1311.765,
+      "sma50": 1387.3043
+    },
+    {
+      "close": 1482.4972,
+      "session": "2025-06-26",
+      "sma200": 1311.5423,
+      "sma50": 1397.2891
+    },
+    {
+      "close": 1487.7518,
+      "session": "2025-06-30",
+      "sma200": 1311.9821,
+      "sma50": 1407.2471
+    },
+    {
+      "close": 1505.7961,
+      "session": "2025-07-02",
+      "sma200": 1312.6473,
+      "sma50": 1416.3782
+    },
+    {
+      "close": 1514.2234,
+      "session": "2025-07-04",
+      "sma200": 1313.1067,
+      "sma50": 1425.1723
+    },
+    {
+      "close": 1524.4351,
+      "session": "2025-07-08",
+      "sma200": 1313.7781,
+      "sma50": 1433.3001
+    },
+    {
+      "close": 1504.2097,
+      "session": "2025-07-10",
+      "sma200": 1314.2891,
+      "sma50": 1437.8904
+    },
+    {
+      "close": 1470.9965,
+      "session": "2025-07-14",
+      "sma200": 1314.2871,
+      "sma50": 1440.4246
+    },
+    {
+      "close": 1472.8802,
+      "session": "2025-07-16",
+      "sma200": 1314.226,
+      "sma50": 1443.2819
+    },
+    {
+      "close": 1463.3624,
+      "session": "2025-07-18",
+      "sma200": 1313.8705,
+      "sma50": 1446.6171
+    },
+    {
+      "close": 1400.7036,
+      "session": "2025-07-22",
+      "sma200": 1313.3747,
+      "sma50": 1446.4029
+    },
+    {
+      "close": 1390.8883,
+      "session": "2025-07-24",
+      "sma200": 1313.5433,
+      "sma50": 1445.3897
+    },
+    {
+      "close": 1375.7194,
+      "session": "2025-07-28",
+      "sma200": 1313.5989,
+      "sma50": 1443.0519
+    },
+    {
+      "close": 1398.0267,
+      "session": "2025-07-30",
+      "sma200": 1314.0032,
+      "sma50": 1442.5244
+    },
+    {
+      "close": 1381.7671,
+      "session": "2025-08-01",
+      "sma200": 1314.1979,
+      "sma50": 1441.4874
     },
     {
       "close": 1379.7842,
-      "session": "2025-07-25",
-      "sma200": 1313.6473,
-      "sma50": 1444.1068
+      "session": "2025-08-05",
+      "sma200": 1314.7189,
+      "sma50": 1440.4226
     },
     {
-      "close": 1404.9667,
-      "session": "2025-07-29",
-      "sma200": 1313.8096,
-      "sma50": 1442.9032
+      "close": 1377.5039,
+      "session": "2025-08-07",
+      "sma200": 1315.0484,
+      "sma50": 1439.4609
     },
     {
-      "close": 1378.297,
-      "session": "2025-07-31",
-      "sma200": 1314.0929,
-      "sma50": 1442.1437
+      "close": 1374.3313,
+      "session": "2025-08-11",
+      "sma200": 1315.2539,
+      "sma50": 1437.8627
     },
     {
-      "close": 1399.4147,
-      "session": "2025-08-04",
-      "sma200": 1314.5324,
-      "sma50": 1441.0254
-    },
-    {
-      "close": 1380.8748,
-      "session": "2025-08-06",
-      "sma200": 1314.8992,
-      "sma50": 1440.024
-    },
-    {
-      "close": 1356.0889,
-      "session": "2025-08-08",
-      "sma200": 1315.0415,
-      "sma50": 1438.408
-    },
-    {
-      "close": 1368.5811,
-      "session": "2025-08-12",
-      "sma200": 1315.4615,
-      "sma50": 1437.365
-    },
-    {
-      "close": 1367.4774,
-      "session": "2025-08-14",
-      "sma200": 1315.9286,
-      "sma50": 1435.3025
-    },
-    {
-      "close": 1413.5642,
-      "session": "2025-08-19",
-      "sma200": 1316.6159,
-      "sma50": 1433.7299
-    },
-    {
-      "close": 1418.2427,
-      "session": "2025-08-21",
-      "sma200": 1317.4744,
-      "sma50": 1432.9711
-    },
-    {
-      "close": 1406.0988,
-      "session": "2025-08-25",
-      "sma200": 1318.4275,
-      "sma50": 1432.2488
-    },
-    {
-      "close": 1379.5217,
-      "session": "2025-08-28",
-      "sma200": 1319.1771,
-      "sma50": 1430.521
-    },
-    {
-      "close": 1347.6689,
-      "session": "2025-09-01",
-      "sma200": 1319.8341,
-      "sma50": 1427.7158
-    },
-    {
-      "close": 1366.2828,
-      "session": "2025-09-03",
-      "sma200": 1320.8409,
-      "sma50": 1424.2862
-    },
-    {
-      "close": 1368.6719,
-      "session": "2025-09-05",
-      "sma200": 1321.959,
-      "sma50": 1420.8582
-    },
-    {
-      "close": 1369.8662,
-      "session": "2025-09-09",
-      "sma200": 1323.2643,
-      "sma50": 1416.0002
-    },
-    {
-      "close": 1376.9337,
-      "session": "2025-09-11",
-      "sma200": 1324.6668,
-      "sma50": 1410.8908
-    },
-    {
-      "close": 1392.86,
-      "session": "2025-09-15",
-      "sma200": 1325.7711,
-      "sma50": 1406.3076
-    },
-    {
-      "close": 1407.2933,
-      "session": "2025-09-17",
-      "sma200": 1327.0915,
-      "sma50": 1401.5796
-    },
-    {
-      "close": 1400.9227,
-      "session": "2025-09-19",
-      "sma200": 1328.2431,
-      "sma50": 1397.1593
-    },
-    {
-      "close": 1383.4038,
-      "session": "2025-09-23",
-      "sma200": 1329.0326,
-      "sma50": 1392.7792
-    },
-    {
-      "close": 1366.0839,
-      "session": "2025-09-25",
-      "sma200": 1329.6909,
-      "sma50": 1388.76
-    },
-    {
-      "close": 1366.4819,
-      "session": "2025-09-29",
-      "sma200": 1330.5901,
-      "sma50": 1384.782
-    },
-    {
-      "close": 1362.4008,
-      "session": "2025-10-01",
-      "sma200": 1331.594,
-      "sma50": 1381.5899
-    },
-    {
-      "close": 1368.6719,
-      "session": "2025-10-06",
-      "sma200": 1332.626,
-      "sma50": 1379.8437
-    },
-    {
-      "close": 1361.1068,
-      "session": "2025-10-08",
-      "sma200": 1333.9379,
-      "sma50": 1379.2209
+      "close": 1370.7621,
+      "session": "2025-08-13",
+      "sma200": 1315.6736,
+      "sma50": 1436.554
     },
     {
       "close": 1375.3409,
-      "session": "2025-10-10",
-      "sma200": 1335.5974,
-      "sma50": 1378.5432
+      "session": "2025-08-18",
+      "sma200": 1316.1907,
+      "sma50": 1434.1865
     },
     {
-      "close": 1369.5677,
-      "session": "2025-10-14",
-      "sma200": 1337.168,
-      "sma50": 1377.7815
+      "close": 1406.4969,
+      "session": "2025-08-20",
+      "sma200": 1316.9864,
+      "sma50": 1433.3362
     },
     {
-      "close": 1391.8646,
-      "session": "2025-10-16",
-      "sma200": 1338.8836,
-      "sma50": 1377.3547
+      "close": 1402.7144,
+      "session": "2025-08-22",
+      "sma200": 1317.852,
+      "sma50": 1432.4403
     },
     {
-      "close": 1460.0493,
-      "session": "2025-10-20",
-      "sma200": 1341.2083,
-      "sma50": 1379.5481
+      "close": 1378.5262,
+      "session": "2025-08-26",
+      "sma200": 1318.8495,
+      "sma50": 1431.3095
     },
     {
-      "close": 1441.734,
-      "session": "2025-10-23",
-      "sma200": 1343.4995,
-      "sma50": 1382.88
+      "close": 1350.9537,
+      "session": "2025-08-29",
+      "sma200": 1319.4595,
+      "sma50": 1429.183
     },
     {
-      "close": 1477.2697,
-      "session": "2025-10-27",
-      "sma200": 1345.8704,
-      "sma50": 1386.4656
+      "close": 1360.2109,
+      "session": "2025-09-02",
+      "sma200": 1320.3261,
+      "sma50": 1425.8471
     },
     {
-      "close": 1497.2771,
-      "session": "2025-10-29",
-      "sma200": 1348.3326,
-      "sma50": 1391.2475
+      "close": 1353.0441,
+      "session": "2025-09-04",
+      "sma200": 1321.3994,
+      "sma50": 1422.5795
     },
     {
-      "close": 1479.5592,
-      "session": "2025-10-31",
-      "sma200": 1350.7623,
-      "sma50": 1394.6935
+      "close": 1372.1558,
+      "session": "2025-09-08",
+      "sma200": 1322.57,
+      "sma50": 1418.6514
     },
     {
-      "close": 1466.3203,
-      "session": "2025-11-04",
-      "sma200": 1353.1963,
-      "sma50": 1397.0825
+      "close": 1370.6626,
+      "session": "2025-09-10",
+      "sma200": 1324.0549,
+      "sma50": 1413.6584
     },
     {
-      "close": 1471.1978,
-      "session": "2025-11-07",
-      "sma200": 1355.513,
-      "sma50": 1400.1145
+      "close": 1388.5798,
+      "session": "2025-09-12",
+      "sma200": 1325.2298,
+      "sma50": 1408.5465
     },
     {
-      "close": 1486.527,
-      "session": "2025-11-11",
-      "sma200": 1357.4305,
-      "sma50": 1404.333
+      "close": 1398.8324,
+      "session": "2025-09-16",
+      "sma200": 1326.3546,
+      "sma50": 1403.9998
     },
     {
-      "close": 1503.9464,
-      "session": "2025-11-13",
-      "sma200": 1359.8281,
-      "sma50": 1410.5303
+      "close": 1408.4877,
+      "session": "2025-09-18",
+      "sma200": 1327.7282,
+      "sma50": 1399.2607
     },
     {
-      "close": 1511.3124,
-      "session": "2025-11-17",
-      "sma200": 1362.5019,
-      "sma50": 1416.4649
+      "close": 1384.2,
+      "session": "2025-09-22",
+      "sma200": 1328.6043,
+      "sma50": 1394.7591
+    },
+    {
+      "close": 1376.635,
+      "session": "2025-09-24",
+      "sma200": 1329.3621,
+      "sma50": 1390.8919
+    },
+    {
+      "close": 1371.2599,
+      "session": "2025-09-26",
+      "sma200": 1330.1269,
+      "sma50": 1386.7276
+    },
+    {
+      "close": 1357.7224,
+      "session": "2025-09-30",
+      "sma200": 1331.0424,
+      "sma50": 1382.6692
+    },
+    {
+      "close": 1357.1252,
+      "session": "2025-10-03",
+      "sma200": 1332.0698,
+      "sma50": 1380.7183
+    },
+    {
+      "close": 1378.4268,
+      "session": "2025-10-07",
+      "sma200": 1333.3449,
+      "sma50": 1379.5945
+    },
+    {
+      "close": 1371.459,
+      "session": "2025-10-09",
+      "sma200": 1334.6956,
+      "sma50": 1379.1357
+    },
+    {
+      "close": 1368.6719,
+      "session": "2025-10-13",
+      "sma200": 1336.3816,
+      "sma50": 1377.9561
+    },
+    {
+      "close": 1367.9751,
+      "session": "2025-10-15",
+      "sma200": 1337.9772,
+      "sma50": 1377.5057
+    },
+    {
+      "close": 1410.2795,
+      "session": "2025-10-17",
+      "sma200": 1339.9333,
+      "sma50": 1377.9646
+    },
+    {
+      "close": 1458.4567,
+      "session": "2025-10-21",
+      "sma200": 1342.4466,
+      "sma50": 1381.1671
+    },
+    {
+      "close": 1444.9193,
+      "session": "2025-10-24",
+      "sma200": 1344.5219,
+      "sma50": 1384.2918
+    },
+    {
+      "close": 1480.0569,
+      "session": "2025-10-28",
+      "sma200": 1347.1195,
+      "sma50": 1388.6515
+    },
+    {
+      "close": 1481.6494,
+      "session": "2025-10-30",
+      "sma200": 1349.5208,
+      "sma50": 1393.3736
+    },
+    {
+      "close": 1477.8669,
+      "session": "2025-11-03",
+      "sma200": 1352.0054,
+      "sma50": 1396.1209
+    },
+    {
+      "close": 1489.2145,
+      "session": "2025-11-06",
+      "sma200": 1354.435,
+      "sma50": 1398.8125
+    },
+    {
+      "close": 1482.4458,
+      "session": "2025-11-10",
+      "sma200": 1356.4692,
+      "sma50": 1402.1928
+    },
+    {
+      "close": 1504.5436,
+      "session": "2025-11-12",
+      "sma200": 1358.6392,
+      "sma50": 1407.4047
     },
     {
       "close": 1511.9095,
-      "session": "2025-11-19",
-      "sma200": 1365.4102,
-      "sma50": 1422.5169
+      "session": "2025-11-14",
+      "sma200": 1361.1235,
+      "sma50": 1413.5643
     },
     {
-      "close": 1539.4821,
-      "session": "2025-11-21",
-      "sma200": 1368.4813,
-      "sma50": 1429.3055
+      "close": 1512.4072,
+      "session": "2025-11-18",
+      "sma200": 1363.9698,
+      "sma50": 1419.6521
     },
     {
-      "close": 1532.6138,
-      "session": "2025-11-25",
-      "sma200": 1371.2483,
-      "sma50": 1435.5825
+      "close": 1541.9706,
+      "session": "2025-11-20",
+      "sma200": 1366.9955,
+      "sma50": 1425.9132
     },
     {
-      "close": 1556.2047,
-      "session": "2025-11-27",
-      "sma200": 1374.2955,
-      "sma50": 1442.3313
+      "close": 1528.8313,
+      "session": "2025-11-24",
+      "sma200": 1369.8541,
+      "sma50": 1432.4689
     },
     {
-      "close": 1558.8923,
-      "session": "2025-12-01",
-      "sma200": 1377.2023,
-      "sma50": 1448.5923
+      "close": 1562.6748,
+      "session": "2025-11-26",
+      "sma200": 1372.8855,
+      "sma50": 1439.0644
     },
     {
-      "close": 1531.718,
-      "session": "2025-12-03",
-      "sma200": 1380.0629,
-      "sma50": 1453.8221
+      "close": 1560.2859,
+      "session": "2025-11-28",
+      "sma200": 1375.7607,
+      "sma50": 1445.5603
     },
     {
-      "close": 1533.5096,
-      "session": "2025-12-05",
-      "sma200": 1383.2211,
-      "sma50": 1459.7109
+      "close": 1539.1835,
+      "session": "2025-12-02",
+      "sma200": 1378.6189,
+      "sma50": 1451.2062
     },
     {
-      "close": 1522.3612,
-      "session": "2025-12-09",
-      "sma200": 1386.4498,
-      "sma50": 1466.0217
+      "close": 1528.5327,
+      "session": "2025-12-04",
+      "sma200": 1381.5842,
+      "sma50": 1456.7088
     },
     {
-      "close": 1537.8894,
-      "session": "2025-12-11",
-      "sma200": 1389.6418,
-      "sma50": 1472.6212
+      "close": 1535.8987,
+      "session": "2025-12-08",
+      "sma200": 1384.8721,
+      "sma50": 1462.8962
     },
     {
-      "close": 1549.0378,
-      "session": "2025-12-15",
-      "sma200": 1392.9367,
-      "sma50": 1480.1862
+      "close": 1529.8268,
+      "session": "2025-12-10",
+      "sma200": 1388.0269,
+      "sma50": 1469.1931
+    },
+    {
+      "close": 1549.3365,
+      "session": "2025-12-12",
+      "sma200": 1391.3038,
+      "sma50": 1476.4535
+    },
+    {
+      "close": 1535.2019,
+      "session": "2025-12-16",
+      "sma200": 1394.5246,
+      "sma50": 1483.7478
     },
     {
       "close": 1537.2922,
-      "session": "2025-12-17",
-      "sma200": 1396.1903,
-      "sma50": 1487.1202
+      "session": "2025-12-18",
+      "sma200": 1397.9083,
+      "sma50": 1490.2975
     },
     {
-      "close": 1557.8969,
-      "session": "2025-12-19",
-      "sma200": 1399.7139,
-      "sma50": 1494.2333
+      "close": 1568.1495,
+      "session": "2025-12-22",
+      "sma200": 1401.6056,
+      "sma50": 1498.1671
     },
     {
-      "close": 1563.4711,
-      "session": "2025-12-23",
-      "sma200": 1403.6168,
-      "sma50": 1501.9297
+      "close": 1551.0287,
+      "session": "2025-12-24",
+      "sma200": 1405.6122,
+      "sma50": 1505.5768
     },
     {
-      "close": 1552.024,
-      "session": "2025-12-26",
-      "sma200": 1407.5446,
-      "sma50": 1509.226
+      "close": 1538.4867,
+      "session": "2025-12-29",
+      "sma200": 1409.2409,
+      "sma50": 1512.6362
     },
     {
-      "close": 1532.7134,
-      "session": "2025-12-30",
-      "sma200": 1410.7089,
-      "sma50": 1515.4532
+      "close": 1563.1726,
+      "session": "2025-12-31",
+      "sma200": 1412.3858,
+      "sma50": 1518.511
     },
     {
-      "close": 1568.3485,
-      "session": "2026-01-01",
-      "sma200": 1414.0445,
-      "sma50": 1520.677
+      "close": 1584.9718,
+      "session": "2026-01-02",
+      "sma200": 1415.7379,
+      "sma50": 1523.2073
     },
     {
-      "close": 1570.837,
-      "session": "2026-01-05",
-      "sma200": 1417.406,
-      "sma50": 1525.7894
+      "close": 1500.6615,
+      "session": "2026-01-06",
+      "sma200": 1418.7681,
+      "sma50": 1526.9042
     },
     {
-      "close": 1497.2771,
-      "session": "2026-01-07",
-      "sma200": 1420.1132,
-      "sma50": 1527.3044
+      "close": 1463.8318,
+      "session": "2026-01-08",
+      "sma200": 1421.25,
+      "sma50": 1526.9799
     },
     {
-      "close": 1468.5103,
-      "session": "2026-01-09",
-      "sma200": 1422.3012,
-      "sma50": 1526.4045
-    },
-    {
-      "close": 1446.1138,
-      "session": "2026-01-13",
-      "sma200": 1424.1318,
-      "sma50": 1525.6301
+      "close": 1476.3738,
+      "session": "2026-01-12",
+      "sma200": 1423.3559,
+      "sma50": 1526.299
     },
     {
       "close": 1452.0862,
-      "session": "2026-01-15",
-      "sma200": 1425.9696,
-      "sma50": 1524.8298
+      "session": "2026-01-14",
+      "sma200": 1425.02,
+      "sma50": 1525.1145
     },
     {
-      "close": 1407.0941,
-      "session": "2026-01-19",
-      "sma200": 1427.6039,
-      "sma50": 1522.7873
+      "close": 1451.1903,
+      "session": "2026-01-16",
+      "sma200": 1426.8893,
+      "sma50": 1524.0693
     },
     {
-      "close": 1398.1356,
-      "session": "2026-01-21",
-      "sma200": 1429.1209,
-      "sma50": 1519.1222
+      "close": 1387.5844,
+      "session": "2026-01-20",
+      "sma200": 1428.3324,
+      "sma50": 1520.89
     },
     {
-      "close": 1379.7207,
-      "session": "2026-01-23",
-      "sma200": 1430.8378,
-      "sma50": 1514.4677
+      "close": 1396.0453,
+      "session": "2026-01-22",
+      "sma200": 1429.9111,
+      "sma50": 1516.9522
     },
     {
-      "close": 1390.2719,
-      "session": "2026-01-28",
-      "sma200": 1433.0209,
-      "sma50": 1509.2916
+      "close": 1374.1465,
+      "session": "2026-01-27",
+      "sma200": 1431.9299,
+      "sma50": 1511.7125
     },
     {
-      "close": 1388.9779,
-      "session": "2026-01-30",
-      "sma200": 1434.9702,
-      "sma50": 1504.2768
+      "close": 1384.5981,
+      "session": "2026-01-29",
+      "sma200": 1434.0679,
+      "sma50": 1506.7355
+    },
+    {
+      "close": 1384.001,
+      "session": "2026-02-02",
+      "sma200": 1435.7428,
+      "sma50": 1501.1174
+    },
+    {
+      "close": 1450.0955,
+      "session": "2026-02-04",
+      "sma200": 1437.6843,
+      "sma50": 1497.3628
+    },
+    {
+      "close": 1444.123,
+      "session": "2026-02-06",
+      "sma200": 1439.2659,
+      "sma50": 1493.0746
+    },
+    {
+      "close": 1451.7875,
+      "session": "2026-02-10",
+      "sma200": 1440.9026,
+      "sma50": 1488.878
+    },
+    {
+      "close": 1442.2317,
+      "session": "2026-02-12",
+      "sma200": 1442.1917,
+      "sma50": 1485.0
     },
     {
       "close": 1430.486,
-      "session": "2026-02-03",
-      "sma200": 1436.7518,
-      "sma50": 1498.9375
+      "session": "2026-02-16",
+      "sma200": 1442.5061,
+      "sma50": 1480.666
     },
     {
-      "close": 1436.7571,
-      "session": "2026-02-05",
-      "sma200": 1438.446,
-      "sma50": 1495.4457
+      "close": 1434.6667,
+      "session": "2026-02-18",
+      "sma200": 1442.6282,
+      "sma50": 1476.3002
     },
     {
-      "close": 1454.8733,
-      "session": "2026-02-09",
-      "sma200": 1440.096,
-      "sma50": 1491.048
+      "close": 1412.8676,
+      "session": "2026-02-20",
+      "sma200": 1442.6941,
+      "sma50": 1471.574
     },
     {
-      "close": 1461.9406,
-      "session": "2026-02-11",
-      "sma200": 1441.766,
-      "sma50": 1486.939
+      "close": 1422.2242,
+      "session": "2026-02-24",
+      "sma200": 1443.1106,
+      "sma50": 1466.7026
     },
     {
-      "close": 1413.0665,
-      "session": "2026-02-13",
-      "sma200": 1442.3185,
-      "sma50": 1482.6269
+      "close": 1400.3256,
+      "session": "2026-02-26",
+      "sma200": 1442.9336,
+      "sma50": 1460.8656
     },
     {
-      "close": 1416.4509,
-      "session": "2026-02-17",
-      "sma200": 1442.5501,
-      "sma50": 1478.3248
+      "close": 1351.75,
+      "session": "2026-03-02",
+      "sma200": 1442.36,
+      "sma50": 1454.1586
     },
     {
-      "close": 1403.0131,
-      "session": "2026-02-19",
-      "sma200": 1442.5996,
-      "sma50": 1473.9132
+      "close": 1383.0056,
+      "session": "2026-03-05",
+      "sma200": 1441.6072,
+      "sma50": 1446.0739
     },
     {
-      "close": 1421.4279,
-      "session": "2026-02-23",
-      "sma200": 1442.8265,
-      "sma50": 1469.2448
+      "close": 1417.4463,
+      "session": "2026-03-09",
+      "sma200": 1441.5392,
+      "sma50": 1440.0996
     },
     {
-      "close": 1392.0637,
-      "session": "2026-02-25",
-      "sma200": 1442.9499,
-      "sma50": 1463.5631
+      "close": 1383.8018,
+      "session": "2026-03-11",
+      "sma200": 1441.4102,
+      "sma50": 1434.0117
     },
     {
-      "close": 1387.4849,
-      "session": "2026-02-27",
-      "sma200": 1442.8101,
-      "sma50": 1457.8694
+      "close": 1374.3456,
+      "session": "2026-03-13",
+      "sma200": 1441.0487,
+      "sma50": 1427.2968
     },
     {
-      "close": 1338.8099,
-      "session": "2026-03-04",
-      "sma200": 1441.8345,
-      "sma50": 1449.7768
+      "close": 1391.1677,
+      "session": "2026-03-17",
+      "sma200": 1440.9157,
+      "sma50": 1419.8273
     },
     {
-      "close": 1398.3347,
-      "session": "2026-03-06",
-      "sma200": 1441.5368,
-      "sma50": 1442.7712
+      "close": 1378.4268,
+      "session": "2026-03-19",
+      "sma200": 1440.7642,
+      "sma50": 1413.9982
     },
     {
-      "close": 1402.3163,
-      "session": "2026-03-10",
-      "sma200": 1441.5642,
-      "sma50": 1437.1054
+      "close": 1401.3209,
+      "session": "2026-03-23",
+      "sma200": 1440.7864,
+      "sma50": 1410.9603
     },
     {
-      "close": 1385.7926,
-      "session": "2026-03-12",
-      "sma200": 1441.2266,
-      "sma50": 1431.0733
+      "close": 1406.5964,
+      "session": "2026-03-25",
+      "sma200": 1440.5399,
+      "sma50": 1408.3006
     },
     {
-      "close": 1388.6793,
-      "session": "2026-03-16",
-      "sma200": 1440.9881,
-      "sma50": 1423.7034
-    },
-    {
-      "close": 1401.6195,
-      "session": "2026-03-18",
-      "sma200": 1440.8801,
-      "sma50": 1416.4429
-    },
-    {
-      "close": 1407.8905,
-      "session": "2026-03-20",
-      "sma200": 1440.8364,
-      "sma50": 1412.2105
-    },
-    {
-      "close": 1405.3025,
-      "session": "2026-03-24",
-      "sma200": 1440.6627,
-      "sma50": 1409.6961
-    },
-    {
-      "close": 1341.8956,
-      "session": "2026-03-27",
-      "sma200": 1440.0674,
-      "sma50": 1406.2162
-    },
-    {
-      "close": 1362.8984,
-      "session": "2026-04-01",
-      "sma200": 1439.2571,
-      "sma50": 1402.1451
-    },
-    {
-      "close": 1298.6953,
-      "session": "2026-04-06",
-      "sma200": 1438.2474,
-      "sma50": 1397.839
-    },
-    {
-      "close": 1341.597,
-      "session": "2026-04-08",
-      "sma200": 1437.2262,
-      "sma50": 1394.9284
-    },
-    {
-      "close": 1343.986,
-      "session": "2026-04-10",
-      "sma200": 1436.3711,
-      "sma50": 1392.7704
-    },
-    {
-      "close": 1337.9141,
-      "session": "2026-04-15",
-      "sma200": 1435.116,
-      "sma50": 1390.4213
-    },
-    {
-      "close": 1358.7179,
-      "session": "2026-04-17",
-      "sma200": 1434.1296,
-      "sma50": 1388.8665
-    },
-    {
-      "close": 1347.0718,
-      "session": "2026-04-21",
-      "sma200": 1432.7255,
-      "sma50": 1386.6587
-    },
-    {
-      "close": 1337.2173,
-      "session": "2026-04-23",
-      "sma200": 1431.1754,
-      "sma50": 1382.7826
-    },
-    {
-      "close": 1359.5142,
-      "session": "2026-04-27",
-      "sma200": 1429.5284,
-      "sma50": 1378.4267
-    },
-    {
-      "close": 1418.8398,
-      "session": "2026-04-29",
-      "sma200": 1428.3225,
-      "sma50": 1376.1791
-    },
-    {
-      "close": 1424.2151,
-      "session": "2026-05-01",
-      "sma200": 1427.4125,
-      "sma50": 1376.0418
-    },
-    {
-      "close": 1456.864,
-      "session": "2026-05-05",
-      "sma200": 1427.0456,
-      "sma50": 1377.3676
-    },
-    {
-      "close": 1429.5901,
-      "session": "2026-05-07",
-      "sma200": 1426.6316,
-      "sma50": 1377.8315
-    },
-    {
-      "close": 1381.811,
-      "session": "2026-05-11",
-      "sma200": 1426.0004,
-      "sma50": 1377.3537
-    },
-    {
-      "close": 1352.5464,
-      "session": "2026-05-13",
-      "sma200": 1425.1531,
-      "sma50": 1375.2733
-    },
-    {
-      "close": 1330.2495,
-      "session": "2026-05-15",
-      "sma200": 1424.5165,
-      "sma50": 1373.2327
-    },
-    {
-      "close": 1316.6124,
-      "session": "2026-05-19",
-      "sma200": 1423.895,
-      "sma50": 1372.3488
-    },
-    {
-      "close": 1343.3887,
-      "session": "2026-05-21",
-      "sma200": 1423.4757,
-      "sma50": 1370.6586
-    },
-    {
-      "close": 1360.7086,
-      "session": "2026-05-25",
-      "sma200": 1423.1389,
-      "sma50": 1368.4429
+      "close": 1337.715,
+      "session": "2026-03-30",
+      "sma200": 1439.6251,
+      "sma50": 1403.9288
     },
     {
       "close": 1344.2845,
-      "session": "2026-05-27",
-      "sma200": 1422.7047,
-      "sma50": 1366.9378
+      "session": "2026-04-02",
+      "sma200": 1438.8323,
+      "sma50": 1400.0069
     },
     {
-      "close": 1315.1194,
-      "session": "2026-05-29",
-      "sma200": 1422.1985,
-      "sma50": 1364.8654
+      "close": 1298.5958,
+      "session": "2026-04-07",
+      "sma200": 1437.6129,
+      "sma50": 1396.0592
     },
     {
-      "close": 1308.5498,
-      "session": "2026-06-02",
-      "sma200": 1421.6429,
-      "sma50": 1361.4592
+      "close": 1323.8789,
+      "session": "2026-04-09",
+      "sma200": 1436.7563,
+      "sma50": 1393.4851
     },
     {
-      "close": 1297.7,
-      "session": "2026-06-04",
-      "sma200": 1420.9526,
-      "sma50": 1357.8299
+      "close": 1309.0475,
+      "session": "2026-04-13",
+      "sma200": 1435.6481,
+      "sma50": 1391.4684
     },
     {
-      "close": 1263.3,
-      "session": "2026-06-08",
-      "sma200": 1420.0329,
-      "sma50": 1352.7835
+      "close": 1337.1178,
+      "session": "2026-04-16",
+      "sma200": 1434.6097,
+      "sma50": 1389.4717
     },
     {
-      "close": 1258.8,
-      "session": "2026-06-10",
-      "sma200": 1418.7284,
-      "sma50": 1348.3736
+      "close": 1357.0258,
+      "session": "2026-04-20",
+      "sma200": 1433.5022,
+      "sma50": 1388.327
     },
     {
-      "close": 1293.0,
-      "session": "2026-06-12",
-      "sma200": 1417.3847,
-      "sma50": 1345.4814
+      "close": 1355.8312,
+      "session": "2026-04-22",
+      "sma200": 1432.0659,
+      "sma50": 1384.7734
     },
     {
-      "close": 1328.8,
-      "session": "2026-06-16",
-      "sma200": 1416.5196,
-      "sma50": 1345.3378
+      "close": 1321.6891,
+      "session": "2026-04-24",
+      "sma200": 1430.2549,
+      "sma50": 1380.3339
     },
     {
-      "close": 1328.1,
-      "session": "2026-06-18",
-      "sma200": 1416.0334,
-      "sma50": 1345.7499
+      "close": 1382.5078,
+      "session": "2026-04-28",
+      "sma200": 1428.8698,
+      "sma50": 1377.0411
     },
     {
-      "close": 1326.5,
-      "session": "2026-06-22",
-      "sma200": 1415.7203,
-      "sma50": 1345.1126
+      "close": 1424.2151,
+      "session": "2026-04-30",
+      "sma200": 1427.8214,
+      "sma50": 1375.8188
     },
     {
-      "close": 1313.6,
-      "session": "2026-06-24",
-      "sma200": 1415.2033,
-      "sma50": 1344.6354
+      "close": 1456.3663,
+      "session": "2026-05-04",
+      "sma200": 1427.1733,
+      "sma50": 1376.5594
+    },
+    {
+      "close": 1431.2823,
+      "session": "2026-05-06",
+      "sma200": 1426.8471,
+      "sma50": 1377.2999
+    },
+    {
+      "close": 1428.5947,
+      "session": "2026-05-08",
+      "sma200": 1426.4102,
+      "sma50": 1378.146
+    },
+    {
+      "close": 1357.7224,
+      "session": "2026-05-12",
+      "sma200": 1425.4722,
+      "sma50": 1376.0636
+    },
+    {
+      "close": 1355.5326,
+      "session": "2026-05-14",
+      "sma200": 1424.9273,
+      "sma50": 1374.3774
+    },
+    {
+      "close": 1329.7518,
+      "session": "2026-05-18",
+      "sma200": 1424.2108,
+      "sma50": 1372.7928
+    },
+    {
+      "close": 1353.4421,
+      "session": "2026-05-20",
+      "sma200": 1423.7836,
+      "sma50": 1371.7576
+    },
+    {
+      "close": 1348.2661,
+      "session": "2026-05-22",
+      "sma200": 1423.2269,
+      "sma50": 1369.275
+    },
+    {
+      "close": 1350.058,
+      "session": "2026-05-26",
+      "sma200": 1422.9804,
+      "sma50": 1367.768
+    },
+    {
+      "close": 1344.2845,
+      "session": "2026-05-28",
+      "sma200": 1422.5272,
+      "sma50": 1366.3366
+    },
+    {
+      "close": 1313.9249,
+      "session": "2026-06-01",
+      "sma200": 1421.8806,
+      "sma50": 1363.3206
+    },
+    {
+      "close": 1307.1562,
+      "session": "2026-06-03",
+      "sma200": 1421.307,
+      "sma50": 1360.0338
+    },
+    {
+      "close": 1291.0,
+      "session": "2026-06-05",
+      "sma200": 1420.5538,
+      "sma50": 1355.6235
+    },
+    {
+      "close": 1269.2,
+      "session": "2026-06-09",
+      "sma200": 1419.5022,
+      "sma50": 1350.0356
+    },
+    {
+      "close": 1263.0,
+      "session": "2026-06-11",
+      "sma200": 1418.0109,
+      "sma50": 1346.8793
+    },
+    {
+      "close": 1307.0,
+      "session": "2026-06-15",
+      "sma200": 1416.9061,
+      "sma50": 1344.7357
+    },
+    {
+      "close": 1332.7,
+      "session": "2026-06-17",
+      "sma200": 1416.2905,
+      "sma50": 1346.0199
+    },
+    {
+      "close": 1309.5,
+      "session": "2026-06-19",
+      "sma200": 1415.8261,
+      "sma50": 1345.4623
+    },
+    {
+      "close": 1309.5,
+      "session": "2026-06-23",
+      "sma200": 1415.4667,
+      "sma50": 1345.1217
     },
     {
       "close": 1318.1,
-      "session": "2026-06-26",
-      "sma200": 1414.7757,
-      "sma50": 1343.4427
+      "session": "2026-06-25",
+      "sma200": 1415.0286,
+      "sma50": 1344.255
     },
     {
-      "close": 1293.9,
-      "session": "2026-06-30",
-      "sma200": 1414.0401,
-      "sma50": 1341.2587
+      "close": 1301.0,
+      "session": "2026-06-29",
+      "sma200": 1414.4199,
+      "sma50": 1342.3222
     },
     {
-      "close": 1303.5,
-      "session": "2026-07-02",
-      "sma200": 1413.3596,
-      "sma50": 1339.6278
+      "close": 1308.0,
+      "session": "2026-07-01",
+      "sma200": 1413.7268,
+      "sma50": 1340.3021
     },
     {
-      "close": 1321.3,
-      "session": "2026-07-06",
-      "sma200": 1412.5789,
-      "sma50": 1338.5097
+      "close": 1304.0,
+      "session": "2026-07-03",
+      "sma200": 1412.9367,
+      "sma50": 1339.274
     },
     {
-      "close": 1275.9,
-      "session": "2026-07-08",
-      "sma200": 1411.4698,
-      "sma50": 1334.1687
+      "close": 1308.4,
+      "session": "2026-07-07",
+      "sma200": 1412.1268,
+      "sma50": 1337.0275
     },
     {
-      "close": 1307.8,
-      "session": "2026-07-10",
-      "sma200": 1410.3607,
-      "sma50": 1328.9521
+      "close": 1279.8,
+      "session": "2026-07-09",
+      "sma200": 1410.8264,
+      "sma50": 1331.2804
     },
     {
-      "close": 1293.0,
-      "session": "2026-07-14",
-      "sma200": 1409.4722,
-      "sma50": 1322.4855
+      "close": 1296.9,
+      "session": "2026-07-13",
+      "sma200": 1409.9242,
+      "sma50": 1325.7628
     },
     {
-      "close": 1296.6,
-      "session": "2026-07-16",
-      "sma200": 1408.7191,
-      "sma50": 1317.1101
+      "close": 1295.5,
+      "session": "2026-07-15",
+      "sma200": 1409.0665,
+      "sma50": 1319.7699
     },
     {
-      "close": 1323.1,
-      "session": "2026-07-20",
-      "sma200": 1408.2819,
-      "sma50": 1313.908
+      "close": 1327.2,
+      "session": "2026-07-17",
+      "sma200": 1408.4988,
+      "sma50": 1315.0822
     },
     {
-      "close": 1288.6,
-      "session": "2026-07-22",
-      "sma200": 1407.6428,
-      "sma50": 1311.5486
+      "close": 1303.7,
+      "session": "2026-07-21",
+      "sma200": 1408.0118,
+      "sma50": 1312.8275
     },
     {
-      "close": 1278.0,
-      "session": "2026-07-24",
-      "sma200": 1406.7648,
-      "sma50": 1308.8369
-    },
-    {
-      "close": 1267.7,
-      "session": "2026-07-28",
-      "sma200": 1405.8056,
-      "sma50": 1306.8637
-    },
-    {
-      "close": 1292.9,
-      "session": "2026-07-30",
-      "sma200": 1404.9156,
-      "sma50": 1304.303
-    },
-    {
-      "close": 1319.0,
-      "session": "2026-08-03",
-      "sma200": 1404.3585,
-      "sma50": 1302.6595
+      "close": 1272.2,
+      "session": "2026-07-23",
+      "sma200": 1407.2182,
+      "sma50": 1309.8819
     },
     {
       "close": 1280.0,
-      "session": "2026-08-05",
-      "sma200": 1403.4138,
-      "sma50": 1300.1907
+      "session": "2026-07-27",
+      "sma200": 1406.2727,
+      "sma50": 1307.8419
     },
     {
-      "close": 1334.8,
-      "session": "2026-08-07",
-      "sma200": 1402.3611,
-      "sma50": 1300.1986
+      "close": 1275.9,
+      "session": "2026-07-29",
+      "sma200": 1405.3279,
+      "sma50": 1305.3128
     },
     {
-      "close": 1323.9,
-      "session": "2026-08-11",
-      "sma200": 1401.1162,
-      "sma50": 1300.7731
+      "close": 1307.8,
+      "session": "2026-07-31",
+      "sma200": 1404.6113,
+      "sma50": 1303.4937
     },
     {
-      "close": 1317.0,
-      "session": "2026-08-13",
-      "sma200": 1399.7352,
-      "sma50": 1301.596
+      "close": 1290.9,
+      "session": "2026-08-04",
+      "sma200": 1403.9731,
+      "sma50": 1301.4764
     },
     {
-      "close": 1316.0,
-      "session": "2026-08-17",
-      "sma200": 1397.9785,
-      "sma50": 1303.03
+      "close": 1325.0,
+      "session": "2026-08-06",
+      "sma200": 1402.9874,
+      "sma50": 1299.805
     },
     {
-      "close": 1311.0,
-      "session": "2026-08-19",
-      "sma200": 1396.3375,
-      "sma50": 1305.13
+      "close": 1327.3,
+      "session": "2026-08-10",
+      "sma200": 1401.7053,
+      "sma50": 1300.4661
     },
     {
-      "close": 1316.0,
-      "session": "2026-08-21",
-      "sma200": 1394.7626,
-      "sma50": 1306.594
+      "close": 1329.0,
+      "session": "2026-08-12",
+      "sma200": 1400.5366,
+      "sma50": 1301.21
     },
     {
-      "close": 1317.0,
-      "session": "2026-08-25",
-      "sma200": 1393.0945,
-      "sma50": 1306.414
-    },
-    {
-      "close": 1282.2,
-      "session": "2026-08-27",
-      "sma200": 1391.1506,
-      "sma50": 1304.802
-    },
-    {
-      "close": 1277.0,
-      "session": "2026-08-31",
-      "sma200": 1388.9282,
-      "sma50": 1303.362
-    },
-    {
-      "close": 1313.1,
-      "session": "2026-09-02",
-      "sma200": 1386.9226,
-      "sma50": 1303.342
+      "close": 1310.0,
+      "session": "2026-08-14",
+      "sma200": 1398.8849,
+      "sma50": 1301.976
     },
     {
       "close": 1322.0,
-      "session": "2026-09-04",
-      "sma200": 1384.9235,
-      "sma50": 1303.108
+      "session": "2026-08-18",
+      "sma200": 1397.1803,
+      "sma50": 1304.086
     },
     {
-      "close": 1294.9,
-      "session": "2026-09-08",
-      "sma200": 1382.5382,
-      "sma50": 1303.298
+      "close": 1313.2,
+      "session": "2026-08-20",
+      "sma200": 1395.5142,
+      "sma50": 1306.134
     },
     {
-      "close": 1274.0,
-      "session": "2026-09-10",
-      "sma200": 1379.996,
-      "sma50": 1302.128
+      "close": 1309.8,
+      "session": "2026-08-24",
+      "sma200": 1393.8655,
+      "sma50": 1306.65
+    },
+    {
+      "close": 1298.0,
+      "session": "2026-08-26",
+      "sma200": 1392.1723,
+      "sma50": 1305.72
+    },
+    {
+      "close": 1287.0,
+      "session": "2026-08-28",
+      "sma200": 1390.0629,
+      "sma50": 1304.352
+    },
+    {
+      "close": 1309.0,
+      "session": "2026-09-01",
+      "sma200": 1387.9136,
+      "sma50": 1303.352
+    },
+    {
+      "close": 1302.5,
+      "session": "2026-09-03",
+      "sma200": 1385.873,
+      "sma50": 1303.03
+    },
+    {
+      "close": 1309.5,
+      "session": "2026-09-07",
+      "sma200": 1383.7611,
+      "sma50": 1303.278
+    },
+    {
+      "close": 1279.0,
+      "session": "2026-09-09",
+      "sma200": 1381.2891,
+      "sma50": 1302.718
     },
     {
       "close": 1257.5,
-      "session": "2026-09-14",
-      "sma200": 1376.9766,
-      "sma50": 1299.922
+      "session": "2026-09-11",
+      "sma200": 1378.4701,
+      "sma50": 1301.198
     },
     {
-      "close": 1240.0,
-      "session": "2026-09-16",
-      "sma200": 1373.7572,
-      "sma50": 1297.742
+      "close": 1235.3,
+      "session": "2026-09-15",
+      "sma200": 1375.3517,
+      "sma50": 1298.46
     },
     {
-      "close": 1226.4,
-      "session": "2026-09-18",
-      "sma200": 1370.7542,
-      "sma50": 1295.396
+      "close": 1243.9,
+      "session": "2026-09-17",
+      "sma200": 1372.2808,
+      "sma50": 1297.024
+    },
+    {
+      "close": 1247.4,
+      "session": "2026-09-21",
+      "sma200": 1369.3485,
+      "sma50": 1294.406
+    },
+    {
+      "close": 1248.0,
+      "session": "2026-09-23",
+      "sma200": 1366.4435,
+      "sma50": 1292.404
+    },
+    {
+      "close": 1226.0,
+      "session": "2026-09-25",
+      "sma200": 1363.4086,
+      "sma50": 1288.832
     }
   ],
   "schema_version": "technical-analysis-brief-v2",
@@ -3075,949 +3076,949 @@
     },
     "equity_curve": [
       {
-        "benchmark": 1.00543884,
-        "session": "2022-11-30",
-        "strategy": 1.0
-      },
-      {
-        "benchmark": 0.97567708,
+        "benchmark": 0.9856701,
         "session": "2022-12-07",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.96279334,
+        "benchmark": 0.97265431,
         "session": "2022-12-14",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.95138179,
+        "benchmark": 0.96112597,
         "session": "2022-12-21",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.9366391,
+        "benchmark": 0.9462322,
         "session": "2022-12-28",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.92710488,
+        "benchmark": 0.93660042,
         "session": "2023-01-04",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.92990259,
+        "benchmark": 0.93942669,
         "session": "2023-01-11",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.9109632,
+        "benchmark": 0.92029341,
         "session": "2023-01-18",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.87704181,
+        "benchmark": 0.8860246,
         "session": "2023-01-25",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.85657486,
+        "benchmark": 0.86534812,
         "session": "2023-02-02",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.86728697,
+        "benchmark": 0.87616984,
         "session": "2023-02-09",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.89452712,
+        "benchmark": 0.90368899,
         "session": "2023-02-16",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.87150187,
+        "benchmark": 0.88042772,
         "session": "2023-02-23",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.85624368,
+        "benchmark": 0.86501345,
         "session": "2023-03-02",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.85501041,
+        "benchmark": 0.86376755,
         "session": "2023-03-10",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.81834665,
+        "benchmark": 0.82672827,
         "session": "2023-03-17",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.81105803,
+        "benchmark": 0.819365,
         "session": "2023-03-24",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.85823127,
+        "benchmark": 0.8670215,
         "session": "2023-04-03",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.86382669,
+        "benchmark": 0.87267423,
         "session": "2023-04-12",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.86360577,
+        "benchmark": 0.87245084,
         "session": "2023-04-20",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.87501723,
+        "benchmark": 0.88397938,
         "session": "2023-04-27",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.89883399,
+        "benchmark": 0.90803998,
         "session": "2023-05-05",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.91451544,
+        "benchmark": 0.92388204,
         "session": "2023-05-12",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.89890767,
+        "benchmark": 0.90811431,
         "session": "2023-05-19",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.92266925,
+        "benchmark": 0.93211926,
         "session": "2023-05-26",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.90378514,
+        "benchmark": 0.91304174,
         "session": "2023-06-02",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.91363205,
+        "benchmark": 0.9229896,
         "session": "2023-06-09",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.94876821,
+        "benchmark": 0.95848573,
         "session": "2023-06-16",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.92570608,
+        "benchmark": 0.93518729,
         "session": "2023-06-23",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.96286692,
+        "benchmark": 0.97272874,
         "session": "2023-07-03",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.00680076,
+        "benchmark": 1.01711266,
         "session": "2023-07-10",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.02949492,
+        "benchmark": 1.04003916,
         "session": "2023-07-17",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.99202446,
+        "benchmark": 1.00218481,
         "session": "2023-07-24",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.01669148,
+        "benchmark": 1.02710458,
         "session": "2023-07-31",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.00656154,
+        "benchmark": 1.01687089,
         "session": "2023-08-07",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.02785839,
+        "benchmark": 1.03838586,
         "session": "2023-08-14",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.00833603,
+        "benchmark": 1.01866356,
         "session": "2023-08-22",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.96869344,
+        "benchmark": 0.97861494,
         "session": "2023-08-29",
         "strategy": 0.98559145
       },
       {
-        "benchmark": 0.96999425,
+        "benchmark": 0.97992896,
         "session": "2023-09-05",
-        "strategy": 0.98691495
+        "strategy": 0.98691485
       },
       {
-        "benchmark": 0.97609766,
+        "benchmark": 0.98609509,
         "session": "2023-09-12",
-        "strategy": 1.00958647
+        "strategy": 1.00958658
       },
       {
-        "benchmark": 0.95340469,
+        "benchmark": 0.96316959,
         "session": "2023-09-20",
-        "strategy": 1.00958647
+        "strategy": 1.00958658
       },
       {
-        "benchmark": 0.94810169,
+        "benchmark": 0.95781218,
         "session": "2023-09-27",
-        "strategy": 1.00505981
+        "strategy": 1.0050598
       },
       {
-        "benchmark": 0.92616918,
+        "benchmark": 0.93565504,
         "session": "2023-10-05",
         "strategy": 0.98180968
       },
       {
-        "benchmark": 0.94029706,
+        "benchmark": 0.94992772,
         "session": "2023-10-12",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 0.92298728,
+        "benchmark": 0.93244065,
         "session": "2023-10-19",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 0.90683799,
+        "benchmark": 0.91612605,
         "session": "2023-10-27",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 0.92841034,
+        "benchmark": 0.93791925,
         "session": "2023-11-03",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 0.92648929,
+        "benchmark": 0.93597842,
         "session": "2023-11-10",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 0.94027718,
+        "benchmark": 0.94990764,
         "session": "2023-11-20",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 0.95830748,
+        "benchmark": 0.9681226,
         "session": "2023-11-28",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 0.9756574,
+        "benchmark": 0.98565022,
         "session": "2023-12-05",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 0.97017423,
+        "benchmark": 0.98011099,
         "session": "2023-12-12",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.02382494,
+        "benchmark": 1.0343111,
         "session": "2023-12-19",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.03533153,
+        "benchmark": 1.04593555,
         "session": "2023-12-27",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.03391068,
+        "benchmark": 1.04450024,
         "session": "2024-01-03",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.06064609,
+        "benchmark": 1.07150918,
         "session": "2024-01-10",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.08988265,
+        "benchmark": 1.10104538,
         "session": "2024-01-17",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.08307879,
+        "benchmark": 1.09417174,
         "session": "2024-01-25",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.1668266,
+        "benchmark": 1.17877741,
         "session": "2024-02-02",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.16926811,
+        "benchmark": 1.18124382,
         "session": "2024-02-09",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.16912788,
+        "benchmark": 1.18110225,
         "session": "2024-02-16",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.19558304,
+        "benchmark": 1.20782837,
         "session": "2024-02-23",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.19438231,
+        "benchmark": 1.20661535,
         "session": "2024-03-01",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.17395057,
+        "benchmark": 1.18597444,
         "session": "2024-03-11",
-        "strategy": 0.97713847
+        "strategy": 0.97713857
       },
       {
-        "benchmark": 1.15223819,
+        "benchmark": 1.16403968,
         "session": "2024-03-18",
-        "strategy": 0.97552029
+        "strategy": 0.97552047
       },
       {
-        "benchmark": 1.15391923,
+        "benchmark": 1.16573783,
         "session": "2024-03-26",
-        "strategy": 0.97694351
+        "strategy": 0.97694361
       },
       {
-        "benchmark": 1.17795296,
+        "benchmark": 1.19001772,
         "session": "2024-04-03",
-        "strategy": 1.01019146
+        "strategy": 1.01019157
       },
       {
-        "benchmark": 1.18433653,
+        "benchmark": 1.19646678,
         "session": "2024-04-10",
-        "strategy": 1.01019146
+        "strategy": 1.01019157
       },
       {
-        "benchmark": 1.17677231,
+        "benchmark": 1.18882498,
         "session": "2024-04-19",
-        "strategy": 1.01019146
+        "strategy": 1.01019157
       },
       {
-        "benchmark": 1.16270436,
+        "benchmark": 1.17461284,
         "session": "2024-04-26",
-        "strategy": 1.01019146
+        "strategy": 1.01019157
       },
       {
-        "benchmark": 1.13626917,
+        "benchmark": 1.147907,
         "session": "2024-05-06",
-        "strategy": 0.99745111
+        "strategy": 0.99745122
       },
       {
-        "benchmark": 1.12280138,
+        "benchmark": 1.13430137,
         "session": "2024-05-13",
-        "strategy": 0.98562869
+        "strategy": 0.98562888
       },
       {
-        "benchmark": 1.14955678,
+        "benchmark": 1.1613306,
         "session": "2024-05-21",
-        "strategy": 1.00911537
+        "strategy": 1.00911539
       },
       {
-        "benchmark": 1.16562587,
+        "benchmark": 1.17756448,
         "session": "2024-05-28",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.11845901,
+        "benchmark": 1.12991442,
         "session": "2024-06-04",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.16600611,
+        "benchmark": 1.17794861,
         "session": "2024-06-11",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.16758707,
+        "benchmark": 1.17954576,
         "session": "2024-06-19",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.21191232,
+        "benchmark": 1.2243249,
         "session": "2024-06-26",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.24264993,
+        "benchmark": 1.25537733,
         "session": "2024-07-03",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.26810442,
+        "benchmark": 1.28109253,
         "session": "2024-07-10",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.27006562,
+        "benchmark": 1.28307391,
         "session": "2024-07-18",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.19460244,
+        "benchmark": 1.20683773,
         "session": "2024-07-25",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.21293297,
+        "benchmark": 1.225356,
         "session": "2024-08-01",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.15996262,
+        "benchmark": 1.17184312,
         "session": "2024-08-08",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.18323588,
+        "benchmark": 1.19535485,
         "session": "2024-08-16",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.20474099,
+        "benchmark": 1.21708011,
         "session": "2024-08-23",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.21249162,
+        "benchmark": 1.22491013,
         "session": "2024-08-30",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.17650936,
+        "benchmark": 1.18855933,
         "session": "2024-09-06",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.18277416,
+        "benchmark": 1.1948883,
         "session": "2024-09-13",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.1934564,
+        "benchmark": 1.20567995,
         "session": "2024-09-20",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.22578417,
+        "benchmark": 1.23833883,
         "session": "2024-09-27",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.10093078,
+        "benchmark": 1.11220657,
         "session": "2024-10-07",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.10237646,
+        "benchmark": 1.11366716,
         "session": "2024-10-14",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.09970583,
+        "benchmark": 1.11096927,
         "session": "2024-10-21",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.07171519,
+        "benchmark": 1.08269185,
         "session": "2024-10-28",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.04585308,
+        "benchmark": 1.05656485,
         "session": "2024-11-04",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.02219948,
+        "benchmark": 1.03266899,
         "session": "2024-11-11",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.997261,
+        "benchmark": 1.00747509,
         "session": "2024-11-19",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.03866463,
+        "benchmark": 1.04930278,
         "session": "2024-11-27",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.0513146,
+        "benchmark": 1.06208231,
         "session": "2024-12-04",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.02661701,
+        "benchmark": 1.03713177,
         "session": "2024-12-11",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.00657786,
+        "benchmark": 1.01688738,
         "session": "2024-12-18",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.9771014,
+        "benchmark": 0.98710901,
         "session": "2024-12-26",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.99738155,
+        "benchmark": 1.00759687,
         "session": "2025-01-02",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.00778264,
+        "benchmark": 1.0181044,
         "session": "2025-01-09",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.0171797,
+        "benchmark": 1.0275978,
         "session": "2025-01-16",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.01493094,
+        "benchmark": 1.0253259,
         "session": "2025-01-23",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.00641726,
+        "benchmark": 1.01672513,
         "session": "2025-01-30",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.02661701,
+        "benchmark": 1.03713177,
         "session": "2025-02-05",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.9771014,
+        "benchmark": 0.98710901,
         "session": "2025-02-12",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.98585587,
+        "benchmark": 0.99595325,
         "session": "2025-02-19",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.96951136,
+        "benchmark": 0.97944124,
         "session": "2025-02-27",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.97151923,
+        "benchmark": 0.98146977,
         "session": "2025-03-06",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.00228088,
+        "benchmark": 1.01254648,
         "session": "2025-03-13",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.02513119,
+        "benchmark": 1.03563062,
         "session": "2025-03-21",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.02412715,
+        "benchmark": 1.03461641,
         "session": "2025-03-28",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.93625996,
+        "benchmark": 0.94584917,
         "session": "2025-04-07",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 0.99537368,
+        "benchmark": 1.00556844,
         "session": "2025-04-16",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.04541133,
+        "benchmark": 1.05611858,
         "session": "2025-04-24",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.14034652,
+        "benchmark": 1.15202611,
         "session": "2025-05-02",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.10613133,
+        "benchmark": 1.11746038,
         "session": "2025-05-09",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.16974268,
+        "benchmark": 1.18172335,
         "session": "2025-05-16",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.14596883,
+        "benchmark": 1.15770601,
         "session": "2025-05-23",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.14123001,
+        "benchmark": 1.15291865,
         "session": "2025-05-30",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.15938174,
+        "benchmark": 1.17125619,
         "session": "2025-06-06",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.14685222,
+        "benchmark": 1.15859845,
         "session": "2025-06-13",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.17761377,
+        "benchmark": 1.18967505,
         "session": "2025-06-20",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.21712998,
+        "benchmark": 1.22959589,
         "session": "2025-06-27",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.22668783,
+        "benchmark": 1.23925174,
         "session": "2025-07-04",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.20090582,
+        "benchmark": 1.21320567,
         "session": "2025-07-11",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.18548495,
+        "benchmark": 1.19762675,
         "session": "2025-07-18",
-        "strategy": 1.00770687
+        "strategy": 1.00770697
       },
       {
-        "benchmark": 1.11777726,
+        "benchmark": 1.12922569,
         "session": "2025-07-25",
-        "strategy": 0.9810298
+        "strategy": 0.9810299
       },
       {
-        "benchmark": 1.11938363,
+        "benchmark": 1.13084852,
         "session": "2025-08-01",
-        "strategy": 0.98243966
+        "strategy": 0.98243976
       },
       {
-        "benchmark": 1.09858144,
+        "benchmark": 1.10983327,
         "session": "2025-08-08",
-        "strategy": 0.96418238
+        "strategy": 0.96418248
       },
       {
-        "benchmark": 1.11417774,
+        "benchmark": 1.12558931,
         "session": "2025-08-18",
-        "strategy": 0.97787065
+        "strategy": 0.97787075
       },
       {
-        "benchmark": 1.13909496,
+        "benchmark": 1.15076173,
         "session": "2025-08-25",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.10192077,
+        "benchmark": 1.1132068,
         "session": "2025-09-02",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.10974261,
+        "benchmark": 1.12110875,
         "session": "2025-09-09",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.13320841,
+        "benchmark": 1.14481489,
         "session": "2025-09-16",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.12070955,
+        "benchmark": 1.13218802,
         "session": "2025-09-23",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.09990479,
+        "benchmark": 1.11117017,
         "session": "2025-09-30",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.10264653,
+        "benchmark": 1.11393999,
         "session": "2025-10-08",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.1082106,
+        "benchmark": 1.11956105,
         "session": "2025-10-15",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.16796345,
+        "benchmark": 1.17992589,
         "session": "2025-10-23",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.20029932,
+        "benchmark": 1.21259296,
         "session": "2025-10-30",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.19183233,
+        "benchmark": 1.20403924,
         "session": "2025-11-07",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.22481337,
+        "benchmark": 1.23735808,
         "session": "2025-11-14",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.24715014,
+        "benchmark": 1.25992363,
         "session": "2025-11-21",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.26400353,
+        "benchmark": 1.27694964,
         "session": "2025-11-28",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.24231182,
+        "benchmark": 1.25503576,
         "session": "2025-12-05",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.25513336,
+        "benchmark": 1.26798862,
         "session": "2025-12-12",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.26206815,
+        "benchmark": 1.27499443,
         "session": "2025-12-19",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.24634378,
+        "benchmark": 1.25910901,
         "session": "2025-12-29",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.27255113,
+        "benchmark": 1.28558478,
         "session": "2026-01-05",
-        "strategy": 0.99852261
+        "strategy": 0.99852271
       },
       {
-        "benchmark": 1.19602548,
+        "benchmark": 1.20827534,
         "session": "2026-01-12",
-        "strategy": 0.97932928
+        "strategy": 0.97932937
       },
       {
-        "benchmark": 1.13990132,
+        "benchmark": 1.15157635,
         "session": "2026-01-19",
-        "strategy": 0.9333737
+        "strategy": 0.9333738
       },
       {
-        "benchmark": 1.1132101,
+        "benchmark": 1.12461176,
         "session": "2026-01-27",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.15885129,
+        "benchmark": 1.17072041,
         "session": "2026-02-03",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.17610786,
+        "benchmark": 1.18815373,
         "session": "2026-02-10",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.14748136,
+        "benchmark": 1.15923403,
         "session": "2026-02-17",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.15215839,
+        "benchmark": 1.16395896,
         "session": "2026-02-24",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.0845836,
+        "benchmark": 1.09569206,
         "session": "2026-03-04",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.12103194,
+        "benchmark": 1.13251371,
         "session": "2026-03-11",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.13546628,
+        "benchmark": 1.14709588,
         "session": "2026-03-18",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.13949814,
+        "benchmark": 1.15116904,
         "session": "2026-03-25",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.05208634,
+        "benchmark": 1.06286195,
         "session": "2026-04-06",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.06047274,
+        "benchmark": 1.07133425,
         "session": "2026-04-13",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.09127661,
+        "benchmark": 1.10245362,
         "session": "2026-04-21",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.1199837,
+        "benchmark": 1.13145473,
         "session": "2026-04-28",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.18022042,
+        "benchmark": 1.1923084,
         "session": "2026-05-05",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.09990479,
+        "benchmark": 1.11117017,
         "session": "2026-05-12",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.06660117,
+        "benchmark": 1.07752545,
         "session": "2026-05-19",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.09369576,
+        "benchmark": 1.10489755,
         "session": "2026-05-26",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.06006956,
+        "benchmark": 1.07092694,
         "session": "2026-06-02",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.02819184,
+        "benchmark": 1.03872273,
         "session": "2026-06-09",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.07647449,
+        "benchmark": 1.0874999,
         "session": "2026-06-16",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.06083932,
+        "benchmark": 1.07170459,
         "session": "2026-06-23",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.04820163,
+        "benchmark": 1.05893745,
         "session": "2026-06-30",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.05994822,
+        "benchmark": 1.07080436,
         "session": "2026-07-07",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.04747251,
+        "benchmark": 1.05820087,
         "session": "2026-07-14",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.05614065,
+        "benchmark": 1.06695779,
         "session": "2026-07-21",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.02697668,
+        "benchmark": 1.03749512,
         "session": "2026-07-28",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.04577129,
+        "benchmark": 1.05648223,
         "session": "2026-08-04",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.07250493,
+        "benchmark": 1.08348968,
         "session": "2026-08-11",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.0709657,
+        "benchmark": 1.08193469,
         "session": "2026-08-18",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.06691515,
+        "benchmark": 1.07784265,
         "session": "2026-08-25",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.06043427,
+        "benchmark": 1.07129539,
         "session": "2026-09-01",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.04901174,
+        "benchmark": 1.05975586,
         "session": "2026-09-08",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
       },
       {
-        "benchmark": 1.00072919,
+        "benchmark": 1.0109788,
         "session": "2026-09-15",
-        "strategy": 0.93006169
+        "strategy": 0.93006178
+      },
+      {
+        "benchmark": 1.01515265,
+        "session": "2026-09-22",
+        "strategy": 0.93006178
       }
     ],
     "holdout_gates": {
@@ -4033,10 +4034,10 @@
       {
         "entry_price": 1213.233365,
         "entry_session": "2023-08-29",
-        "exit_price": 1224.866753,
+        "exit_price": 1224.866877,
         "exit_reason": "rule_state_off",
         "exit_session": "2023-09-12",
-        "net_return": 0.0095887465
+        "net_return": 0.0095888488
       },
       {
         "entry_price": 1175.605081,
@@ -4081,48 +4082,48 @@
     ],
     "metrics": {
       "holdout": {
-        "benchmark_return": 0.009015703,
-        "cagr": -0.0188581771,
-        "expectancy": -0.011474921,
+        "benchmark_return": -0.0213454122,
+        "cagr": -0.018858151,
+        "expectancy": -0.0114749039,
         "exposure": 0.0740740741,
         "max_drawdown": 0.0806870072,
-        "net_return": -0.0699383144,
-        "profit_factor": 0.3867335993,
+        "net_return": -0.0699382202,
+        "profit_factor": 0.3867345105,
         "sessions": 945,
-        "sharpe": -0.3683320653,
-        "sortino": -0.1687870611,
+        "sharpe": -0.3683320282,
+        "sortino": -0.1687872517,
         "trades": 6,
         "turnover": 0.0126984127,
         "win_rate": 0.3333333333,
         "years": 3.8084
       },
       "training": {
-        "benchmark_return": 1.7146923965,
-        "cagr": -0.0044476593,
-        "expectancy": -0.0016020965,
+        "benchmark_return": 2.0112500915,
+        "cagr": -0.0044475958,
+        "expectancy": -0.0016020657,
         "exposure": 0.0751322751,
-        "max_drawdown": 0.2040013789,
-        "net_return": -0.0336062606,
-        "profit_factor": 0.8905214345,
+        "max_drawdown": 0.2040010763,
+        "net_return": -0.0336057874,
+        "profit_factor": 0.8905233672,
         "sessions": 1890,
-        "sharpe": -0.0246629438,
-        "sortino": -0.0107391164,
+        "sharpe": -0.0246620435,
+        "sortino": -0.0107387116,
         "trades": 16,
         "turnover": 0.0169312169,
         "win_rate": 0.5,
         "years": 7.6687
       },
       "validation": {
-        "benchmark_return": 1.3094021941,
-        "cagr": 0.0543207004,
-        "expectancy": 0.0173067979,
+        "benchmark_return": 1.1014194383,
+        "cagr": 0.0543209259,
+        "expectancy": 0.0173068675,
         "exposure": 0.1248677249,
-        "max_drawdown": 0.1412280361,
-        "net_return": 0.2244145767,
-        "profit_factor": 6.7999849556,
+        "max_drawdown": 0.1412276956,
+        "net_return": 0.224415579,
+        "profit_factor": 6.8000365587,
         "sessions": 945,
-        "sharpe": 0.5871395071,
-        "sortino": 0.2844057749,
+        "sharpe": 0.5871415123,
+        "sortino": 0.2844067886,
         "trades": 12,
         "turnover": 0.0253968254,
         "win_rate": 0.8333333333,
@@ -4137,26 +4138,26 @@
     "qualified": false,
     "regime_matrix": [
       {
-        "annualized_return": -0.05942834,
-        "sessions": 334,
+        "annualized_return": -0.05978613,
+        "sessions": 332,
         "trend": "ABOVE 200D",
         "volatility": "LOW VOL"
       },
       {
-        "annualized_return": 0.06515384,
-        "sessions": 206,
+        "annualized_return": 0.0661166,
+        "sessions": 203,
         "trend": "ABOVE 200D",
         "volatility": "HIGH VOL"
       },
       {
-        "annualized_return": -0.01544682,
-        "sessions": 139,
+        "annualized_return": -0.0152279,
+        "sessions": 141,
         "trend": "BELOW 200D",
         "volatility": "LOW VOL"
       },
       {
-        "annualized_return": -0.03214862,
-        "sessions": 266,
+        "annualized_return": -0.03179009,
+        "sessions": 269,
         "trend": "BELOW 200D",
         "volatility": "HIGH VOL"
       }
@@ -4165,26 +4166,26 @@
     "score": 66.72,
     "stress": {
       "15": {
-        "holdout_return": -0.0699383144,
-        "validation_return": 0.2244145767
+        "holdout_return": -0.0699382202,
+        "validation_return": 0.224415579
       },
       "30": {
-        "holdout_return": -0.0865667361,
-        "validation_return": 0.181023746
+        "holdout_return": -0.0865666435,
+        "validation_return": 0.1810247128
       },
       "60": {
-        "holdout_return": -0.1190088697,
-        "validation_return": 0.0986214036
+        "holdout_return": -0.1190087804,
+        "validation_return": 0.098622303
       }
     },
     "trade_profile": {
       "average_loser": -0.0280667284,
-      "average_winner": 0.0217086938,
+      "average_winner": 0.0217087449,
       "completed_trades": 6,
       "median_holding_sessions": 10,
       "median_loser": -0.020624753,
-      "median_winner": 0.0217086938,
-      "payoff_ratio": 0.7734671986,
+      "median_winner": 0.0217087449,
+      "payoff_ratio": 0.773469021,
       "success_rate": 0.3333333333
     }
   },
@@ -4195,7 +4196,7 @@
       "label": "FIXED REGISTRY"
     },
     {
-      "count": 8,
+      "count": 9,
       "label": "TRAINING ACTIVE"
     },
     {
@@ -4220,22 +4221,22 @@
   "verdict": "NO ROBUST EDGE",
   "windows": {
     "holdout": {
-      "end": "2026-09-21",
+      "end": "2026-09-28",
       "purpose": "untouched final gate",
       "sessions": 945,
-      "start": "2022-11-30"
+      "start": "2022-12-07"
     },
     "training": {
-      "end": "2019-01-30",
+      "end": "2019-02-06",
       "purpose": "eligibility",
       "sessions": 1890,
-      "start": "2011-05-31"
+      "start": "2011-06-07"
     },
     "validation": {
-      "end": "2022-11-29",
+      "end": "2022-12-06",
       "purpose": "selection",
       "sessions": 945,
-      "start": "2019-01-31"
+      "start": "2019-02-07"
     }
   }
 }

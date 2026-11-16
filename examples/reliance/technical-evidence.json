@@ -19,52 +19,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": 0.0169395044,
-          "expectancy": 0.0105427265,
-          "exposure": 0.3439153439,
-          "max_drawdown": 0.2798661905,
-          "net_return": 0.066454058,
-          "profit_factor": 1.3245484055,
+          "benchmark_return": 0.1881494022,
+          "cagr": 0.0225495463,
+          "expectancy": 0.0127103039,
+          "exposure": 0.3481481481,
+          "max_drawdown": 0.2798661344,
+          "net_return": 0.0892311855,
+          "profit_factor": 1.3912754338,
           "sessions": 945,
-          "sharpe": 0.1999088797,
-          "sortino": 0.1567787489,
+          "sharpe": 0.2449058552,
+          "sortino": 0.1918026672,
           "trades": 10,
           "turnover": 0.0201058201,
           "win_rate": 0.5,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": -0.0162983664,
-          "expectancy": -0.0015709063,
-          "exposure": 0.4698412698,
-          "max_drawdown": 0.3459794225,
-          "net_return": -0.1184797809,
-          "profit_factor": 0.9367509147,
+          "benchmark_return": 2.4009901999,
+          "cagr": -0.0091214224,
+          "expectancy": -1.34659e-05,
+          "exposure": 0.4735449735,
+          "max_drawdown": 0.3459787247,
+          "net_return": -0.067951996,
+          "profit_factor": 0.999450677,
           "sessions": 1890,
-          "sharpe": -0.0089682065,
-          "sortino": -0.0097885316,
+          "sharpe": 0.0340512216,
+          "sortino": 0.0373641637,
           "trades": 38,
           "turnover": 0.0396825397,
-          "win_rate": 0.3421052632,
-          "years": 7.6742
+          "win_rate": 0.3684210526,
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": 0.0758861925,
-          "expectancy": 0.0227826134,
-          "exposure": 0.3894179894,
-          "max_drawdown": 0.2699898191,
-          "net_return": 0.3225502733,
-          "profit_factor": 1.840644715,
+          "benchmark_return": 0.84011403,
+          "cagr": 0.0761405788,
+          "expectancy": 0.0228007678,
+          "exposure": 0.3851851852,
+          "max_drawdown": 0.2699895052,
+          "net_return": 0.322948249,
+          "profit_factor": 1.8418788109,
           "sessions": 945,
-          "sharpe": 0.5135961277,
-          "sortino": 0.5588638918,
+          "sharpe": 0.5159648801,
+          "sortino": 0.5589325453,
           "trades": 16,
           "turnover": 0.0338624339,
           "win_rate": 0.375,
-          "years": 3.822
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 1.0,
@@ -85,16 +85,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": 0.066454058,
-          "validation_return": 0.3225502733
+          "holdout_return": 0.0892311855,
+          "validation_return": 0.322948249
         },
         "30": {
-          "holdout_return": 0.0348655582,
-          "validation_return": 0.2604308983
+          "holdout_return": 0.0569680243,
+          "validation_return": 0.2608101813
         },
         "60": {
-          "holdout_return": -0.0256646603,
-          "validation_return": 0.1445592398
+          "holdout_return": -0.0048549873,
+          "validation_return": 0.1449036552
         }
       }
     },
@@ -112,57 +112,56 @@
       },
       "eligible": false,
       "failed_preholdout_gates": [
-        "training_net",
         "validation_drawdown"
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": 0.0516986577,
-          "expectancy": 0.034624288,
-          "exposure": 0.3121693122,
+          "benchmark_return": 0.1881494022,
+          "cagr": 0.0627638017,
+          "expectancy": 0.0411981961,
+          "exposure": 0.3132275132,
           "max_drawdown": 0.1118318913,
-          "net_return": 0.2129678729,
-          "profit_factor": 3.9137637088,
+          "net_return": 0.2627920574,
+          "profit_factor": 8.7598883734,
           "sessions": 945,
-          "sharpe": 0.4961890137,
-          "sortino": 0.3941993822,
+          "sharpe": 0.5903982397,
+          "sortino": 0.4650894061,
           "trades": 6,
-          "turnover": 0.0126984127,
+          "turnover": 0.0116402116,
           "win_rate": 0.6666666667,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": -0.0092541156,
-          "expectancy": -0.0013605379,
-          "exposure": 0.3412698413,
-          "max_drawdown": 0.2612686407,
-          "net_return": -0.0688627027,
-          "profit_factor": 0.9562388585,
+          "benchmark_return": 2.4009901999,
+          "cagr": -0.0060227706,
+          "expectancy": 0.0001625431,
+          "exposure": 0.3433862434,
+          "max_drawdown": 0.2612683838,
+          "net_return": -0.0453330534,
+          "profit_factor": 1.0052281334,
           "sessions": 1890,
-          "sharpe": 0.0104695077,
-          "sortino": 0.0101434804,
+          "sharpe": 0.0331913019,
+          "sortino": 0.0322940684,
           "trades": 18,
           "turnover": 0.0185185185,
           "win_rate": 0.4444444444,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": 0.0315871767,
-          "expectancy": 0.0225277589,
-          "exposure": 0.380952381,
-          "max_drawdown": 0.3494249001,
-          "net_return": 0.1262121789,
-          "profit_factor": 1.511948672,
+          "benchmark_return": 0.84011403,
+          "cagr": 0.0170270705,
+          "expectancy": 0.0168899193,
+          "exposure": 0.3798941799,
+          "max_drawdown": 0.3617717899,
+          "net_return": 0.0665099931,
+          "profit_factor": 1.3402359606,
           "sessions": 945,
-          "sharpe": 0.2707748129,
-          "sortino": 0.2879287898,
+          "sharpe": 0.1856667171,
+          "sortino": 0.1988704099,
           "trades": 9,
-          "turnover": 0.017989418,
+          "turnover": 0.019047619,
           "win_rate": 0.3333333333,
-          "years": 3.822
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.5,
@@ -175,7 +174,7 @@
         "double_cost_validation": true,
         "neighbor_validation": true,
         "training_activity": true,
-        "training_net": false,
+        "training_net": true,
         "validation_activity": true,
         "validation_drawdown": false,
         "validation_net": true,
@@ -184,16 +183,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": 0.2129678729,
-          "validation_return": 0.1262121789
+          "holdout_return": 0.2627920574,
+          "validation_return": 0.0665099931
         },
         "30": {
-          "holdout_return": 0.1912814176,
-          "validation_return": 0.0961445361
+          "holdout_return": 0.2402148036,
+          "validation_return": 0.0380362809
         },
         "60": {
-          "holdout_return": 0.1489710349,
-          "validation_return": 0.0382690134
+          "holdout_return": 0.1961664686,
+          "validation_return": -0.0167711741
         }
       }
     },
@@ -218,52 +217,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0242739884,
-          "expectancy": -0.0143317965,
-          "exposure": 0.3365079365,
-          "max_drawdown": 0.1850644205,
-          "net_return": -0.0898288011,
-          "profit_factor": 0.507435362,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.0138757131,
+          "expectancy": -0.0092480095,
+          "exposure": 0.3343915344,
+          "max_drawdown": 0.1850644928,
+          "net_return": -0.0521489672,
+          "profit_factor": 0.6570406717,
           "sessions": 945,
-          "sharpe": -0.158542972,
-          "sortino": -0.1414676769,
-          "trades": 6,
-          "turnover": 0.0126984127,
-          "win_rate": 0.5,
-          "years": 3.8303
+          "sharpe": -0.0664436081,
+          "sortino": -0.0588640838,
+          "trades": 5,
+          "turnover": 0.0105820106,
+          "win_rate": 0.6,
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": 0.0865066092,
-          "expectancy": 0.1420353017,
-          "exposure": 0.4973544974,
-          "max_drawdown": 0.315753917,
-          "net_return": 0.890251015,
-          "profit_factor": 5.4244924376,
+          "benchmark_return": 2.4009901999,
+          "cagr": 0.0899785205,
+          "expectancy": 0.1457724344,
+          "exposure": 0.4994708995,
+          "max_drawdown": 0.315753989,
+          "net_return": 0.9380165575,
+          "profit_factor": 5.5409063406,
           "sessions": 1890,
-          "sharpe": 0.5741203741,
-          "sortino": 0.6582825558,
+          "sharpe": 0.5922702988,
+          "sortino": 0.6812255369,
           "trades": 7,
           "turnover": 0.0068783069,
           "win_rate": 0.5714285714,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": -0.0138970782,
-          "expectancy": -0.0027171649,
-          "exposure": 0.4571428571,
-          "max_drawdown": 0.3300646329,
-          "net_return": -0.052082412,
-          "profit_factor": 0.9349777334,
+          "benchmark_return": 0.84011403,
+          "cagr": -0.0279095048,
+          "expectancy": -0.0099670684,
+          "exposure": 0.4560846561,
+          "max_drawdown": 0.3427787479,
+          "net_return": -0.1023325478,
+          "profit_factor": 0.7967487649,
           "sessions": 945,
-          "sharpe": 0.0102212317,
-          "sortino": 0.0116028152,
+          "sharpe": -0.0709557209,
+          "sortino": -0.0810208194,
           "trades": 7,
-          "turnover": 0.0137566138,
+          "turnover": 0.0148148148,
           "win_rate": 0.4285714286,
-          "years": 3.822
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 1.0,
@@ -284,16 +283,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.0898288011,
-          "validation_return": -0.052082412
+          "holdout_return": -0.0521489672,
+          "validation_return": -0.1023325478
         },
         "30": {
-          "holdout_return": -0.1061016039,
-          "validation_return": -0.0718250808
+          "holdout_return": -0.0662922175,
+          "validation_return": -0.1210286365
         },
         "60": {
-          "holdout_return": -0.1378499235,
-          "validation_return": -0.1101701015
+          "holdout_return": -0.0940103433,
+          "validation_return": -0.1573409461
         }
       }
     },
@@ -313,52 +312,52 @@
       "failed_preholdout_gates": [],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0187513361,
-          "expectancy": -0.0114749066,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.0187380673,
+          "expectancy": -0.0114749069,
           "exposure": 0.0740740741,
-          "max_drawdown": 0.0806869308,
-          "net_return": -0.0699382405,
-          "profit_factor": 0.3867349257,
+          "max_drawdown": 0.0806869295,
+          "net_return": -0.0699382358,
+          "profit_factor": 0.3867338897,
           "sessions": 945,
-          "sharpe": -0.3683319896,
-          "sortino": -0.1687869248,
+          "sharpe": -0.3683317468,
+          "sortino": -0.1687868809,
           "trades": 6,
           "turnover": 0.0126984127,
           "win_rate": 0.3333333333,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": -0.0044444502,
-          "expectancy": -0.0016020756,
+          "benchmark_return": 2.4009901999,
+          "cagr": -0.0044414086,
+          "expectancy": -0.0016021336,
           "exposure": 0.0751322751,
-          "max_drawdown": 0.2040009888,
-          "net_return": -0.0336059428,
-          "profit_factor": 0.8905228586,
+          "max_drawdown": 0.2040012784,
+          "net_return": -0.0336068396,
+          "profit_factor": 0.8905190886,
           "sessions": 1890,
-          "sharpe": -0.0246622394,
-          "sortino": -0.0107388188,
+          "sharpe": -0.02466397,
+          "sortino": -0.0107395477,
           "trades": 16,
           "turnover": 0.0169312169,
           "win_rate": 0.5,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": 0.0544009837,
-          "expectancy": 0.0173069158,
+          "benchmark_return": 0.84011403,
+          "cagr": 0.0545212449,
+          "expectancy": 0.0173069041,
           "exposure": 0.1248677249,
-          "max_drawdown": 0.1412277182,
-          "net_return": 0.2244162651,
-          "profit_factor": 6.8000607071,
+          "max_drawdown": 0.1412276598,
+          "net_return": 0.224416108,
+          "profit_factor": 6.8000669557,
           "sessions": 945,
-          "sharpe": 0.587142554,
-          "sortino": 0.2844075849,
+          "sharpe": 0.5871427534,
+          "sortino": 0.2844071875,
           "trades": 12,
           "turnover": 0.0253968254,
           "win_rate": 0.8333333333,
-          "years": 3.822
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.0,
@@ -379,16 +378,16 @@
       "score": 66.72,
       "stress": {
         "15": {
-          "holdout_return": -0.0699382405,
-          "validation_return": 0.2244162651
+          "holdout_return": -0.0699382358,
+          "validation_return": 0.224416108
         },
         "30": {
-          "holdout_return": -0.0865666634,
-          "validation_return": 0.1810253746
+          "holdout_return": -0.0865666588,
+          "validation_return": 0.1810252231
         },
         "60": {
-          "holdout_return": -0.1190087996,
-          "validation_return": 0.0986229186
+          "holdout_return": -0.1190087952,
+          "validation_return": 0.0986227777
         }
       }
     },
@@ -410,52 +409,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0047252158,
-          "expectancy": -0.0041792125,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.0047218707,
+          "expectancy": -0.0041792344,
           "exposure": 0.0486772487,
-          "max_drawdown": 0.0515183573,
-          "net_return": -0.0179780991,
-          "profit_factor": 0.6692717512,
+          "max_drawdown": 0.0515184379,
+          "net_return": -0.0179781825,
+          "profit_factor": 0.6692700332,
           "sessions": 945,
-          "sharpe": -0.0883631393,
-          "sortino": -0.0349945225,
+          "sharpe": -0.0883635647,
+          "sortino": -0.0349946806,
           "trades": 4,
           "turnover": 0.0084656085,
           "win_rate": 0.25,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": -0.0056839388,
-          "expectancy": -0.014210434,
+          "benchmark_return": 2.4009901999,
+          "cagr": -0.0056799308,
+          "expectancy": -0.0142105191,
           "exposure": 0.0248677249,
-          "max_drawdown": 0.1142806923,
-          "net_return": -0.0428011231,
-          "profit_factor": 0.189156932,
+          "max_drawdown": 0.1142808565,
+          "net_return": -0.0428013686,
+          "profit_factor": 0.1891531268,
           "sessions": 1890,
-          "sharpe": -0.0968053561,
-          "sortino": -0.0245227936,
+          "sharpe": -0.0968060193,
+          "sortino": -0.0245229281,
           "trades": 3,
           "turnover": 0.0031746032,
           "win_rate": 0.3333333333,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": 0.0488651867,
-          "expectancy": 0.020805778,
+          "benchmark_return": 0.84011403,
+          "cagr": 0.048973016,
+          "expectancy": 0.0208058018,
           "exposure": 0.0994708995,
-          "max_drawdown": 0.1021906706,
-          "net_return": 0.2000280687,
+          "max_drawdown": 0.1021907268,
+          "net_return": 0.2000283139,
           "profit_factor": 9.99,
           "sessions": 945,
-          "sharpe": 0.5727922123,
-          "sortino": 0.2468572254,
+          "sharpe": 0.5727932692,
+          "sortino": 0.2468572137,
           "trades": 9,
           "turnover": 0.019047619,
           "win_rate": 0.8888888889,
-          "years": 3.822
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.0,
@@ -477,16 +476,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.0179780991,
-          "validation_return": 0.2000280687
+          "holdout_return": -0.0179781825,
+          "validation_return": 0.2000283139
         },
         "30": {
-          "holdout_return": -0.0297181975,
-          "validation_return": 0.1679896873
+          "holdout_return": -0.02971828,
+          "validation_return": 0.167989926
         },
         "60": {
-          "holdout_return": -0.0528305214,
-          "validation_return": 0.1063208002
+          "holdout_return": -0.0528306019,
+          "validation_return": 0.1063210263
         }
       }
     },
@@ -508,52 +507,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0138248914,
-          "expectancy": -0.011957722,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.0138150402,
+          "expectancy": -0.0119576773,
           "exposure": 0.0571428571,
-          "max_drawdown": 0.0712964663,
-          "net_return": -0.05192558,
-          "profit_factor": 0.6110807571,
+          "max_drawdown": 0.0712964676,
+          "net_return": -0.0519254151,
+          "profit_factor": 0.6110822101,
           "sessions": 945,
-          "sharpe": -0.31406066,
-          "sortino": -0.1102576474,
+          "sharpe": -0.314059127,
+          "sortino": -0.1102575225,
           "trades": 4,
           "turnover": 0.0084656085,
           "win_rate": 0.5,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": -0.0186207356,
-          "expectancy": -0.0150842044,
+          "benchmark_return": 2.4009901999,
+          "cagr": -0.0186076434,
+          "expectancy": -0.0150842567,
           "exposure": 0.0497354497,
-          "max_drawdown": 0.2368957324,
-          "net_return": -0.1343255489,
-          "profit_factor": 0.3828936743,
+          "max_drawdown": 0.2368959938,
+          "net_return": -0.1343259581,
+          "profit_factor": 0.3828923562,
           "sessions": 1890,
-          "sharpe": -0.2616816642,
-          "sortino": -0.0934150798,
+          "sharpe": -0.2616827257,
+          "sortino": -0.0934152129,
           "trades": 9,
           "turnover": 0.0095238095,
           "win_rate": 0.3333333333,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": 0.025605566,
-          "expectancy": 0.0113855854,
+          "benchmark_return": 0.84011403,
+          "cagr": 0.0256613624,
+          "expectancy": 0.0113855632,
           "exposure": 0.128042328,
-          "max_drawdown": 0.1367346711,
-          "net_return": 0.1014566433,
-          "profit_factor": 2.082520741,
+          "max_drawdown": 0.1367346167,
+          "net_return": 0.1014564384,
+          "profit_factor": 2.082519321,
           "sessions": 945,
-          "sharpe": 0.2911378183,
-          "sortino": 0.143229003,
+          "sharpe": 0.2911374547,
+          "sortino": 0.1432286804,
           "trades": 9,
           "turnover": 0.019047619,
           "win_rate": 0.6666666667,
-          "years": 3.822
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.0,
@@ -574,16 +573,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.05192558,
-          "validation_return": 0.1014566433
+          "holdout_return": -0.0519254151,
+          "validation_return": 0.1014564384
         },
         "30": {
-          "holdout_return": -0.0632598354,
-          "validation_return": 0.0720499245
+          "holdout_return": -0.0632596725,
+          "validation_return": 0.072049725
         },
         "60": {
-          "holdout_return": -0.0855731901,
-          "validation_return": 0.0154465773
+          "holdout_return": -0.0855730311,
+          "validation_return": 0.0154463884
         }
       }
     },
@@ -609,52 +608,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0749717503,
-          "expectancy": -0.0037597078,
-          "exposure": 0.3587301587,
-          "max_drawdown": 0.375256741,
-          "net_return": -0.2580663593,
-          "profit_factor": 0.6065262744,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.074994819,
+          "expectancy": -0.0037124062,
+          "exposure": 0.3619047619,
+          "max_drawdown": 0.375256482,
+          "net_return": -0.2582955465,
+          "profit_factor": 0.6062557404,
           "sessions": 945,
-          "sharpe": -0.6027193689,
-          "sortino": -0.5444846197,
-          "trades": 72,
-          "turnover": 0.1523809524,
-          "win_rate": 0.2638888889,
-          "years": 3.8303
+          "sharpe": -0.6033599512,
+          "sortino": -0.5455717733,
+          "trades": 73,
+          "turnover": 0.1534391534,
+          "win_rate": 0.2602739726,
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": -0.0001395556,
-          "expectancy": 0.0007987372,
-          "exposure": 0.4740740741,
-          "max_drawdown": 0.443198652,
-          "net_return": -0.0010704787,
-          "profit_factor": 1.0766393623,
+          "benchmark_return": 2.4009901999,
+          "cagr": 0.0031151975,
+          "expectancy": 0.0009432038,
+          "exposure": 0.4761904762,
+          "max_drawdown": 0.4431968597,
+          "net_return": 0.0241740748,
+          "profit_factor": 1.0905010936,
           "sessions": 1890,
-          "sharpe": 0.0855950577,
-          "sortino": 0.1028636791,
+          "sharpe": 0.1049374434,
+          "sortino": 0.1264944434,
           "trades": 175,
           "turnover": 0.1846560847,
           "win_rate": 0.3771428571,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": -0.0394215418,
-          "expectancy": -0.0004647091,
-          "exposure": 0.5121693122,
-          "max_drawdown": 0.3535078573,
-          "net_return": -0.1424887381,
-          "profit_factor": 0.9612898181,
+          "benchmark_return": 0.84011403,
+          "cagr": -0.045391197,
+          "expectancy": -0.0006939653,
+          "exposure": 0.508994709,
+          "max_drawdown": 0.3686782339,
+          "net_return": -0.1623594058,
+          "profit_factor": 0.9427448256,
           "sessions": 945,
-          "sharpe": -0.1188685415,
-          "sortino": -0.1441617463,
-          "trades": 98,
-          "turnover": 0.2074074074,
-          "win_rate": 0.3673469388,
-          "years": 3.822
+          "sharpe": -0.1526753853,
+          "sortino": -0.1849937265,
+          "trades": 99,
+          "turnover": 0.2095238095,
+          "win_rate": 0.3636363636,
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.0,
@@ -675,16 +674,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.2580663593,
-          "validation_return": -0.1424887381
+          "holdout_return": -0.2582955465,
+          "validation_return": -0.1623594058
         },
         "30": {
-          "holdout_return": -0.4024890145,
-          "validation_return": -0.3613406171
+          "holdout_return": -0.404466912,
+          "validation_return": -0.3780129266
         },
         "60": {
-          "holdout_return": -0.6128471589,
-          "validation_return": -0.6462066954
+          "holdout_return": -0.6164474234,
+          "validation_return": -0.6575129743
         }
       }
     },
@@ -711,52 +710,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0283719442,
-          "expectancy": -0.0008905604,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.028352287,
+          "expectancy": -0.0008905745,
           "exposure": 0.4158730159,
-          "max_drawdown": 0.2584848868,
-          "net_return": -0.104383651,
-          "profit_factor": 0.8713115963,
+          "max_drawdown": 0.2584848309,
+          "net_return": -0.1043847762,
+          "profit_factor": 0.8713096805,
           "sessions": 945,
-          "sharpe": -0.1643306196,
-          "sortino": -0.1693416832,
+          "sharpe": -0.1643332181,
+          "sortino": -0.1693443867,
           "trades": 89,
           "turnover": 0.1883597884,
           "win_rate": 0.3483146067,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": -0.0124475631,
-          "expectancy": 6.0736e-05,
-          "exposure": 0.5878306878,
-          "max_drawdown": 0.6104648008,
-          "net_return": -0.0916491195,
-          "profit_factor": 1.0064350897,
+          "benchmark_return": 2.4009901999,
+          "cagr": -0.0092245184,
+          "expectancy": 0.0002261665,
+          "exposure": 0.5899470899,
+          "max_drawdown": 0.6104651122,
+          "net_return": -0.0686964727,
+          "profit_factor": 1.0239627651,
           "sessions": 1890,
-          "sharpe": 0.0275509809,
-          "sortino": 0.0349727562,
+          "sharpe": 0.0453197255,
+          "sortino": 0.0576779316,
           "trades": 180,
           "turnover": 0.1899470899,
           "win_rate": 0.4055555556,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": -0.1193604635,
-          "expectancy": -0.0028194971,
-          "exposure": 0.6285714286,
-          "max_drawdown": 0.5429609213,
-          "net_return": -0.3847998258,
-          "profit_factor": 0.7457891838,
+          "benchmark_return": 0.84011403,
+          "cagr": -0.1249977603,
+          "expectancy": -0.0029715034,
+          "exposure": 0.6253968254,
+          "max_drawdown": 0.5521209818,
+          "net_return": -0.3990573386,
+          "profit_factor": 0.7342471151,
           "sessions": 945,
-          "sharpe": -0.4963540383,
-          "sortino": -0.6580384406,
-          "trades": 133,
-          "turnover": 0.2814814815,
-          "win_rate": 0.3759398496,
-          "years": 3.822
+          "sharpe": -0.5274124386,
+          "sortino": -0.6985575824,
+          "trades": 134,
+          "turnover": 0.2835978836,
+          "win_rate": 0.3731343284,
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.0,
@@ -778,16 +777,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.104383651,
-          "validation_return": -0.3847998258
+          "holdout_return": -0.1043847762,
+          "validation_return": -0.3990573386
         },
         "30": {
-          "holdout_return": -0.3146634824,
-          "validation_return": -0.5875776888
+          "holdout_return": -0.3146643434,
+          "validation_return": -0.5983452419
         },
         "60": {
-          "holdout_return": -0.5991867068,
-          "validation_return": -0.8149844247
+          "holdout_return": -0.5991872104,
+          "validation_return": -0.8208975581
         }
       }
     },
@@ -814,52 +813,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0421195314,
-          "expectancy": -0.0034059395,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.0420900352,
+          "expectancy": -0.0034059344,
           "exposure": 0.4095238095,
-          "max_drawdown": 0.2594662959,
-          "net_return": -0.1519575054,
-          "profit_factor": 0.6548371036,
+          "max_drawdown": 0.2594662911,
+          "net_return": -0.1519573254,
+          "profit_factor": 0.6548372505,
           "sessions": 945,
-          "sharpe": -0.2798146653,
-          "sortino": -0.2635635017,
+          "sharpe": -0.2798142175,
+          "sortino": -0.2635630484,
           "trades": 43,
           "turnover": 0.091005291,
           "win_rate": 0.2790697674,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": -0.0331389981,
-          "expectancy": 0.0001465648,
-          "exposure": 0.5830687831,
-          "max_drawdown": 0.6127990599,
-          "net_return": -0.2278871077,
-          "profit_factor": 1.0134703916,
+          "benchmark_return": 2.4009901999,
+          "cagr": -0.0299686648,
+          "expectancy": 0.0003137305,
+          "exposure": 0.5851851852,
+          "max_drawdown": 0.6127988665,
+          "net_return": -0.2083759024,
+          "profit_factor": 1.0288341551,
           "sessions": 1890,
-          "sharpe": -0.083012643,
-          "sortino": -0.1069972796,
+          "sharpe": -0.0652426656,
+          "sortino": -0.0843066954,
           "trades": 176,
           "turnover": 0.1857142857,
           "win_rate": 0.3693181818,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": -0.1010438529,
-          "expectancy": -0.0021842006,
-          "exposure": 0.6825396825,
-          "max_drawdown": 0.4298660237,
-          "net_return": -0.3344407322,
-          "profit_factor": 0.8121991086,
+          "benchmark_return": 0.84011403,
+          "cagr": -0.1067580808,
+          "expectancy": -0.0023421037,
+          "exposure": 0.6793650794,
+          "max_drawdown": 0.4432439707,
+          "net_return": -0.3498633392,
+          "profit_factor": 0.8001154982,
           "sessions": 945,
-          "sharpe": -0.3597952571,
-          "sortino": -0.491807199,
-          "trades": 132,
-          "turnover": 0.2793650794,
-          "win_rate": 0.3636363636,
-          "years": 3.822
+          "sharpe": -0.388505377,
+          "sortino": -0.5306218085,
+          "trades": 133,
+          "turnover": 0.2814814815,
+          "win_rate": 0.3609022556,
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.0,
@@ -880,16 +879,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.1519575054,
-          "validation_return": -0.3344407322
+          "holdout_return": -0.1519573254,
+          "validation_return": -0.3498633392
         },
         "30": {
-          "holdout_return": -0.2548095545,
-          "validation_return": -0.552474013
+          "holdout_return": -0.2548093964,
+          "validation_return": -0.564156716
         },
         "60": {
-          "holdout_return": -0.4249405809,
-          "validation_return": -0.7980229868
+          "holdout_return": -0.4249404589,
+          "validation_return": -0.8044776101
         }
       }
     },
@@ -908,65 +907,66 @@
       "eligible": false,
       "failed_preholdout_gates": [
         "validation_drawdown",
+        "double_cost_validation",
         "neighbor_validation"
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": 0.0170979603,
-          "expectancy": 0.0111228355,
-          "exposure": 0.4571428571,
+          "benchmark_return": 0.1881494022,
+          "cagr": 0.0279503864,
+          "expectancy": 0.0184128669,
+          "exposure": 0.4529100529,
           "max_drawdown": 0.1614749097,
-          "net_return": 0.0670906757,
-          "profit_factor": 1.4646984533,
+          "net_return": 0.1114480296,
+          "profit_factor": 1.850323827,
           "sessions": 945,
-          "sharpe": 0.1967279012,
-          "sortino": 0.2085015157,
-          "trades": 8,
-          "turnover": 0.0169312169,
-          "win_rate": 0.375,
-          "years": 3.8303
+          "sharpe": 0.2794472026,
+          "sortino": 0.2941191333,
+          "trades": 7,
+          "turnover": 0.0148148148,
+          "win_rate": 0.4285714286,
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": 0.067534709,
-          "expectancy": 0.0461919877,
-          "exposure": 0.591005291,
-          "max_drawdown": 0.2590518454,
-          "net_return": 0.6512356503,
-          "profit_factor": 2.8010857062,
+          "benchmark_return": 2.4009901999,
+          "cagr": 0.0709595865,
+          "expectancy": 0.0481226478,
+          "exposure": 0.5931216931,
+          "max_drawdown": 0.2590518324,
+          "net_return": 0.6929631042,
+          "profit_factor": 2.8763677406,
           "sessions": 1890,
-          "sharpe": 0.4381833653,
-          "sortino": 0.5173611361,
+          "sharpe": 0.4546199545,
+          "sortino": 0.5381673831,
           "trades": 14,
           "turnover": 0.0142857143,
           "win_rate": 0.4285714286,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": 0.016192579,
-          "expectancy": 0.0173816542,
+          "benchmark_return": 0.84011403,
+          "cagr": 0.0027989269,
+          "expectancy": 0.0112965337,
           "exposure": 0.6201058201,
-          "max_drawdown": 0.3452889005,
-          "net_return": 0.0633166679,
-          "profit_factor": 1.3765652163,
+          "max_drawdown": 0.3553106624,
+          "net_return": 0.0107167267,
+          "profit_factor": 1.2162282712,
           "sessions": 945,
-          "sharpe": 0.1837687798,
-          "sortino": 0.2367818972,
+          "sharpe": 0.1211348023,
+          "sortino": 0.1566039603,
           "trades": 8,
           "turnover": 0.0158730159,
           "win_rate": 0.375,
-          "years": 3.822
+          "years": 3.8138
         }
       },
-      "neighbor_holdout_ratio": 0.0,
+      "neighbor_holdout_ratio": 1.0,
       "neighbor_ids": [
         "sma-30-150"
       ],
       "neighbor_validation_ratio": 0.0,
       "preholdout_gates": {
-        "double_cost_validation": true,
+        "double_cost_validation": false,
         "neighbor_validation": false,
         "training_activity": true,
         "training_net": true,
@@ -978,16 +978,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": 0.0670906757,
-          "validation_return": 0.0633166679
+          "holdout_return": 0.1114480296,
+          "validation_return": 0.0107167267
         },
         "30": {
-          "holdout_return": 0.0417289912,
-          "validation_return": 0.0380446807
+          "holdout_return": 0.088299445,
+          "validation_return": -0.0133051107
         },
         "60": {
-          "holdout_return": -0.0073083517,
-          "validation_return": -0.0108192306
+          "holdout_return": 0.0433393154,
+          "validation_return": -0.0597518316
         }
       }
     },
@@ -1012,52 +1012,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0025089783,
-          "expectancy": -0.00097953,
-          "exposure": 0.5312169312,
-          "max_drawdown": 0.1750178919,
-          "net_return": -0.0095759539,
-          "profit_factor": 0.9539125397,
+          "benchmark_return": 0.1881494022,
+          "cagr": 0.007358896,
+          "expectancy": 0.0079720979,
+          "exposure": 0.526984127,
+          "max_drawdown": 0.1750179556,
+          "net_return": 0.0285019278,
+          "profit_factor": 1.6480291949,
           "sessions": 945,
-          "sharpe": 0.0560016424,
-          "sortino": 0.0600724623,
+          "sharpe": 0.1243852891,
+          "sortino": 0.1324618847,
           "trades": 4,
           "turnover": 0.0084656085,
           "win_rate": 0.5,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": 0.071333841,
-          "expectancy": 0.09911946,
-          "exposure": 0.6687830688,
-          "max_drawdown": 0.2804361472,
-          "net_return": 0.6968714926,
-          "profit_factor": 3.9390292117,
+          "benchmark_return": 2.4009901999,
+          "cagr": 0.0764957955,
+          "expectancy": 0.1033091457,
+          "exposure": 0.6698412698,
+          "max_drawdown": 0.2659529284,
+          "net_return": 0.7613442175,
+          "profit_factor": 4.1749656447,
           "sessions": 1890,
-          "sharpe": 0.4440568461,
-          "sortino": 0.5603425196,
+          "sharpe": 0.4677681705,
+          "sortino": 0.5902441872,
           "trades": 9,
           "turnover": 0.008994709,
           "win_rate": 0.4444444444,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": -0.0958737453,
-          "expectancy": -0.0364145118,
+          "benchmark_return": 0.84011403,
+          "cagr": -0.1080148637,
+          "expectancy": -0.0423362798,
           "exposure": 0.7058201058,
-          "max_drawdown": 0.3852294416,
-          "net_return": -0.3196916381,
-          "profit_factor": 0.5350359176,
+          "max_drawdown": 0.3946399661,
+          "net_return": -0.3533450837,
+          "profit_factor": 0.4974241055,
           "sessions": 945,
-          "sharpe": -0.3086545306,
-          "sortino": -0.3695665111,
+          "sharpe": -0.3657180478,
+          "sortino": -0.4389985489,
           "trades": 8,
           "turnover": 0.0158730159,
           "win_rate": 0.25,
-          "years": 3.822
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 1.0,
@@ -1079,16 +1079,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.0095759539,
-          "validation_return": -0.3196916381
+          "holdout_return": 0.0285019278,
+          "validation_return": -0.3533450837
         },
         "30": {
-          "holdout_return": -0.0214165002,
-          "validation_return": -0.3358606164
+          "holdout_return": 0.0162061594,
+          "validation_return": -0.3687142161
         },
         "60": {
-          "holdout_return": -0.0447265723,
-          "validation_return": -0.3671236714
+          "holdout_return": -0.0080000926,
+          "validation_return": -0.3984307525
         }
       }
     },
@@ -1107,61 +1107,62 @@
       "eligible": false,
       "failed_preholdout_gates": [
         "validation_net",
+        "validation_profit_factor",
         "validation_drawdown",
         "double_cost_validation",
         "neighbor_validation"
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": 0.0159412555,
-          "expectancy": 0.0258659939,
-          "exposure": 0.5682539683,
-          "max_drawdown": 0.2053949296,
-          "net_return": 0.0624499106,
-          "profit_factor": 1.8103135646,
+          "benchmark_return": 0.1881494022,
+          "cagr": 0.025978249,
+          "expectancy": 0.0374541464,
+          "exposure": 0.564021164,
+          "max_drawdown": 0.2053949909,
+          "net_return": 0.1032970172,
+          "profit_factor": 2.8420502647,
           "sessions": 945,
-          "sharpe": 0.182861534,
-          "sortino": 0.1986022268,
+          "sharpe": 0.2505951284,
+          "sortino": 0.2702348516,
           "trades": 3,
           "turnover": 0.0063492063,
           "win_rate": 0.6666666667,
-          "years": 3.8303
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": 0.1213474351,
-          "expectancy": 0.3356698514,
-          "exposure": 0.7164021164,
-          "max_drawdown": 0.3278759355,
-          "net_return": 1.4083299449,
-          "profit_factor": 9.5979428913,
+          "benchmark_return": 2.4009901999,
+          "cagr": 0.1249053621,
+          "expectancy": 0.3499566025,
+          "exposure": 0.7185185185,
+          "max_drawdown": 0.3278757614,
+          "net_return": 1.4691870242,
+          "profit_factor": 9.963895403,
           "sessions": 1890,
-          "sharpe": 0.6635745997,
-          "sortino": 0.8601320247,
+          "sharpe": 0.6787112128,
+          "sortino": 0.8817412201,
           "trades": 5,
           "turnover": 0.0047619048,
           "win_rate": 0.6,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": -0.0204197542,
-          "expectancy": 0.0074746496,
+          "benchmark_return": 0.84011403,
+          "cagr": -0.0334071727,
+          "expectancy": -0.0023290118,
           "exposure": 0.8243386243,
-          "max_drawdown": 0.4575707551,
-          "net_return": -0.0758241935,
-          "profit_factor": 1.0909515026,
+          "max_drawdown": 0.457570663,
+          "net_return": -0.1215409243,
+          "profit_factor": 0.9746809224,
           "sessions": 945,
-          "sharpe": 0.070956968,
-          "sortino": 0.0877047306,
+          "sharpe": 0.0235796492,
+          "sortino": 0.0292119287,
           "trades": 5,
           "turnover": 0.0095238095,
           "win_rate": 0.4,
-          "years": 3.822
+          "years": 3.8138
         }
       },
-      "neighbor_holdout_ratio": 0.0,
+      "neighbor_holdout_ratio": 1.0,
       "neighbor_ids": [
         "sma-30-150"
       ],
@@ -1174,21 +1175,21 @@
         "validation_activity": true,
         "validation_drawdown": false,
         "validation_net": false,
-        "validation_profit_factor": true
+        "validation_profit_factor": false
       },
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": 0.0624499106,
-          "validation_return": -0.0758241935
+          "holdout_return": 0.1032970172,
+          "validation_return": -0.1215409243
         },
         "30": {
-          "holdout_return": 0.0529093903,
-          "validation_return": -0.0896141766
+          "holdout_return": 0.0933897007,
+          "validation_return": -0.1346487505
         },
         "60": {
-          "holdout_return": 0.0340424201,
-          "validation_return": -0.1166399648
+          "holdout_return": 0.0737973682,
+          "validation_return": -0.1603376386
         }
       }
     },
@@ -1214,52 +1215,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0745594207,
-          "expectancy": -0.0062482242,
-          "exposure": 0.2814814815,
-          "max_drawdown": 0.2833536963,
-          "net_return": -0.2567988359,
-          "profit_factor": 0.534708414,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.0742390982,
+          "expectancy": -0.0060881058,
+          "exposure": 0.2857142857,
+          "max_drawdown": 0.2833532689,
+          "net_return": -0.2559701958,
+          "profit_factor": 0.5365572272,
           "sessions": 945,
-          "sharpe": -0.706402745,
-          "sortino": -0.5184401243,
-          "trades": 45,
-          "turnover": 0.0952380952,
-          "win_rate": 0.3111111111,
-          "years": 3.8303
+          "sharpe": -0.7034039511,
+          "sortino": -0.5172950674,
+          "trades": 46,
+          "turnover": 0.0962962963,
+          "win_rate": 0.3260869565,
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": 0.0261982793,
-          "expectancy": 0.0030442327,
-          "exposure": 0.3502645503,
-          "max_drawdown": 0.2590624541,
-          "net_return": 0.2195259822,
-          "profit_factor": 1.213899658,
+          "benchmark_return": 2.4009901999,
+          "cagr": 0.0295194884,
+          "expectancy": 0.0033116334,
+          "exposure": 0.3523809524,
+          "max_drawdown": 0.2590621042,
+          "net_return": 0.2503435623,
+          "profit_factor": 1.2326883958,
           "sessions": 1890,
-          "sharpe": 0.252482301,
-          "sortino": 0.2596794949,
+          "sharpe": 0.2745850126,
+          "sortino": 0.2836110149,
           "trades": 100,
           "turnover": 0.1052910053,
           "win_rate": 0.33,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": -0.0355143966,
-          "expectancy": -0.0015790426,
-          "exposure": 0.4444444444,
-          "max_drawdown": 0.2389135932,
-          "net_return": -0.1290810689,
-          "profit_factor": 0.9122638443,
+          "benchmark_return": 0.84011403,
+          "cagr": -0.0415003154,
+          "expectancy": -0.0019715281,
+          "exposure": 0.4412698413,
+          "max_drawdown": 0.2206736551,
+          "net_return": -0.1492636486,
+          "profit_factor": 0.8910251097,
           "sessions": 945,
-          "sharpe": -0.1173765903,
-          "sortino": -0.1269385835,
-          "trades": 54,
-          "turnover": 0.1142857143,
-          "win_rate": 0.3333333333,
-          "years": 3.822
+          "sharpe": -0.1536548684,
+          "sortino": -0.1659614015,
+          "trades": 55,
+          "turnover": 0.1164021164,
+          "win_rate": 0.3272727273,
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.0,
@@ -1280,16 +1281,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.2567988359,
-          "validation_return": -0.1290810689
+          "holdout_return": -0.2559701958,
+          "validation_return": -0.1492636486
         },
         "30": {
-          "holdout_return": -0.3508509876,
-          "validation_return": -0.2596052097
+          "holdout_return": -0.3520782926,
+          "validation_return": -0.2789343754
         },
         "60": {
-          "holdout_return": -0.5050574992,
-          "validation_return": -0.4652931209
+          "holdout_return": -0.5089617421,
+          "validation_return": -0.4823816533
         }
       }
     },
@@ -1315,52 +1316,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": -0.0393846699,
-          "expectancy": -0.0050332428,
-          "exposure": 0.2804232804,
-          "max_drawdown": 0.1946158415,
-          "net_return": -0.142645926,
-          "profit_factor": 0.724049232,
+          "benchmark_return": 0.1881494022,
+          "cagr": -0.0390778686,
+          "expectancy": -0.0048054611,
+          "exposure": 0.2846560847,
+          "max_drawdown": 0.1946154276,
+          "net_return": -0.1416903231,
+          "profit_factor": 0.7264044097,
           "sessions": 945,
-          "sharpe": -0.314860023,
-          "sortino": -0.2231468246,
-          "trades": 26,
-          "turnover": 0.055026455,
-          "win_rate": 0.1923076923,
-          "years": 3.8303
+          "sharpe": -0.3121100564,
+          "sortino": -0.2218109724,
+          "trades": 27,
+          "turnover": 0.0560846561,
+          "win_rate": 0.2222222222,
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": 0.0277770578,
-          "expectancy": 0.0044804727,
-          "exposure": 0.3619047619,
-          "max_drawdown": 0.3008525895,
-          "net_return": 0.2339985069,
-          "profit_factor": 1.2630294549,
+          "benchmark_return": 2.4009901999,
+          "cagr": 0.0311020793,
+          "expectancy": 0.0048776605,
+          "exposure": 0.364021164,
+          "max_drawdown": 0.30085353,
+          "net_return": 0.2651802356,
+          "profit_factor": 1.2863463864,
           "sessions": 1890,
-          "sharpe": 0.2624961503,
-          "sortino": 0.2684918373,
+          "sharpe": 0.2844390883,
+          "sortino": 0.2921583809,
           "trades": 67,
           "turnover": 0.0703703704,
           "win_rate": 0.3582089552,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": -0.0374166042,
-          "expectancy": -0.0026651148,
-          "exposure": 0.4412698413,
-          "max_drawdown": 0.3238034432,
-          "net_return": -0.1356278265,
-          "profit_factor": 0.8901676589,
+          "benchmark_return": 0.84011403,
+          "cagr": -0.0433943051,
+          "expectancy": -0.0032343324,
+          "exposure": 0.4380952381,
+          "max_drawdown": 0.3238033457,
+          "net_return": -0.1556570786,
+          "profit_factor": 0.8665870841,
           "sessions": 945,
-          "sharpe": -0.1314466288,
-          "sortino": -0.1346226424,
-          "trades": 35,
-          "turnover": 0.0740740741,
-          "win_rate": 0.4,
-          "years": 3.822
+          "sharpe": -0.1681315041,
+          "sortino": -0.1719127551,
+          "trades": 36,
+          "turnover": 0.0761904762,
+          "win_rate": 0.3888888889,
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.5,
@@ -1382,16 +1383,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": -0.142645926,
-          "validation_return": -0.1356278265
+          "holdout_return": -0.1416903231,
+          "validation_return": -0.1556570786
         },
         "30": {
-          "holdout_return": -0.2071174692,
-          "validation_return": -0.2219687971
+          "holdout_return": -0.2086168108,
+          "validation_return": -0.2422790722
         },
         "60": {
-          "holdout_return": -0.3221203356,
-          "validation_return": -0.3699386482
+          "holdout_return": -0.3274678827,
+          "validation_return": -0.3900734191
         }
       }
     },
@@ -1414,52 +1415,52 @@
       ],
       "metrics": {
         "holdout": {
-          "benchmark_return": 0.1037994786,
-          "cagr": 0.0062281973,
-          "expectancy": 0.0028044148,
-          "exposure": 0.2783068783,
-          "max_drawdown": 0.1717144825,
-          "net_return": 0.0240666283,
-          "profit_factor": 1.1522297235,
+          "benchmark_return": 0.1881494022,
+          "cagr": 0.0065160313,
+          "expectancy": 0.0027155589,
+          "exposure": 0.2825396825,
+          "max_drawdown": 0.1717146146,
+          "net_return": 0.0252073348,
+          "profit_factor": 1.1555954521,
           "sessions": 945,
-          "sharpe": 0.1128728429,
-          "sortino": 0.0820770665,
-          "trades": 18,
-          "turnover": 0.0380952381,
-          "win_rate": 0.3333333333,
-          "years": 3.8303
+          "sharpe": 0.1155027254,
+          "sortino": 0.0842247432,
+          "trades": 19,
+          "turnover": 0.0391534392,
+          "win_rate": 0.3684210526,
+          "years": 3.833
         },
         "training": {
-          "benchmark_return": 2.3703824506,
-          "cagr": 0.0079074236,
-          "expectancy": 0.0026722798,
-          "exposure": 0.3804232804,
-          "max_drawdown": 0.3462388846,
-          "net_return": 0.0623085853,
-          "profit_factor": 1.1400868542,
+          "benchmark_return": 2.4009901999,
+          "cagr": 0.0111823214,
+          "expectancy": 0.0031389234,
+          "exposure": 0.3825396825,
+          "max_drawdown": 0.3462383234,
+          "net_return": 0.089152591,
+          "profit_factor": 1.1645492964,
           "sessions": 1890,
-          "sharpe": 0.1288621687,
-          "sortino": 0.1296461827,
+          "sharpe": 0.1506738729,
+          "sortino": 0.1522082353,
           "trades": 55,
           "turnover": 0.0576719577,
           "win_rate": 0.3636363636,
-          "years": 7.6742
+          "years": 7.6797
         },
         "validation": {
-          "benchmark_return": 0.9760526995,
-          "cagr": 0.0825659372,
-          "expectancy": 0.0166801246,
-          "exposure": 0.4412698413,
-          "max_drawdown": 0.2232588388,
-          "net_return": 0.3542097114,
-          "profit_factor": 1.7179663901,
+          "benchmark_return": 0.84011403,
+          "cagr": 0.0828360917,
+          "expectancy": 0.0166923161,
+          "exposure": 0.437037037,
+          "max_drawdown": 0.2232590706,
+          "net_return": 0.3546160454,
+          "profit_factor": 1.7184907841,
           "sessions": 945,
-          "sharpe": 0.5418841509,
-          "sortino": 0.603868971,
+          "sharpe": 0.5442859299,
+          "sortino": 0.6038930082,
           "trades": 25,
           "turnover": 0.0529100529,
           "win_rate": 0.44,
-          "years": 3.822
+          "years": 3.8138
         }
       },
       "neighbor_holdout_ratio": 0.0,
@@ -1480,16 +1481,16 @@
       "score": null,
       "stress": {
         "15": {
-          "holdout_return": 0.0240666283,
-          "validation_return": 0.3542097114
+          "holdout_return": 0.0252073348,
+          "validation_return": 0.3546160454
         },
         "30": {
-          "holdout_return": -0.0298845491,
-          "validation_return": 0.2561467503
+          "holdout_return": -0.0317197121,
+          "validation_return": 0.2565236603
         },
         "60": {
-          "holdout_return": -0.1296226902,
-          "validation_return": 0.0804425604
+          "holdout_return": -0.1364893825,
+          "validation_return": 0.0807667499
         }
       }
     }
@@ -1509,28 +1510,28 @@
   "currency": "INR",
   "currency_symbol": "\u20b9",
   "current": {
-    "atr14": 35.2072,
-    "close": 1311.0,
-    "median_notional_turnover20": 19790735918.26,
-    "realized_vol20": 0.448214,
-    "regime": "DOWNTREND / HIGH VOL",
-    "session": "2026-11-09",
-    "sma200": 1321.7086,
-    "sma50": 1235.85,
-    "trend": "DOWNTREND",
+    "atr14": 31.9143,
+    "close": 1339.0,
+    "median_notional_turnover20": 21075559967.76,
+    "realized_vol20": 0.431998,
+    "regime": "MIXED / HIGH VOL",
+    "session": "2026-11-16",
+    "sma200": 1320.3246,
+    "sma50": 1240.09,
+    "trend": "MIXED",
     "volatility": "HIGH VOL"
   },
   "data": {
     "adjustment_policy": "Adjusted daily OHLCV",
     "base_cost_bps_per_side": 15.0,
-    "end": "2026-11-09",
-    "fetched_at": "2026-11-09T06:39:27+00:00",
+    "end": "2026-11-16",
+    "fetched_at": "2026-11-16T06:46:42+00:00",
     "minimum_notional_turnover": 1000000000.0,
     "notional_turnover_currency": "INR",
     "sessions": 3780,
-    "sha256": "b9f22902e6c7e3027985c96b7ea1ffee01560e125eda85036a16fcd1fff053ef",
+    "sha256": "ac7c77ac9e537da15e43730c4e8da856d26218e4852c50d778c3cb3b94a08b1d",
     "source": "Yahoo Finance via yfinance",
-    "start": "2011-07-11",
+    "start": "2011-07-15",
     "stress_costs_bps_per_side": [
       15.0,
       30.0,
@@ -1541,7 +1542,7 @@
   "display_ticker": "RELIANCE",
   "engine_version": "0.2.0",
   "exchange": "NSE/BSE",
-  "generated_at": "2026-11-09T06:39:39+00:00",
+  "generated_at": "2026-11-16T06:46:47+00:00",
   "limitations": [
     "Historical adjusted daily data; not an exchange-grade point-in-time feed.",
     "Current-constituent research can retain survivorship bias.",
@@ -1552,18 +1553,6 @@
   "market_label": "India",
   "price_history": [
     {
-      "close": 1322.9252,
-      "session": "2024-10-28",
-      "sma200": 1440.5787,
-      "sma50": 1431.0877
-    },
-    {
-      "close": 1332.3936,
-      "session": "2024-10-30",
-      "sma200": 1441.0275,
-      "sma50": 1425.1301
-    },
-    {
       "close": 1327.1885,
       "session": "2024-11-01",
       "sma200": 1441.5009,
@@ -1573,10 +1562,10 @@
       "close": 1294.124,
       "session": "2024-11-05",
       "sma200": 1441.1618,
-      "sma50": 1410.6309
+      "sma50": 1410.6308
     },
     {
-      "close": 1294.4711,
+      "close": 1294.4709,
       "session": "2024-11-07",
       "sma200": 1440.5446,
       "sma50": 1403.3388
@@ -1600,7 +1589,7 @@
       "sma50": 1374.5405
     },
     {
-      "close": 1212.5287,
+      "close": 1212.5286,
       "session": "2024-11-21",
       "sma200": 1436.4182,
       "sma50": 1365.3672
@@ -1624,7 +1613,7 @@
       "sma50": 1343.4604
     },
     {
-      "close": 1311.9698,
+      "close": 1311.97,
       "session": "2024-12-03",
       "sma200": 1430.9548,
       "sma50": 1337.4984
@@ -1648,13 +1637,13 @@
       "sma50": 1313.9815
     },
     {
-      "close": 1261.9519,
+      "close": 1261.9518,
       "session": "2024-12-13",
       "sma200": 1424.2151,
       "sma50": 1305.938
     },
     {
-      "close": 1234.6377,
+      "close": 1234.6378,
       "session": "2024-12-17",
       "sma200": 1422.104,
       "sma50": 1300.3879
@@ -1678,7 +1667,7 @@
       "sma50": 1282.3883
     },
     {
-      "close": 1200.334,
+      "close": 1200.3339,
       "session": "2024-12-30",
       "sma200": 1411.8911,
       "sma50": 1277.107
@@ -1686,11 +1675,11 @@
     {
       "close": 1210.7936,
       "session": "2025-01-01",
-      "sma200": 1409.2384,
+      "sma200": 1409.2383,
       "sma50": 1271.5742
     },
     {
-      "close": 1240.4377,
+      "close": 1240.4376,
       "session": "2025-01-03",
       "sma200": 1407.0615,
       "sma50": 1267.2198
@@ -1702,7 +1691,7 @@
       "sma50": 1262.8679
     },
     {
-      "close": 1244.0067,
+      "close": 1244.0068,
       "session": "2025-01-09",
       "sma200": 1403.478,
       "sma50": 1260.0532
@@ -1732,7 +1721,7 @@
       "sma50": 1250.6861
     },
     {
-      "close": 1252.8306,
+      "close": 1252.8307,
       "session": "2025-01-23",
       "sma200": 1393.9221,
       "sma50": 1250.3748
@@ -1780,19 +1769,19 @@
       "sma50": 1244.7891
     },
     {
-      "close": 1205.6877,
+      "close": 1205.6876,
       "session": "2025-02-13",
       "sma200": 1377.2413,
       "sma50": 1240.856
     },
     {
-      "close": 1214.4124,
+      "close": 1214.4125,
       "session": "2025-02-17",
       "sma200": 1374.8545,
       "sma50": 1237.5932
     },
     {
-      "close": 1216.9406,
+      "close": 1216.9404,
       "session": "2025-02-19",
       "sma200": 1372.9161,
       "sma50": 1235.4081
@@ -1804,7 +1793,7 @@
       "sma50": 1233.9288
     },
     {
-      "close": 1193.6913,
+      "close": 1193.6914,
       "session": "2025-02-25",
       "sma200": 1369.3328,
       "sma50": 1232.0441
@@ -1822,27 +1811,27 @@
       "sma50": 1228.6544
     },
     {
-      "close": 1199.2434,
+      "close": 1199.2433,
       "session": "2025-03-06",
       "sma200": 1362.4829,
       "sma50": 1227.5817
     },
     {
-      "close": 1227.7968,
+      "close": 1227.7969,
       "session": "2025-03-10",
       "sma200": 1360.2595,
       "sma50": 1228.701
     },
     {
-      "close": 1246.2871,
+      "close": 1246.2872,
       "session": "2025-03-12",
       "sma200": 1358.117,
       "sma50": 1230.0424
     },
     {
-      "close": 1228.2428,
+      "close": 1228.2429,
       "session": "2025-03-17",
-      "sma200": 1356.132,
+      "sma200": 1356.1321,
       "sma50": 1229.9195
     },
     {
@@ -1852,7 +1841,7 @@
       "sma50": 1230.4578
     },
     {
-      "close": 1265.4218,
+      "close": 1265.4219,
       "session": "2025-03-21",
       "sma200": 1352.6032,
       "sma50": 1230.9585
@@ -1867,7 +1856,7 @@
       "close": 1267.256,
       "session": "2025-03-27",
       "sma200": 1349.4539,
-      "sma50": 1234.252
+      "sma50": 1234.2521
     },
     {
       "close": 1241.8751,
@@ -1876,13 +1865,13 @@
       "sma50": 1233.4371
     },
     {
-      "close": 1238.0087,
+      "close": 1238.0085,
       "session": "2025-04-03",
       "sma200": 1345.4117,
       "sma50": 1231.8647
     },
     {
-      "close": 1155.7191,
+      "close": 1155.7192,
       "session": "2025-04-07",
       "sma200": 1342.639,
       "sma50": 1228.4868
@@ -1903,10 +1892,10 @@
       "close": 1263.5878,
       "session": "2025-04-17",
       "sma200": 1335.2146,
-      "sma50": 1226.0419
+      "sma50": 1226.042
     },
     {
-      "close": 1280.1448,
+      "close": 1280.1447,
       "session": "2025-04-22",
       "sma200": 1332.5958,
       "sma50": 1227.5529
@@ -1918,10 +1907,10 @@
       "sma50": 1228.3104
     },
     {
-      "close": 1357.0804,
+      "close": 1357.0803,
       "session": "2025-04-28",
       "sma200": 1327.7959,
-      "sma50": 1230.7086
+      "sma50": 1230.7087
     },
     {
       "close": 1392.9703,
@@ -1933,7 +1922,7 @@
       "close": 1419.0453,
       "session": "2025-05-05",
       "sma200": 1324.4312,
-      "sma50": 1245.2758
+      "sma50": 1245.2759
     },
     {
       "close": 1393.9618,
@@ -1942,13 +1931,13 @@
       "sma50": 1252.905
     },
     {
-      "close": 1365.4083,
+      "close": 1365.4084,
       "session": "2025-05-09",
       "sma200": 1320.8409,
       "sma50": 1259.4752
     },
     {
-      "close": 1403.5786,
+      "close": 1403.5787,
       "session": "2025-05-13",
       "sma200": 1319.8827,
       "sma50": 1267.2293
@@ -1966,7 +1955,7 @@
       "sma50": 1286.0676
     },
     {
-      "close": 1416.963,
+      "close": 1416.9631,
       "session": "2025-05-21",
       "sma200": 1318.1072,
       "sma50": 1296.3914
@@ -1981,7 +1970,7 @@
       "close": 1409.924,
       "session": "2025-05-27",
       "sma200": 1316.8476,
-      "sma50": 1312.645
+      "sma50": 1312.6451
     },
     {
       "close": 1405.6609,
@@ -1996,13 +1985,13 @@
       "sma50": 1326.0136
     },
     {
-      "close": 1411.3119,
+      "close": 1411.312,
       "session": "2025-06-04",
       "sma200": 1315.6351,
       "sma50": 1332.8149
     },
     {
-      "close": 1431.1406,
+      "close": 1431.1407,
       "session": "2025-06-06",
       "sma200": 1315.416,
       "sma50": 1339.5646
@@ -2011,16 +2000,16 @@
       "close": 1426.1835,
       "session": "2025-06-10",
       "sma200": 1314.9349,
-      "sma50": 1345.5082
+      "sma50": 1345.5083
     },
     {
-      "close": 1429.257,
+      "close": 1429.2571,
       "session": "2025-06-12",
       "sma200": 1314.408,
       "sma50": 1352.2352
     },
     {
-      "close": 1425.4895,
+      "close": 1425.4896,
       "session": "2025-06-16",
       "sma200": 1313.6799,
       "sma50": 1358.9373
@@ -2038,13 +2027,13 @@
       "sma50": 1376.5958
     },
     {
-      "close": 1438.3782,
+      "close": 1438.3783,
       "session": "2025-06-24",
       "sma200": 1311.765,
       "sma50": 1387.3043
     },
     {
-      "close": 1482.4972,
+      "close": 1482.4973,
       "session": "2025-06-26",
       "sma200": 1311.5423,
       "sma50": 1397.2891
@@ -2052,11 +2041,11 @@
     {
       "close": 1487.7518,
       "session": "2025-06-30",
-      "sma200": 1311.9821,
+      "sma200": 1311.9822,
       "sma50": 1407.2471
     },
     {
-      "close": 1505.7961,
+      "close": 1505.796,
       "session": "2025-07-02",
       "sma200": 1312.6473,
       "sma50": 1416.3782
@@ -2068,16 +2057,16 @@
       "sma50": 1425.1723
     },
     {
-      "close": 1524.4351,
+      "close": 1524.4349,
       "session": "2025-07-08",
       "sma200": 1313.7781,
       "sma50": 1433.3001
     },
     {
-      "close": 1504.2097,
+      "close": 1504.2096,
       "session": "2025-07-10",
       "sma200": 1314.2891,
-      "sma50": 1437.8904
+      "sma50": 1437.8905
     },
     {
       "close": 1470.9965,
@@ -2092,7 +2081,7 @@
       "sma50": 1443.2819
     },
     {
-      "close": 1463.3624,
+      "close": 1463.3625,
       "session": "2025-07-18",
       "sma200": 1313.8705,
       "sma50": 1446.6171
@@ -2100,23 +2089,23 @@
     {
       "close": 1400.7036,
       "session": "2025-07-22",
-      "sma200": 1313.3747,
-      "sma50": 1446.4029
+      "sma200": 1313.3748,
+      "sma50": 1446.403
     },
     {
-      "close": 1390.8883,
+      "close": 1390.8884,
       "session": "2025-07-24",
       "sma200": 1313.5433,
       "sma50": 1445.3897
     },
     {
-      "close": 1375.7194,
+      "close": 1375.7192,
       "session": "2025-07-28",
       "sma200": 1313.5989,
       "sma50": 1443.0519
     },
     {
-      "close": 1398.0267,
+      "close": 1398.0266,
       "session": "2025-07-30",
       "sma200": 1314.0032,
       "sma50": 1442.5244
@@ -2134,7 +2123,7 @@
       "sma50": 1440.4226
     },
     {
-      "close": 1377.5039,
+      "close": 1377.504,
       "session": "2025-08-07",
       "sma200": 1315.0484,
       "sma50": 1439.4609
@@ -2148,7 +2137,7 @@
     {
       "close": 1370.7621,
       "session": "2025-08-13",
-      "sma200": 1315.6736,
+      "sma200": 1315.6737,
       "sma50": 1436.554
     },
     {
@@ -2196,13 +2185,13 @@
     {
       "close": 1372.1558,
       "session": "2025-09-08",
-      "sma200": 1322.57,
+      "sma200": 1322.5701,
       "sma50": 1418.6514
     },
     {
       "close": 1370.6626,
       "session": "2025-09-10",
-      "sma200": 1324.0549,
+      "sma200": 1324.055,
       "sma50": 1413.6584
     },
     {
@@ -2286,7 +2275,7 @@
     {
       "close": 1458.4567,
       "session": "2025-10-21",
-      "sma200": 1342.4466,
+      "sma200": 1342.4467,
       "sma50": 1381.1671
     },
     {
@@ -2556,7 +2545,7 @@
     {
       "close": 1351.75,
       "session": "2026-03-02",
-      "sma200": 1442.36,
+      "sma200": 1442.3601,
       "sma50": 1454.1586
     },
     {
@@ -3062,6 +3051,18 @@
       "session": "2026-11-06",
       "sma200": 1322.414,
       "sma50": 1235.59
+    },
+    {
+      "close": 1335.4,
+      "session": "2026-11-11",
+      "sma200": 1321.1967,
+      "sma50": 1237.182
+    },
+    {
+      "close": 1339.7,
+      "session": "2026-11-13",
+      "sma200": 1320.6203,
+      "sma50": 1239.49
     }
   ],
   "schema_version": "technical-analysis-brief-v2",
@@ -3079,948 +3080,948 @@
     },
     "equity_curve": [
       {
-        "benchmark": 0.98026184,
-        "session": "2023-01-10",
+        "benchmark": 0.98695108,
+        "session": "2023-01-16",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.94976275,
-        "session": "2023-01-17",
+        "benchmark": 0.98137832,
+        "session": "2023-01-23",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.92568145,
-        "session": "2023-01-24",
+        "benchmark": 0.95050721,
+        "session": "2023-01-31",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.89654269,
-        "session": "2023-02-01",
+        "benchmark": 0.93114438,
+        "session": "2023-02-07",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.9011596,
-        "session": "2023-02-08",
+        "benchmark": 0.96029965,
+        "session": "2023-02-14",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.93181186,
-        "session": "2023-02-15",
+        "benchmark": 0.98291289,
+        "session": "2023-02-21",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.91148561,
-        "session": "2023-02-22",
+        "benchmark": 0.93786791,
+        "session": "2023-02-28",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.89807514,
-        "session": "2023-03-01",
+        "benchmark": 0.97614912,
+        "session": "2023-03-08",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.90395656,
-        "session": "2023-03-09",
+        "benchmark": 0.90334208,
+        "session": "2023-03-15",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.85286298,
-        "session": "2023-03-16",
+        "benchmark": 0.91931283,
+        "session": "2023-03-22",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.86125423,
-        "session": "2023-03-23",
+        "benchmark": 0.90239325,
+        "session": "2023-03-29",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.89315171,
-        "session": "2023-03-31",
+        "benchmark": 0.93879661,
+        "session": "2023-04-10",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.89518235,
-        "session": "2023-04-11",
+        "benchmark": 0.94505573,
+        "session": "2023-04-18",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.90117874,
-        "session": "2023-04-19",
+        "benchmark": 0.95947162,
+        "session": "2023-04-25",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.90504867,
-        "session": "2023-04-26",
+        "benchmark": 0.97725953,
+        "session": "2023-05-03",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.93796162,
-        "session": "2023-05-04",
+        "benchmark": 1.00815092,
+        "session": "2023-05-10",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.95033742,
-        "session": "2023-05-11",
+        "benchmark": 0.98501253,
+        "session": "2023-05-17",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.93261658,
-        "session": "2023-05-18",
+        "benchmark": 0.98539623,
+        "session": "2023-05-24",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.93487706,
-        "session": "2023-05-25",
+        "benchmark": 0.99736924,
+        "session": "2023-05-31",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.94380444,
-        "session": "2023-06-01",
+        "benchmark": 1.00877686,
+        "session": "2023-06-07",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.95775149,
-        "session": "2023-06-08",
+        "benchmark": 1.03046139,
+        "session": "2023-06-14",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.9780203,
-        "session": "2023-06-15",
+        "benchmark": 1.03548882,
+        "session": "2023-06-21",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.97148753,
-        "session": "2023-06-22",
+        "benchmark": 1.02143634,
+        "session": "2023-06-28",
         "strategy": 1.0
       },
       {
-        "benchmark": 0.977139,
-        "session": "2023-06-30",
+        "benchmark": 1.06555262,
+        "session": "2023-07-06",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.00907492,
-        "session": "2023-07-07",
+        "benchmark": 1.10764953,
+        "session": "2023-07-13",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.05011084,
-        "session": "2023-07-14",
+        "benchmark": 1.14617645,
+        "session": "2023-07-20",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.05388205,
-        "session": "2023-07-21",
+        "benchmark": 1.09492366,
+        "session": "2023-07-27",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.04935727,
-        "session": "2023-07-28",
+        "benchmark": 1.08319863,
+        "session": "2023-08-03",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.0417606,
-        "session": "2023-08-04",
+        "benchmark": 1.10968918,
+        "session": "2023-08-10",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.05736897,
-        "session": "2023-08-11",
+        "benchmark": 1.1185923,
+        "session": "2023-08-18",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.04979381,
-        "session": "2023-08-21",
+        "benchmark": 1.08371033,
+        "session": "2023-08-25",
         "strategy": 1.0
       },
       {
-        "benchmark": 1.01802926,
-        "session": "2023-08-28",
-        "strategy": 1.0
+        "benchmark": 1.05925564,
+        "session": "2023-09-01",
+        "strategy": 0.98245587
       },
       {
-        "benchmark": 1.00426111,
-        "session": "2023-09-04",
-        "strategy": 0.98166182
+        "benchmark": 1.07486362,
+        "session": "2023-09-08",
+        "strategy": 0.99693223
       },
       {
-        "benchmark": 1.03088091,
-        "session": "2023-09-11",
-        "strategy": 1.00768259
+        "benchmark": 1.07910044,
+        "session": "2023-09-15",
+        "strategy": 1.00958647
       },
       {
-        "benchmark": 1.01498825,
-        "session": "2023-09-18",
-        "strategy": 1.00958658
+        "benchmark": 1.02755671,
+        "session": "2023-09-25",
+        "strategy": 0.99298911
       },
       {
-        "benchmark": 0.97584998,
-        "session": "2023-09-26",
-        "strategy": 0.99385889
+        "benchmark": 1.01776611,
+        "session": "2023-10-03",
+        "strategy": 0.98352787
       },
       {
-        "benchmark": 0.9640398,
-        "session": "2023-10-04",
-        "strategy": 0.98183075
-      },
-      {
-        "benchmark": 0.97691234,
-        "session": "2023-10-11",
+        "benchmark": 1.01348546,
+        "session": "2023-10-10",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 0.96814327,
-        "session": "2023-10-18",
+        "benchmark": 1.03405459,
+        "session": "2023-10-17",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 0.92752619,
-        "session": "2023-10-26",
+        "benchmark": 0.99133576,
+        "session": "2023-10-25",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 0.96656018,
-        "session": "2023-11-02",
+        "benchmark": 1.00865612,
+        "session": "2023-11-01",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 0.96254018,
-        "session": "2023-11-09",
+        "benchmark": 1.02555915,
+        "session": "2023-11-08",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 0.98128653,
-        "session": "2023-11-17",
+        "benchmark": 1.03644735,
+        "session": "2023-11-16",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 0.99726247,
-        "session": "2023-11-24",
+        "benchmark": 1.05172599,
+        "session": "2023-11-23",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.00821863,
-        "session": "2023-12-04",
+        "benchmark": 1.05119932,
+        "session": "2023-12-01",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.02452797,
-        "session": "2023-12-11",
+        "benchmark": 1.07817836,
+        "session": "2023-12-08",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.05021047,
-        "session": "2023-12-18",
+        "benchmark": 1.09567423,
+        "session": "2023-12-15",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.0739766,
-        "session": "2023-12-26",
+        "benchmark": 1.12616577,
+        "session": "2023-12-22",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.08799467,
-        "session": "2024-01-02",
+        "benchmark": 1.13722961,
+        "session": "2024-01-01",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.07499717,
-        "session": "2024-01-09",
+        "benchmark": 1.13595648,
+        "session": "2024-01-08",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.14529587,
-        "session": "2024-01-16",
+        "benchmark": 1.22415985,
+        "session": "2024-01-15",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.11967594,
-        "session": "2024-01-24",
+        "benchmark": 1.16660152,
+        "session": "2024-01-23",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.18864157,
-        "session": "2024-02-01",
+        "benchmark": 1.25269765,
+        "session": "2024-01-31",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.20820026,
-        "session": "2024-02-08",
+        "benchmark": 1.2663301,
+        "session": "2024-02-07",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.22525945,
-        "session": "2024-02-15",
+        "benchmark": 1.30077283,
+        "session": "2024-02-14",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.23454925,
-        "session": "2024-02-22",
+        "benchmark": 1.2887651,
+        "session": "2024-02-21",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.21709438,
-        "session": "2024-02-29",
+        "benchmark": 1.2781623,
+        "session": "2024-02-28",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.23219561,
-        "session": "2024-03-07",
+        "benchmark": 1.31976151,
+        "session": "2024-03-06",
         "strategy": 0.97713847
       },
       {
-        "benchmark": 1.18162214,
-        "session": "2024-03-15",
-        "strategy": 0.9611194
+        "benchmark": 1.25695639,
+        "session": "2024-03-14",
+        "strategy": 0.97009876
       },
       {
-        "benchmark": 1.21228274,
-        "session": "2024-03-22",
-        "strategy": 0.98605842
+        "benchmark": 1.27407898,
+        "session": "2024-03-21",
+        "strategy": 0.98331371
       },
       {
-        "benchmark": 1.23888165,
-        "session": "2024-04-02",
-        "strategy": 1.01019154
+        "benchmark": 1.30375843,
+        "session": "2024-04-01",
+        "strategy": 1.01019146
       },
       {
-        "benchmark": 1.21946892,
-        "session": "2024-04-09",
-        "strategy": 1.01019154
+        "benchmark": 1.30481211,
+        "session": "2024-04-08",
+        "strategy": 1.01019146
       },
       {
-        "benchmark": 1.22003123,
-        "session": "2024-04-18",
-        "strategy": 1.01019154
+        "benchmark": 1.28705284,
+        "session": "2024-04-16",
+        "strategy": 1.01019146
       },
       {
-        "benchmark": 1.2164069,
-        "session": "2024-04-25",
-        "strategy": 1.01019154
+        "benchmark": 1.27337657,
+        "session": "2024-04-24",
+        "strategy": 1.01019146
       },
       {
-        "benchmark": 1.19476539,
-        "session": "2024-05-03",
-        "strategy": 1.01019154
+        "benchmark": 1.28775536,
+        "session": "2024-05-02",
+        "strategy": 1.01019146
       },
       {
-        "benchmark": 1.17262394,
-        "session": "2024-05-10",
-        "strategy": 0.98894895
+        "benchmark": 1.22415985,
+        "session": "2024-05-09",
+        "strategy": 0.97960328
       },
       {
-        "benchmark": 1.19618184,
-        "session": "2024-05-17",
-        "strategy": 1.00881683
+        "benchmark": 1.25157813,
+        "session": "2024-05-16",
+        "strategy": 1.00154407
       },
       {
-        "benchmark": 1.22163512,
-        "session": "2024-05-27",
+        "benchmark": 1.299785,
+        "session": "2024-05-24",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.25835706,
-        "session": "2024-06-03",
+        "benchmark": 1.25601261,
+        "session": "2024-05-31",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.22592593,
-        "session": "2024-06-10",
+        "benchmark": 1.29074075,
+        "session": "2024-06-07",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.23394524,
-        "session": "2024-06-18",
+        "benchmark": 1.29741416,
+        "session": "2024-06-14",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.21155377,
-        "session": "2024-06-25",
+        "benchmark": 1.26573725,
+        "session": "2024-06-24",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.3040564,
-        "session": "2024-07-02",
+        "benchmark": 1.36994403,
+        "session": "2024-07-01",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.32496905,
-        "session": "2024-07-09",
+        "benchmark": 1.40572606,
+        "session": "2024-07-08",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.31328382,
-        "session": "2024-07-16",
+        "benchmark": 1.40249897,
+        "session": "2024-07-15",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.24617189,
-        "session": "2024-07-24",
+        "benchmark": 1.30650245,
+        "session": "2024-07-23",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.25427448,
-        "session": "2024-07-31",
+        "benchmark": 1.32867406,
+        "session": "2024-07-30",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.2204478,
-        "session": "2024-08-07",
+        "benchmark": 1.27853548,
+        "session": "2024-08-06",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.2179691,
-        "session": "2024-08-14",
+        "benchmark": 1.28518686,
+        "session": "2024-08-13",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.2524287,
-        "session": "2024-08-22",
+        "benchmark": 1.32043018,
+        "session": "2024-08-21",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.27148951,
-        "session": "2024-08-29",
+        "benchmark": 1.32009975,
+        "session": "2024-08-28",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.24812338,
-        "session": "2024-09-05",
+        "benchmark": 1.33441703,
+        "session": "2024-09-04",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.23710906,
-        "session": "2024-09-12",
+        "benchmark": 1.2788658,
+        "session": "2024-09-11",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.22864467,
-        "session": "2024-09-19",
+        "benchmark": 1.28939461,
+        "session": "2024-09-18",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.25228244,
-        "session": "2024-09-26",
+        "benchmark": 1.31626702,
+        "session": "2024-09-25",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.15913144,
-        "session": "2024-10-04",
+        "benchmark": 1.23963647,
+        "session": "2024-10-03",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.14707216,
-        "session": "2024-10-11",
+        "benchmark": 1.20798419,
+        "session": "2024-10-10",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.13637137,
-        "session": "2024-10-18",
+        "benchmark": 1.19509864,
+        "session": "2024-10-17",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.1100792,
-        "session": "2024-10-25",
+        "benchmark": 1.18045103,
+        "session": "2024-10-24",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.11910807,
-        "session": "2024-11-01",
+        "benchmark": 1.17362271,
+        "session": "2024-10-31",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.07321171,
-        "session": "2024-11-08",
+        "benchmark": 1.1503625,
+        "session": "2024-11-07",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.05398385,
-        "session": "2024-11-18",
+        "benchmark": 1.11683806,
+        "session": "2024-11-14",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.08320196,
-        "session": "2024-11-26",
+        "benchmark": 1.1339306,
+        "session": "2024-11-25",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.10627546,
-        "session": "2024-12-03",
+        "benchmark": 1.15344628,
+        "session": "2024-12-02",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.0741313,
-        "session": "2024-12-10",
+        "benchmark": 1.14111137,
+        "session": "2024-12-09",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.04106766,
-        "session": "2024-12-17",
+        "benchmark": 1.11745477,
+        "session": "2024-12-16",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.02221591,
-        "session": "2024-12-24",
+        "benchmark": 1.07692584,
+        "session": "2024-12-23",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.02096189,
-        "session": "2025-01-01",
+        "benchmark": 1.07089041,
+        "session": "2024-12-31",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.05795485,
-        "session": "2025-01-08",
+        "benchmark": 1.09326943,
+        "session": "2025-01-07",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.04683596,
-        "session": "2025-01-15",
+        "benchmark": 1.0914193,
+        "session": "2025-01-14",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.06765237,
-        "session": "2025-01-22",
+        "benchmark": 1.12221252,
+        "session": "2025-01-21",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.03287491,
-        "session": "2025-01-29",
+        "benchmark": 1.08758667,
+        "session": "2025-01-28",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.07442394,
-        "session": "2025-02-04",
+        "benchmark": 1.09771899,
+        "session": "2025-02-03",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.03233153,
-        "session": "2025-02-11",
+        "benchmark": 1.10454719,
+        "session": "2025-02-10",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.02443142,
-        "session": "2025-02-18",
+        "benchmark": 1.07921663,
+        "session": "2025-02-17",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.00654095,
-        "session": "2025-02-25",
+        "benchmark": 1.07009763,
+        "session": "2025-02-24",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 0.9827987,
-        "session": "2025-03-05",
+        "benchmark": 1.02370944,
+        "session": "2025-03-04",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.05089065,
-        "session": "2025-03-12",
+        "benchmark": 1.09895241,
+        "session": "2025-03-11",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.06100627,
-        "session": "2025-03-20",
+        "benchmark": 1.09882028,
+        "session": "2025-03-19",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.06857196,
-        "session": "2025-03-27",
+        "benchmark": 1.12163985,
+        "session": "2025-03-26",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.00712611,
-        "session": "2025-04-04",
+        "benchmark": 1.10018584,
+        "session": "2025-04-03",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.03672054,
-        "session": "2025-04-15",
+        "benchmark": 1.07397419,
+        "session": "2025-04-11",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.08679675,
-        "session": "2025-04-23",
+        "benchmark": 1.1376311,
+        "session": "2025-04-22",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.17457646,
-        "session": "2025-04-30",
+        "benchmark": 1.23322667,
+        "session": "2025-04-29",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.17624848,
-        "session": "2025-05-08",
+        "benchmark": 1.23877741,
+        "session": "2025-05-07",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.21570759,
-        "session": "2025-05-15",
+        "benchmark": 1.25498898,
+        "session": "2025-05-14",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.17825493,
-        "session": "2025-05-22",
+        "benchmark": 1.2592181,
+        "session": "2025-05-21",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.18527735,
-        "session": "2025-05-29",
+        "benchmark": 1.24485678,
+        "session": "2025-05-28",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.20584281,
-        "session": "2025-06-05",
+        "benchmark": 1.2541961,
+        "session": "2025-06-04",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.20517396,
-        "session": "2025-06-12",
+        "benchmark": 1.27657512,
+        "session": "2025-06-11",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.19823522,
-        "session": "2025-06-19",
+        "benchmark": 1.2600111,
+        "session": "2025-06-18",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.25006704,
-        "session": "2025-06-26",
+        "benchmark": 1.2927868,
+        "session": "2025-06-25",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.268877,
-        "session": "2025-07-03",
+        "benchmark": 1.33816157,
+        "session": "2025-07-02",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.26837541,
-        "session": "2025-07-10",
+        "benchmark": 1.33833774,
+        "session": "2025-07-09",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.2342667,
-        "session": "2025-07-17",
+        "benchmark": 1.30891018,
+        "session": "2025-07-16",
         "strategy": 1.00770695
       },
       {
-        "benchmark": 1.17282085,
-        "session": "2025-07-24",
-        "strategy": 0.98892494
+        "benchmark": 1.25516527,
+        "session": "2025-07-23",
+        "strategy": 1.00422165
       },
       {
-        "benchmark": 1.16220365,
-        "session": "2025-07-31",
-        "strategy": 0.97997249
+        "benchmark": 1.24238971,
+        "session": "2025-07-30",
+        "strategy": 0.9940003
       },
       {
-        "benchmark": 1.1615349,
-        "session": "2025-08-07",
-        "strategy": 0.9794086
+        "benchmark": 1.2271473,
+        "session": "2025-08-06",
+        "strategy": 0.98180529
       },
       {
-        "benchmark": 1.15308039,
-        "session": "2025-08-14",
-        "strategy": 0.97227974
+        "benchmark": 1.21816044,
+        "session": "2025-08-13",
+        "strategy": 0.97461516
       },
       {
-        "benchmark": 1.18279278,
-        "session": "2025-08-22",
-        "strategy": 0.99852269
+        "benchmark": 1.2603552,
+        "session": "2025-08-21",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.13637755,
-        "session": "2025-09-01",
-        "strategy": 0.99852269
+        "benchmark": 1.20055728,
+        "session": "2025-08-29",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.15702525,
-        "session": "2025-09-08",
-        "strategy": 0.99852269
+        "benchmark": 1.21630292,
+        "session": "2025-09-05",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.17448341,
-        "session": "2025-09-15",
-        "strategy": 0.99852269
+        "benchmark": 1.23399461,
+        "session": "2025-09-12",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.16718112,
-        "session": "2025-09-22",
-        "strategy": 0.99852269
+        "benchmark": 1.24496341,
+        "session": "2025-09-19",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.15224098,
-        "session": "2025-09-29",
-        "strategy": 0.99852269
+        "benchmark": 1.21860282,
+        "session": "2025-09-26",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.16231306,
-        "session": "2025-10-07",
-        "strategy": 0.99852269
+        "benchmark": 1.21630292,
+        "session": "2025-10-06",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.15484299,
-        "session": "2025-10-14",
-        "strategy": 0.99852269
+        "benchmark": 1.21630292,
+        "session": "2025-10-13",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.22979565,
-        "session": "2025-10-21",
-        "strategy": 0.99852269
+        "benchmark": 1.29750767,
+        "session": "2025-10-20",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.26252971,
-        "session": "2025-10-29",
-        "strategy": 0.99852269
+        "benchmark": 1.31528787,
+        "session": "2025-10-28",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.25573117,
-        "session": "2025-11-06",
-        "strategy": 0.99852269
+        "benchmark": 1.30308054,
+        "session": "2025-11-04",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.26815339,
-        "session": "2025-11-13",
-        "strategy": 0.99852269
+        "benchmark": 1.33704856,
+        "session": "2025-11-12",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.30021602,
-        "session": "2025-11-20",
-        "strategy": 0.99852269
+        "benchmark": 1.3435945,
+        "session": "2025-11-19",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.31221848,
-        "session": "2025-11-27",
-        "strategy": 0.99852269
+        "benchmark": 1.38870826,
+        "session": "2025-11-26",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.28888498,
-        "session": "2025-12-04",
-        "strategy": 0.99852269
+        "benchmark": 1.36119777,
+        "session": "2025-12-03",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.2967747,
-        "session": "2025-12-11",
-        "strategy": 0.99852269
+        "benchmark": 1.35951708,
+        "session": "2025-12-10",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.29627116,
-        "session": "2025-12-18",
-        "strategy": 0.99852269
+        "benchmark": 1.36615143,
+        "session": "2025-12-17",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.30869327,
-        "session": "2025-12-26",
-        "strategy": 0.99852269
+        "benchmark": 1.37835866,
+        "session": "2025-12-24",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.33647538,
-        "session": "2026-01-02",
-        "strategy": 0.99852269
+        "benchmark": 1.39375033,
+        "session": "2026-01-01",
+        "strategy": 0.9985227
       },
       {
-        "benchmark": 1.23827301,
-        "session": "2026-01-09",
-        "strategy": 0.97411321
+        "benchmark": 1.30086905,
+        "session": "2026-01-08",
+        "strategy": 0.97100982
       },
       {
-        "benchmark": 1.22366853,
-        "session": "2026-01-16",
-        "strategy": 0.96262429
+        "benchmark": 1.29043104,
+        "session": "2026-01-15",
+        "strategy": 0.96321856
       },
       {
-        "benchmark": 1.16340414,
-        "session": "2026-01-23",
+        "benchmark": 1.24062896,
+        "session": "2026-01-22",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.16701334,
-        "session": "2026-02-02",
+        "benchmark": 1.23434836,
+        "session": "2026-01-30",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.22677409,
-        "session": "2026-02-09",
+        "benchmark": 1.28335441,
+        "session": "2026-02-06",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.20621028,
-        "session": "2026-02-16",
+        "benchmark": 1.25575529,
+        "session": "2026-02-13",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.19857233,
-        "session": "2026-02-23",
+        "benchmark": 1.25557847,
+        "session": "2026-02-20",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.13981876,
-        "session": "2026-03-02",
+        "benchmark": 1.23302153,
+        "session": "2026-02-27",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.18245712,
-        "session": "2026-03-10",
+        "benchmark": 1.25964747,
+        "session": "2026-03-09",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.17305646,
-        "session": "2026-03-17",
+        "benchmark": 1.23408302,
+        "session": "2026-03-16",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.18497514,
-        "session": "2026-03-24",
+        "benchmark": 1.24531728,
+        "session": "2026-03-23",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.13352376,
-        "session": "2026-04-02",
+        "benchmark": 1.21117222,
+        "session": "2026-04-01",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.13327199,
-        "session": "2026-04-10",
+        "benchmark": 1.17649658,
+        "session": "2026-04-09",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.14426737,
-        "session": "2026-04-20",
+        "benchmark": 1.20745708,
+        "session": "2026-04-17",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.14636564,
-        "session": "2026-04-27",
+        "benchmark": 1.17455055,
+        "session": "2026-04-24",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.2284527,
-        "session": "2026-05-05",
+        "benchmark": 1.2942347,
+        "session": "2026-05-04",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.1448548,
-        "session": "2026-05-12",
+        "benchmark": 1.22797935,
+        "session": "2026-05-11",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.11019016,
-        "session": "2026-05-19",
+        "benchmark": 1.1817157,
+        "session": "2026-05-18",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.13839203,
-        "session": "2026-05-26",
+        "benchmark": 1.20922619,
+        "session": "2026-05-25",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.10221655,
-        "session": "2026-06-03",
+        "benchmark": 1.16287401,
+        "session": "2026-06-02",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.06144177,
-        "session": "2026-06-10",
+        "benchmark": 1.12790482,
+        "session": "2026-06-09",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.12375544,
-        "session": "2026-06-17",
+        "benchmark": 1.18086987,
+        "session": "2026-06-16",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.10765001,
-        "session": "2026-06-24",
+        "benchmark": 1.16371842,
+        "session": "2026-06-23",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.09913354,
-        "session": "2026-07-02",
+        "benchmark": 1.16238541,
+        "session": "2026-07-01",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.07914933,
-        "session": "2026-07-09",
+        "benchmark": 1.133859,
+        "session": "2026-07-08",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.09331532,
-        "session": "2026-07-16",
+        "benchmark": 1.15127699,
+        "session": "2026-07-15",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.0727408,
-        "session": "2026-07-23",
+        "benchmark": 1.14514512,
+        "session": "2026-07-22",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.09019546,
-        "session": "2026-07-30",
+        "benchmark": 1.133859,
+        "session": "2026-07-29",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.1172627,
-        "session": "2026-08-06",
+        "benchmark": 1.13750255,
+        "session": "2026-08-05",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.11051697,
-        "session": "2026-08-13",
+        "benchmark": 1.18104756,
+        "session": "2026-08-12",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.1073127,
-        "session": "2026-08-20",
+        "benchmark": 1.16505144,
+        "session": "2026-08-19",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.08117297,
-        "session": "2026-08-27",
+        "benchmark": 1.15349868,
+        "session": "2026-08-26",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.09829032,
-        "session": "2026-09-03",
+        "benchmark": 1.16691763,
+        "session": "2026-09-02",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.07425863,
-        "session": "2026-09-10",
+        "benchmark": 1.13661387,
+        "session": "2026-09-09",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.03412152,
-        "session": "2026-09-18",
+        "benchmark": 1.10542144,
+        "session": "2026-09-17",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.03378421,
-        "session": "2026-09-25",
+        "benchmark": 1.08347113,
+        "session": "2026-09-24",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.00039283,
-        "session": "2026-10-05",
+        "benchmark": 1.03770443,
+        "session": "2026-10-01",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 0.97720436,
-        "session": "2026-10-12",
+        "benchmark": 1.04001507,
+        "session": "2026-10-09",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.013547,
-        "session": "2026-10-19",
+        "benchmark": 1.07636174,
+        "session": "2026-10-16",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.0086563,
-        "session": "2026-10-27",
+        "benchmark": 1.06800829,
+        "session": "2026-10-26",
         "strategy": 0.93006176
       },
       {
-        "benchmark": 1.10284371,
-        "session": "2026-11-03",
+        "benchmark": 1.15527602,
+        "session": "2026-11-02",
+        "strategy": 0.93006176
+      },
+      {
+        "benchmark": 1.17695969,
+        "session": "2026-11-09",
         "strategy": 0.93006176
       }
     ],
@@ -4037,34 +4038,34 @@
       {
         "entry_price": 1213.233365,
         "entry_session": "2023-08-29",
-        "exit_price": 1224.866877,
+        "exit_price": 1224.866753,
         "exit_reason": "rule_state_off",
         "exit_session": "2023-09-12",
-        "net_return": 0.0095888488
+        "net_return": 0.0095887465
       },
       {
-        "entry_price": 1175.605205,
+        "entry_price": 1175.605081,
         "entry_session": "2023-09-22",
         "exit_price": 1137.823816,
         "exit_reason": "rule_state_off",
         "exit_session": "2023-10-10",
-        "net_return": -0.0321378203
+        "net_return": -0.0321377187
       },
       {
         "entry_price": 1424.678878,
         "entry_session": "2024-03-14",
-        "exit_price": 1472.873951,
+        "exit_price": 1472.873829,
         "exit_reason": "rule_state_off",
         "exit_session": "2024-03-28",
-        "net_return": 0.0338287269
+        "net_return": 0.033828641
       },
       {
         "entry_price": 1420.522813,
         "entry_session": "2024-05-06",
-        "exit_price": 1417.032185,
+        "exit_price": 1417.032305,
         "exit_reason": "rule_state_off",
         "exit_session": "2024-05-22",
-        "net_return": -0.0024572842
+        "net_return": -0.0024571999
       },
       {
         "entry_price": 1417.301351,
@@ -4085,52 +4086,52 @@
     ],
     "metrics": {
       "holdout": {
-        "benchmark_return": 0.1037994786,
-        "cagr": -0.0187513361,
-        "expectancy": -0.0114749066,
+        "benchmark_return": 0.1881494022,
+        "cagr": -0.0187380673,
+        "expectancy": -0.0114749069,
         "exposure": 0.0740740741,
-        "max_drawdown": 0.0806869308,
-        "net_return": -0.0699382405,
-        "profit_factor": 0.3867349257,
+        "max_drawdown": 0.0806869295,
+        "net_return": -0.0699382358,
+        "profit_factor": 0.3867338897,
         "sessions": 945,
-        "sharpe": -0.3683319896,
-        "sortino": -0.1687869248,
+        "sharpe": -0.3683317468,
+        "sortino": -0.1687868809,
         "trades": 6,
         "turnover": 0.0126984127,
         "win_rate": 0.3333333333,
-        "years": 3.8303
+        "years": 3.833
       },
       "training": {
-        "benchmark_return": 2.3703824506,
-        "cagr": -0.0044444502,
-        "expectancy": -0.0016020756,
+        "benchmark_return": 2.4009901999,
+        "cagr": -0.0044414086,
+        "expectancy": -0.0016021336,
         "exposure": 0.0751322751,
-        "max_drawdown": 0.2040009888,
-        "net_return": -0.0336059428,
-        "profit_factor": 0.8905228586,
+        "max_drawdown": 0.2040012784,
+        "net_return": -0.0336068396,
+        "profit_factor": 0.8905190886,
         "sessions": 1890,
-        "sharpe": -0.0246622394,
-        "sortino": -0.0107388188,
+        "sharpe": -0.02466397,
+        "sortino": -0.0107395477,
         "trades": 16,
         "turnover": 0.0169312169,
         "win_rate": 0.5,
-        "years": 7.6742
+        "years": 7.6797
       },
       "validation": {
-        "benchmark_return": 0.9760526995,
-        "cagr": 0.0544009837,
-        "expectancy": 0.0173069158,
+        "benchmark_return": 0.84011403,
+        "cagr": 0.0545212449,
+        "expectancy": 0.0173069041,
         "exposure": 0.1248677249,
-        "max_drawdown": 0.1412277182,
-        "net_return": 0.2244162651,
-        "profit_factor": 6.8000607071,
+        "max_drawdown": 0.1412276598,
+        "net_return": 0.224416108,
+        "profit_factor": 6.8000669557,
         "sessions": 945,
-        "sharpe": 0.587142554,
-        "sortino": 0.2844075849,
+        "sharpe": 0.5871427534,
+        "sortino": 0.2844071875,
         "trades": 12,
         "turnover": 0.0253968254,
         "win_rate": 0.8333333333,
-        "years": 3.822
+        "years": 3.8138
       }
     },
     "neighbor_holdout_ratio": 0.0,
@@ -4141,26 +4142,26 @@
     "qualified": false,
     "regime_matrix": [
       {
-        "annualized_return": -0.06708509,
+        "annualized_return": -0.06708511,
         "sessions": 333,
         "trend": "ABOVE 200D",
         "volatility": "LOW VOL"
       },
       {
-        "annualized_return": 0.08463819,
-        "sessions": 188,
+        "annualized_return": 0.08244538,
+        "sessions": 193,
         "trend": "ABOVE 200D",
         "volatility": "HIGH VOL"
       },
       {
-        "annualized_return": -0.01533648,
+        "annualized_return": -0.01533629,
         "sessions": 140,
         "trend": "BELOW 200D",
         "volatility": "LOW VOL"
       },
       {
-        "annualized_return": -0.03011104,
-        "sessions": 284,
+        "annualized_return": -0.03065066,
+        "sessions": 279,
         "trend": "BELOW 200D",
         "volatility": "HIGH VOL"
       }
@@ -4169,26 +4170,26 @@
     "score": 66.72,
     "stress": {
       "15": {
-        "holdout_return": -0.0699382405,
-        "validation_return": 0.2244162651
+        "holdout_return": -0.0699382358,
+        "validation_return": 0.224416108
       },
       "30": {
-        "holdout_return": -0.0865666634,
-        "validation_return": 0.1810253746
+        "holdout_return": -0.0865666588,
+        "validation_return": 0.1810252231
       },
       "60": {
-        "holdout_return": -0.1190087996,
-        "validation_return": 0.0986229186
+        "holdout_return": -0.1190087952,
+        "validation_return": 0.0986227777
       }
     },
     "trade_profile": {
-      "average_loser": -0.0280667537,
-      "average_winner": 0.0217087879,
+      "average_loser": -0.0280667073,
+      "average_winner": 0.0217086938,
       "completed_trades": 6,
       "median_holding_sessions": 10,
-      "median_loser": -0.0206248038,
-      "median_winner": 0.0217087879,
-      "payoff_ratio": 0.7734698513,
+      "median_loser": -0.020624753,
+      "median_winner": 0.0217086938,
+      "payoff_ratio": 0.7734677794,
       "success_rate": 0.3333333333
     }
   },
@@ -4199,7 +4200,7 @@
       "label": "FIXED REGISTRY"
     },
     {
-      "count": 9,
+      "count": 10,
       "label": "TRAINING ACTIVE"
     },
     {
@@ -4224,22 +4225,22 @@
   "verdict": "NO ROBUST EDGE",
   "windows": {
     "holdout": {
-      "end": "2026-11-09",
+      "end": "2026-11-16",
       "purpose": "untouched final gate",
       "sessions": 945,
-      "start": "2023-01-10"
+      "start": "2023-01-16"
     },
     "training": {
-      "end": "2019-03-14",
+      "end": "2019-03-20",
       "purpose": "eligibility",
       "sessions": 1890,
-      "start": "2011-07-11"
+      "start": "2011-07-15"
     },
     "validation": {
-      "end": "2023-01-09",
+      "end": "2023-01-13",
       "purpose": "selection",
       "sessions": 945,
-      "start": "2019-03-15"
+      "start": "2019-03-22"
     }
   }
 }
